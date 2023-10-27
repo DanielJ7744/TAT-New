@@ -1,0 +1,259 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Lowered Cancer Risk",
+            "text": "<p>Countless studies suggest that soy consumption can cause hormonal imbalances which, in turn, can increase the risk of certain cancers. Fortunately, when you dine with Table & Twine, you don’t have to worry about any of these issues.<\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Improved Health",
+            "text": "<p>Our soy-free meal kits are also free of other food triggers like added sugar, artificial flavors, and preservatives. This allows you to enjoy a restaurant-quality meal that’s not only delicious and convenient but also healthy. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Fun, Fresh Flavors",
+            "text": "<p>Unlike some meal providers, we don’t store bulk ingredients in warehouses for months. Instead, our chefs partner with local growers to select the freshest produce and proteins possible.<\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Soy-Free Meal Kit?",
+        "heading_color": "",
+        "text": "Our soy-free options give you the convenience of a meal delivery service but with the bold flavors and artful preparation of a Michelin Star restaurant. Other benefits of Table & Twine’s soy-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "44192add-488f-44b5-ac26-a36f87dd16f0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Soy-Free Food: <\/strong>Our chefs want you to enjoy a decadent meal with confidence. That’s why they take the time to select ingredients that are 100% soy-free. Soy-free meals are also prepared separately from other meals to avoid cross-contamination.<\/p>"
+          }
+        },
+        "0f9bbf0f-857d-4ff4-950f-3408691e5ed3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Meals Ready for Finishing:<\/strong> When you partner with Table & Twine, you’re never alone in the kitchen. After handling the more technical aspects of cooking for you, our chefs will guide you through the rest with step-by-step heating instructions.<\/p>"
+          }
+        },
+        "ac084c3c-ee2f-42c4-aea3-0a1e343ed0a5": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Flavorful Meals: <\/strong>Choosing our meal kits gives you the just-made freshness that restaurant take-out cannot match. Plus, since you do 10% of the cooking yourself, you receive the satisfaction of pulling off a five-star meal. <\/p>"
+          }
+        },
+        "7667f656-6dc2-4e76-bf57-fa453cede726": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Delicious Pairings:<\/strong> To provide you with a truly personalized culinary experience, our chefs develop side dishes and <a href=\"https:\/\/tableandtwine.com\/charleston\/desserts\/\"><span style=\"text-decoration:underline\">dessert <\/span><\/a>pairings for every soy-free entrée. From soups to tarts, we have thought of it all. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "44192add-488f-44b5-ac26-a36f87dd16f0",
+        "0f9bbf0f-857d-4ff4-950f-3408691e5ed3",
+        "ac084c3c-ee2f-42c4-aea3-0a1e343ed0a5",
+        "7667f656-6dc2-4e76-bf57-fa453cede726"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Soy-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>When you order a soy-free prepared dinner from Table & Twine, you can expect a meal that is fresh, innovative, and delicious.<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Is a soy-free diet healthier?",
+            "text": "<p>If you have a soy allergy or sensitivity, eliminating soy products from your diet can alleviate uncomfortable symptoms like rashes and digestive upset. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Should I avoid soy even if I don’t have an intolerance?",
+            "text": "<p>Even if you haven’t been formally diagnosed with a soy sensitivity, you may benefit from our soy-free meal kit in Charleston. Why? Because these meals are free of other unwanted products like added sugars and preservatives. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "What comes in a Table & Twine soy-free meal kit?",
+            "text": "<p>Your soy-free meal kit contains all the ingredients you need to make a restaurant-quality dinner. <\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "Will I benefit from a soy-free meal kit?",
+            "text": "<p>Definitely! It can be challenging to follow a specific diet. Luckily, Table & Twine is here to provide you with healthy recipes that can be prepared in 15 minutes or less.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7"
+      ],
+      "settings": {
+        "section_heading": "Soy-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

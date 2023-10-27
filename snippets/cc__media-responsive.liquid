@@ -1,0 +1,9 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) { 
+            const mainImageWidth = document.querySelector('.product-main-image').clientWidth;
+            const targetHeight = mainImageWidth * 0.75
+            setTimeout(function() {
+                document.querySelector(".product-gallery__main .flickity-viewport").style.maxHeight = `${targetHeight}px`;
+            }, 1000);
+    });
+</script>

@@ -1,0 +1,87 @@
+<div class="collection-banner" style="background-color:  {{ section.settings.background_color }};">
+  <div class="collection-banner__inner section-big general-section__secondary">
+    <div class="collection-banner__contents">
+      <div class="collection-banner__contents--inner">
+        <h6 class="collection-banner__title font-p p-small tw-medium">
+          {{ collection.title }}
+        </h6>
+        {% if section.settings.heading != blank %}
+          <h1 class="collection-banner__heading t-large">
+            {{ section.settings.heading }}
+          </h1>
+        {% endif %}
+        {% if collection.description != blank %}
+          <div class="collection-banner__description t-small">
+            {% if section.settings.description == blank %}
+              {{ collection.description }}
+            {% else %}
+              <p>
+                {{ section.settings.description }}
+              </p>
+            {% endif %}
+          </div>
+        {% endif %}
+        {% if section.settings.link_url != blank %}
+          <a href="{{ section.settings.link_url }}" class="collection-banner__link">
+            {{ section.settings.link_text }}
+            {% render 'icon', name: 'down-caret' %}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+    {% if collection.image != blank %}
+      <div class="collection-banner__image">
+        {%- assign image = collection.image -%}
+        {%
+          render 'image-element',
+          image: image,
+          alt: image.alt,
+          stretch_width: true,
+          additional_classes: 'round-medium'
+        %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% schema %}
+{
+  "name": {
+    "en": "Collection Banner"
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Lorem Ipsum"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Collection Description",
+      "info": "Leave empty to use product description"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "Browse the menu"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Banner"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,142 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1657045392c4bcb892": {
+      "type": "cc__subscription-widget",
+      "blocks": {
+        "49cf77d1-2557-49fc-807f-deb83ae52c46": {
+          "type": "main-collection",
+          "settings": {
+            "main_collection": "premium",
+            "heading": "Premium",
+            "sub_heading": "Each week, our chefs use the freshest ingredients to create flavorful menus",
+            "price": "$12.99"
+          }
+        },
+        "367faf36-74e2-474b-9935-ff2ec7d5c53b": {
+          "type": "main-collection",
+          "settings": {
+            "main_collection": "select",
+            "heading": "Select",
+            "sub_heading": "Each week, our chefs use the freshest ingredients to create flavorful menus",
+            "price": "$11.99"
+          }
+        },
+        "9dfd8f05-0ae8-459f-89bc-ef0a543c74b4": {
+          "type": "main-collection",
+          "settings": {
+            "main_collection": "light",
+            "heading": "Light",
+            "sub_heading": "Each week, our chefs use the freshest ingredients to create flavorful menus",
+            "price": "$9.99"
+          }
+        },
+        "72e7993e-14f1-4f38-9a80-081756ca6ffa": {
+          "type": "main-collection",
+          "settings": {
+            "main_collection": "veggie",
+            "heading": "Veggie",
+            "sub_heading": "Each week, our chefs use the freshest ingredients to create flavorful menus",
+            "price": "$9.99"
+          }
+        },
+        "d44d11f0-0930-4676-9d0b-b20116442186": {
+          "type": "upsell-collection",
+          "settings": {
+            "upsell_collection": "most-popular",
+            "heading": "Most Popular"
+          }
+        },
+        "f1a47f1e-303d-40e3-b944-99d71ca9b1fd": {
+          "type": "upsell-collection",
+          "settings": {
+            "upsell_collection": "entrees",
+            "heading": "Entrees"
+          }
+        },
+        "b324620c-be99-459f-8a8b-d5bf629adbe3": {
+          "type": "upsell-collection",
+          "settings": {
+            "upsell_collection": "appetizers",
+            "heading": "Appetizers"
+          }
+        },
+        "04af8e24-b42d-4ba8-ab2e-55af8a239a81": {
+          "type": "upsell-collection",
+          "settings": {
+            "upsell_collection": "bistro",
+            "heading": "Bistro"
+          }
+        },
+        "66f11fc0-95ce-480c-b1b7-ae4ef40d0c49": {
+          "type": "upsell-collection",
+          "settings": {
+            "upsell_collection": "desserts-1",
+            "heading": "Desserts"
+          }
+        },
+        "7de1ed89-549b-4383-a9ea-3b6580105b1c": {
+          "type": "upsell-collection",
+          "settings": {
+            "upsell_collection": "kids",
+            "heading": "Kids"
+          }
+        },
+        "3d49908d-defc-4b71-9124-5ac91809e697": {
+          "type": "upsell-collection",
+          "settings": {
+            "upsell_collection": "entertainment",
+            "heading": "Entertainment"
+          }
+        }
+      },
+      "block_order": [
+        "49cf77d1-2557-49fc-807f-deb83ae52c46",
+        "367faf36-74e2-474b-9935-ff2ec7d5c53b",
+        "9dfd8f05-0ae8-459f-89bc-ef0a543c74b4",
+        "72e7993e-14f1-4f38-9a80-081756ca6ffa",
+        "d44d11f0-0930-4676-9d0b-b20116442186",
+        "f1a47f1e-303d-40e3-b944-99d71ca9b1fd",
+        "b324620c-be99-459f-8a8b-d5bf629adbe3",
+        "04af8e24-b42d-4ba8-ab2e-55af8a239a81",
+        "66f11fc0-95ce-480c-b1b7-ae4ef40d0c49",
+        "7de1ed89-549b-4383-a9ea-3b6580105b1c",
+        "3d49908d-defc-4b71-9124-5ac91809e697"
+      ],
+      "settings": {
+        "text_color": "#000000",
+        "background_color": "#f8f4ef",
+        "step1_heading": "Choose your subscription preferences",
+        "step1_sub_heading": "Let’s get started",
+        "step1_people_count": "1, 2, 3, 4",
+        "step1_people_count_heading": "How many people are at your table?",
+        "step1_meal_count": "2, 3, 4",
+        "step1_meal_count_heading": "How many meals per week? (per-person)",
+        "step1_meal_count_subheading": "Don't worry, you can always add additional a-la-carte items from our full menu",
+        "step1_meal_type_heading": "Which type of meals are you most interested in?",
+        "step1_meal_type_subheading": "We’ll do our best to assign you meals with these preferences in mind",
+        "step2_heading": "Allocate your meals",
+        "step2_sub_heading": "Pick your base subscription",
+        "step2_description": "Table & Twine is a chef-driven service, founded on the goal of bringing the exceptional experience of chef-prepared meals to the kitchen tables of our customers' homes.",
+        "step3_heading": "Include additional items",
+        "step3_sub_heading": "Try some one-time additions",
+        "step3_description": "Table & Twine is a chef-driven service, founded on the goal of bringing the exceptional experience of chef-prepared meals to the kitchen tables of our customers' homes."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657045392c4bcb892"
+  ]
+}

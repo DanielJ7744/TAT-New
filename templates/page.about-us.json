@@ -1,0 +1,174 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "main": {
+      "type": "page-content__main--ajax-render",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656447978276e6389": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": true,
+        "add_refer_section": false,
+        "subheading": "About Us",
+        "heading": "Chef-Prepared Meal Delivery in the Carolinas",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "<p>In 2020, Table & Twine was founded with the goal of bringing the exceptional experience of restaurant-quality meals to customers’ homes. As such, our chefs are experts in developing “food that travels” – exciting, pre-prepared dishes that taste like they’re fresh out of a 5-star kitchen.<\/p>",
+        "text2": "Are you ready for food as convenient as it is delicious? We deliver to doorsteps across the Carolinas. Just select your city below to get started!",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/Untitled-1.jpg",
+        "square_image": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": "about-hero"
+      }
+    },
+    "16564564973fc50c8d": {
+      "type": "cc__text-with-list",
+      "blocks": {
+        "fe0a37d6-f59e-4e88-9762-20243f610052": {
+          "type": "text",
+          "settings": {
+            "title": "Best Impressions Caterers",
+            "text": "Best Impressions Caterers was founded in 1989 and now operates as four distinct divisions: Best Impressions Caterers, Table & Twine, Byron’s South End, and The Terrace at Cedar Hill. Byron’s South End and The Terrace at Cedar Hill serve as host venues for corporate business functions, weddings and social gatherings, and philanthropic galas.\n<br>\n<br>\nIn addition to being listed as a preferred caterer for premier venues across the city, Best Impressions is the exclusive food, beverage, and equipment provider for Daniel Stowe Botanical Gardens and The VanLandingham Estate.",
+            "image": "shopify:\/\/shop_images\/about-02.jpg"
+          }
+        },
+        "a3fc481c-e1d5-42da-a63e-d88a8d74b4d3": {
+          "type": "text",
+          "settings": {
+            "title": "Duvall Catering & Events",
+            "text": "Duvall Catering & Events has been proudly serving the South Carolina Lowcountry since 1978. Duvall is South Carolina’s only member of Leading Caterers of America, an esteemed invitation-only group of the top caterers in the United States and Canada.\n<br>\n<br>\nDuvall Catering & Events provides catering, bar, floral, and decor services for a wide range of bridal, corporate, philanthropic, and social clients. Duvall is also the exclusive caterer for Merchants Hall, Trident Technical College, and Norfolk Southern.",
+            "image": "shopify:\/\/shop_images\/about-03.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fe0a37d6-f59e-4e88-9762-20243f610052",
+        "a3fc481c-e1d5-42da-a63e-d88a8d74b4d3"
+      ],
+      "settings": {
+        "heading": "Our Parent Companies",
+        "text": "Our meal kit delivery service is a partnership between Best Impressions Caterers and Duvall Catering & Events in Charlotte and Charleston, respectively.",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16564565008919e592": {
+      "type": "c__grid-section",
+      "blocks": {
+        "c16292eb-ef0a-4ec4-adea-5960efcd820b": {
+          "type": "text",
+          "settings": {
+            "title": "Charlotte",
+            "text": "Table & Twine is located at the headquarters of Best Impressions Caterers in Charlotte’s South End.For curbside pick-up, our address is 2600 Youngblood Street. Pick-ups are available from 10am to 5:30 pm on your specified pick-up day.\n<br>\n<br>\nContact us at:<br>\n<a href=\"tel:7048324327\">(704) 832-4327<\/a><br>\n<a href=\"mailto:info@tableandtwine.com\">info@tableandtwine.com<\/a>",
+            "image": "shopify:\/\/shop_images\/about04.jpg",
+            "icon_image": "none"
+          }
+        },
+        "a6b86044-2d6f-4e99-b648-45ca5a03f357": {
+          "type": "text",
+          "settings": {
+            "title": "Raleigh and The Triangle",
+            "text": "Table & Twine is located at the headquarters of Best Impressions Caterers in Charlotte’s South End. We are currently  offering delivery to the Raleigh, Durham, Chapel Hill area based on zip code. Our delivery dates are weekly on Tuesday, and Thursday. \n<br>\n<br>\nContact us at:<br>\n<a href=\"tel:9194736034\">(919) 473-6034<\/a><br>\n<a href=\"mailto:nfo@tableandtwine.com\">info@tableandtwine.com<\/a>",
+            "image": "shopify:\/\/shop_images\/about-05.jpg",
+            "icon_image": "none"
+          }
+        },
+        "691a4452-aae5-49de-a512-63d4179a4e89": {
+          "type": "text",
+          "settings": {
+            "title": "Charleston",
+            "text": "Table & Twine is located at the headquarters of Duvall Catering & Events in the heart of Charleston, SC. For curbside pick-up, our address is 2816 Azalea Drive, Charleston, SC 29405. Pick-ups are available from 12pm to 6pm on Tuesdays and Thursdays. Delivery is available Tuesday & Thursday with a delivery window from 12pm to 4pm.\n<br>\n<br>\nContact us at:<br>\n<a href=\"tel:8437769164\">(843) 766-9164<\/a><br>\n<a href=\"mailto:info@tableandtwine.com\">info@tableandtwine.com<\/a>",
+            "image": "shopify:\/\/shop_images\/about06.jpg",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "c16292eb-ef0a-4ec4-adea-5960efcd820b",
+        "a6b86044-2d6f-4e99-b648-45ca5a03f357",
+        "691a4452-aae5-49de-a512-63d4179a4e89"
+      ],
+      "settings": {
+        "section_heading": "Our Communities",
+        "heading_color": "",
+        "text": "",
+        "header_align": "left",
+        "section_type": "section-big",
+        "header_width": 860,
+        "show_number": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "use_landscape_image": true
+      }
+    },
+    "1656516830995d1439": {
+      "type": "cc__banner-with-text",
+      "settings": {
+        "section_heading": "Experience Table & Twine",
+        "heading_size": "t-big",
+        "section_text": "Dinner should never be a chore, nor should it be boring. See for yourself the value of receiving chef-quality meals at home by ordering from the best meal kit delivery service in the Carolinas.",
+        "header_width": 500,
+        "text_width": 1400,
+        "add_city_select": true,
+        "use_overlay": true,
+        "overlay_percent": 38,
+        "text_align": "left",
+        "text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/asset__home--subscriptions.jpg",
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656447978276e6389",
+    "16564564973fc50c8d",
+    "16564565008919e592",
+    "1656516830995d1439"
+  ]
+}

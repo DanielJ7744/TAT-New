@@ -1,0 +1,211 @@
+{
+  "layout": "theme-charlotte",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Our Nut-Free Menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Eat Without Allergy Concerns ",
+            "text": "<p>If you have a severe nut allergy, you know how scary it can be to experience the shortness of breath and wheezing associated with an allergic reaction. Fortunately, when you order a nut-free meal kit in Charlotte, you don’t have to worry about consuming trace amounts of nuts.<\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "15-Minute Cook Times",
+            "text": "<p>From parmesan-crusted chicken to Italian flatbread, every entrée from Table & Twine only takes <a href=\"\/pages\/charlotte-heating-instructions\" title=\"Charlotte Heating Instructions\"><span style=\"text-decoration:underline\">15 minutes to prepare<\/span><\/a>. That means every member of the family can order a different dish but still enjoy dinner together.  <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Fresh, Healthy Ingredients",
+            "text": "<p>Our nut-free meals omit more than just nuts. They’re also free of preservatives, gluten, dairy, added sugar, and many other unwanted ingredients. This makes our nut-free meal delivery service in Charlotte great for customers who want to maintain a healthy lifestyle.  <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Nut-Free Meal Kit?",
+        "heading_color": "",
+        "text": "Our nut-free meal kits save you time. Long gone are the days spent chopping and peeling ingredients, only to spend another 30 minutes cleaning the kitchen. Instead, Table & Twine’s culinary team will handle the more technical aspects of cooking for you. Other benefits of Charlotte nut-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "f57d5523-be34-4aee-96d4-4b04f61408de": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Nut-Free:<\/strong> Our chefs carefully curate our nut-free meals using 100% nut-free ingredients, so you never have to worry about an allergic reaction. These dishes are even made separately from the rest of our foods to mitigate cross-contamination. <\/p>"
+          }
+        },
+        "3796113b-9947-4f7d-b2f8-d1fb40f20653": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Seasonal Flavors:<\/strong> Our menus rotate every week so that our culinary team can incorporate the freshest fruits and vegetables possible. You'll instantly notice the difference when you taste ingredients that haven't been held in storage for months but instead were picked at peak ripeness. <\/p>"
+          }
+        },
+        "a53b58a8-ac9c-4406-bbcb-6624fa3a7679": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ready-to-Use Ingredients:<\/strong> At Table & Twine, we make mealtime more convenient by slicing, dicing, mincing, and julienning all of your ingredients. We even par-cook certain vegetables and grains so that you can put dinner on the table in a flash. <\/p>"
+          }
+        },
+        "6c02c5f1-205a-40a2-9b87-5d6bcc5c73b5": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Delectable Pairings: <\/strong>Do you want to elevate your dining experience? Partner your nut-free entrées with <a href=\"https:\/\/tableandtwine.com\/charlotte\/apps-and-snacks\/\"><span style=\"text-decoration:underline\">tasty hors d'oeuvres<\/span><\/a> or delectable <a href=\"https:\/\/tableandtwine.com\/charlotte\/desserts\/\"><span style=\"text-decoration:underline\">desserts<\/span><\/a>. All of our pairings have been developed to complement the meals on our rotating menu. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f57d5523-be34-4aee-96d4-4b04f61408de",
+        "3796113b-9947-4f7d-b2f8-d1fb40f20653",
+        "a53b58a8-ac9c-4406-bbcb-6624fa3a7679",
+        "6c02c5f1-205a-40a2-9b87-5d6bcc5c73b5"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Nut-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Charlotte residents love our nut-free meals because they are healthy, delicious, and require minimal preparation. All you need to do is heat, garnish, and serve. <\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#ffffff"
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Are nut-free meals just for people with nut allergies?",
+            "text": "<p>No. Though customers with nut allergies certainly benefit from these meal plans, they’re healthy in other ways too. Free of preservatives, gluten, dairy, and added sugar, these dishes are perfect for people who want to maintain an active lifestyle. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Can I pick the recipes in my nut-free meal service?",
+            "text": "<p>Of course. We want you to always be delighted by your meals and pairings, and we never want you to be bored. Just log in and select your choices for the week. We'll do the rest!<\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "What will I get in my Table & Twine nut-free meal?",
+            "text": "<p>You'll get all the ingredients needed to create a delicious nut-free meal. These ingredients will already be chopped and otherwise prepared, so you just need to heat and enjoy!<\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "Will I benefit from a nut-free meal plan in Charlotte?",
+            "text": "<p>Definitely. No longer will you need to scour ingredient labels looking for nuts. Other hassles are gone too. Choosing your portion sizes? Done. Coming up with a new recipe every week? Finished. Preparing the ingredients? Already completed. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7"
+      ],
+      "settings": {
+        "section_heading": "Nut-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "bottom",
+    "1659461894e172168f",
+    "bottom-recommendations"
+  ]
+}

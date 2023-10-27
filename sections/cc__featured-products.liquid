@@ -1,0 +1,89 @@
+<div class="featured-products" style="color: {{section.settings.text_color}}; background-color:  {{ section.settings.background_color }};">
+    <div class="featured-products__inner general-section section-small">
+
+        <div class="featured-products__header sp-mb-8" style=" max-width: {{ section.settings.header_width }}px">
+            {% if section.settings.heading != blank %}
+            <h2 class="featured-products__heading t-big sp-mb-3">
+                {{ section.settings.heading }}
+            </h2>
+            {% endif %}
+            {% if section.settings.text != blank %}
+            <p  class="featured-products__text t-small">
+                {{ section.settings.text }}
+            </p>
+            {% endif %}
+        </div>
+        
+        <div class="featured-products__products">
+            {% render 'product-loop',
+                products: section.settings.collection.products,
+                products_per_row: 3,
+                mobile_products_per_row: 1,
+                limit: section.settings.product_count
+            %}
+        </div>
+
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": {
+      "en": "Featured Products"
+    },
+    "class": "index-section index-section--featured-products",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Section Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "range",
+        "id": "header_width",
+        "label": "Header Max Width",
+        "min": 0,
+        "max": 1500,
+        "default": 1000,
+        "step": 20,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "product_count",
+        "label": "Product Count",
+        "min": 1,
+        "max": 12,
+        "default": 3,
+        "step": 1
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color"
+      }
+    ],
+    "presets": [
+    {
+      "name": "Featured Products",
+      "category": "Agile Layout"
+    }
+  ]
+  }
+{% endschema %}

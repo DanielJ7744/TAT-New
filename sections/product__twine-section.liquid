@@ -1,0 +1,59 @@
+{% if section.settings.menu1 != blank or  section.settings.menu2 != blank %}
+<div class="collection-bottom">
+    <div class="collection-bottom__related section-big general-section">
+      <h2 class="collection-bottom__related--heading t-big">Other Table & Twine Menus</h2>
+      <div class="collection-bottom__related--contents">
+        {% assign collectionFirst = collections[section.settings.menu1] %}
+        {% assign collectionSecond = collections[section.settings.menu2] %}
+        <div class="child">
+          {%
+            render 'image-element',
+            image: collectionFirst.image
+          %}
+          <div class="box-element">
+            <h3 class="t-medium">{{ collectionFirst.title}}</h3>
+            <p class="t-small">{{ collectionFirst.description | truncate: 200 }}</p>
+            <a class="t-small" href="{{ collectionFirst.url }}">View menu ›</a>
+          </div>
+        </div>
+        <div class="child">
+          {%
+            render 'image-element',
+            image: collectionSecond.image
+          %}
+          <div class="box-element">
+            <h3 class="t-medium">{{ collectionSecond.title}}</h3>
+            <p class="t-small">{{ collectionSecond.description | truncate: 200 }}</p>
+            <a class="t-small" href="{{ collectionSecond.url }}">View menu ›</a>
+          </div>
+        </div>
+
+      </div>
+  </div>
+</div>
+{% endif %}
+{% schema %}
+  {
+    "name": {
+      "en": "Product Twine"
+    },
+    "settings": [
+      {
+        "type": "text",
+        "id": "menu1",
+        "label": "Menu 1"
+      },
+      {
+        "type": "text",
+        "id": "menu2",
+        "label": "Menu 2"
+      }
+    ],
+    "presets": [
+    {
+      "name": "Product Twine"
+    }
+  ]
+  }
+{% endschema %}
+  

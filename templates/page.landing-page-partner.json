@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656607732d6784de8": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "Humane Society of Charlotte",
+        "heading": "Dog Treats With a Purpose",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "At Table & Twine, we believe every pet deserves a loving home—and a few treats, too. That’s why we’ll be giving 100% of the profits from our house-made dog treats to the Humane Society of Charlotte.\n<br>\n<br>\nLike Table & Twine, the Humane Society of Charlotte believes in our local communities. Since 1978, the Humane Society of Charlotte has upheld its mission of creating new, loving families while building a world where there are no more homeless or unwanted animals. We’re excited to partner with this long-standing pillar of our community and support Charlotte's furry friends, both in your home & at the Humane Society of Charlotte.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/landing02.jpg",
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": true,
+        "box_align": "left",
+        "box_image_position": "top",
+        "box_heading": "About our partner",
+        "box_text": "Learn more about how the Humane Society of Charlotte supports pets & their owners.",
+        "box_image1": "shopify:\/\/shop_images\/image07_e22f964c-70b6-442f-bcf2-3495cb4e1c7f.png",
+        "box_image1_icon": "none",
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_text2": "",
+        "box_button_text": "Visit website ›",
+        "box_button_link": "shopify:\/\/collections",
+        "box_button_style": "b--tertiary",
+        "css_class": ""
+      }
+    },
+    "1656623090a0605303": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "Browse the range",
+        "text": "Add a bag (or two!) of our fresh-baked dog treats to your order today.",
+        "header_width": 1000,
+        "product_count": 2,
+        "collection": "breakfast-menu",
+        "text_color": "",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656607732d6784de8",
+    "1656623090a0605303"
+  ]
+}

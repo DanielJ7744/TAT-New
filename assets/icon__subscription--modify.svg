@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Subscription [Modify]</title>
+    <g id="Subscription-[Modify]" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon__subscription--modify" transform="translate(1.000000, 1.000000)" stroke="#B29A7A" stroke-width="2">
+            <polyline id="Path-2" points="38.3167343 9.87058871 0 9.87058871 0 69.0944009 52.4665747 69.0944009 52.4665747 33.0284303"></polyline>
+            <line x1="8.51768518" y1="42.5196152" x2="31.296053" y2="42.5196152" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="8.42472425" y1="36.4453745" x2="37.2773328" y2="36.4453745" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="8.51768518" y1="48.5939259" x2="46.4816548" y2="48.5939259" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="8.51768518" y1="55.4274643" x2="41.9259393" y2="55.4274643" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="8.51768518" y1="61.501635" x2="18.3882739" y2="61.501635" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <path d="M26.1708817,19.9768698 L15.6249262,19.9768698 C14.6752968,19.9768698 13.9062691,20.7458975 13.9062691,21.6888069 C13.9062691,22.6317163 14.6752968,23.4074641 15.6249262,23.4074641 C16.5745557,23.4074641 17.3435834,22.6384364 17.3435834,21.6888069 L17.3435834,16.1450315 C17.3435834,15.195402 18.1126111,14.4263743 19.0622406,14.4263743 C20.0118001,14.4263743 20.7808278,15.195402 20.7808278,16.1450315 C20.7808278,17.0945909 20.0118001,17.8569686 19.0622406,17.8569686 L8.51628516,17.8569686" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+            <line x1="10.2422924" y1="20.8328383" x2="8.73097731" y2="26.0890509" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="25.2478525" y1="25.5874259" x2="24.4387144" y2="22.7787878" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <path d="M53.4805348,33.0284303 C62.604076,33.0284303 70,25.6348163 70,16.5142151 C70,7.39368394 62.604076,0 53.4805348,0 C44.3569936,0 36.9609296,7.39368394 36.9609296,16.5142151 C36.9609296,25.6348163 44.3569936,33.0284303 53.4805348,33.0284303 Z" id="Path" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+            <polygon id="Path" stroke-linecap="round" stroke-linejoin="round" points="63.703017 11.3550236 59.0056901 6.65923659 47.7550376 17.9061791 52.4523645 22.601966"></polygon>
+            <polygon id="Path" stroke-linecap="round" stroke-linejoin="round" points="63.7112071 11.3645436 59.0138801 6.66875669 56.1437814 9.53787538 60.8411084 14.2336623"></polygon>
+            <polygon id="Path" stroke-linecap="round" stroke-linejoin="round" points="45.8641086 24.5075251 47.7717677 17.9072291 52.4665747 22.600496"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,163 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656573404d24b5e0b": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Raleigh Father’s Day Meal Kits",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "Do you want to give your dad a gift he will remember for years to come? If so, treat him to a personalized culinary experience by Table & Twine.\n<br>\n<br>\nOur Raleigh Father’s Day meal kits contain all the ingredients you need to create five-star recipes in your very own kitchen. Since our chefs handle all the measuring and mincing for you, these recipes can be cooked quickly and with minimal mess.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Browse our meals ›",
+        "button_link": "#shopify-section-template--15832164171925__1656601691ff2d8271",
+        "button_style": "b--tertiary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "1656601691ff2d8271": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "How Our Father’s Day Meal Kits Work",
+        "text": "Table & Twine customers enjoy the satisfaction of cooking a savory meal without the fuss of grocery shopping or preparing ingredients. That’s thanks to our talented chefs, who spend hours julienning peppers and smoking brisket so that you don’t have to. When you receive your Father’s Day meal kit, you’ll just need to heat, garnish, and serve. It’s really that easy.   \n<br>\n<br>\nOur Father’s Day menu features a balance of classic and unexpected flavors, including:",
+        "header_width": 740,
+        "product_count": 3,
+        "collection": "breakfast-menu",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16566058721e114931": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "8b802fed-1ae5-4353-8caf-a744f2543220": {
+          "type": "text",
+          "settings": {
+            "title": "Fewer Hours in the Kitchen",
+            "text": "Don’t let marinating steaks or massaging kale distract you from time with your dad. Instead, opt for our convenient Father’s Day meal kit. With pre-measured and pre-prepared ingredients, you can whip up a multi-course meal in a hurry. In fact, some side dishes only take 15 minutes to complete.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "8217ca09-8c2e-486a-8f92-bde989d66f78": {
+          "type": "text",
+          "settings": {
+            "title": "Down-Home Flavors Your Dad Will Love",
+            "text": "As a company founded in the Carolinas, Table & Twine is dedicated to elevating southern fare. From fried chicken to smoky collard greens, we develop menu items that any dad will love. However, we also take inspiration from international cuisine and introduce customers to fun, unexpected flavors.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c": {
+          "type": "text",
+          "settings": {
+            "title": "Restaurant-Quality Food, at Home",
+            "text": "Getting a reservation at a five-star eatery on Father’s Day can be challenging, if not impossible. But when you partner with Table & Twine, you benefit from a restaurant-quality dining experience without the stuffy white linen and expensive valet service.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "8b802fed-1ae5-4353-8caf-a744f2543220",
+        "8217ca09-8c2e-486a-8f92-bde989d66f78",
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c"
+      ],
+      "settings": {
+        "heading": "Why Choose a Father’s Day Meal Kit?",
+        "image": "shopify:\/\/shop_images\/landing01.jpg",
+        "text": "<p>Father’s Day should be a day dedicated to watching football or casting a line with dad – not cooking. Our meal kits help you do just that by minimizing prep and cleanup time. Other benefits of our catered Father’s Day meals include:<\/p>",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 520,
+        "show_banner_image": true,
+        "show_number": false,
+        "show_images": false,
+        "show_icons": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Father’s Day meal kit?",
+            "text": "<p>Dishing up your Father’s Day spread should only take one to two hours. Since Table & Twine does most of the work for you, you’ll just need to put the finishing touches on the meal. <\/p>"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my Father’s Day meal kit?",
+            "text": "<p>To receive your meal kit for Father’s Day, please place an order by [insert date]. <\/p>"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Father’s Day meal kit?",
+            "text": "<p>Table & Twine meal kits cannot be customized. But know that our talented chefs have curated a delectable menu that will please children and adults alike!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "Father’s Day Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656573404d24b5e0b",
+    "1656601691ff2d8271",
+    "16566058721e114931",
+    "1656607284cc85fa5f"
+  ]
+}

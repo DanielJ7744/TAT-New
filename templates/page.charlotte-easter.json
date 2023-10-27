@@ -1,0 +1,163 @@
+{
+  "layout": "theme-charlotte",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656573404d24b5e0b": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "Charlotte",
+        "heading": "Mother’s Day Meal Kits",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "Nothing says “I love you” more than a home-cooked meal. But dishing up a multi- course spread to celebrate Mother’s Day is easier said than done. With onions to mince and herbs to muddle, there’s little time to chat with your Mom.\n<br>\n<br>\nLuckily, there’s a better solution. When you partner with Table & Twine for at- home Mother’s Day catering in Raleigh, you benefit from award-winning recipes that are as convenient as they are delicious.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Browse our meals ›",
+        "button_link": "shopify:\/\/collections",
+        "button_style": "b--tertiary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "1656601691ff2d8271": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "How Table & Twine’s Mother’s Day Meal Kits Work",
+        "text": "Our chef-inspired meal kits come with all the ingredients needed to pull off an impressive Mother’s Day meal. Not only are these ingredients fresh and local, but they have also been pre-prepared. Veggies have been roasted, grains precooked, and certain proteins seared so you just need to heat and serve.\n<br>\n<br>\nTo give your mom a truly personalized culinary experience, our chefs have curated a lineup of Mother’s Day favorites.",
+        "header_width": 740,
+        "product_count": 3,
+        "collection": "breakfast-menu",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16566058721e114931": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "8b802fed-1ae5-4353-8caf-a744f2543220": {
+          "type": "text",
+          "settings": {
+            "title": "Personalized Subscription",
+            "text": "Typically, hosts are so busy chopping and garnishing that they can’t enjoy their guests. This isn’t the case with our Mother’s Day package. Our chefs prepare 90% of your celebratory spread, handling all the planning, shopping, and chopping so you don’t have to. You’ll just need to add the finishing touches.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "8217ca09-8c2e-486a-8f92-bde989d66f78": {
+          "type": "text",
+          "settings": {
+            "title": "Classic Flavors Combined With Bright, Bold Twists",
+            "text": "At Table & Twine, we think cooking should be fun and exciting – not a chore. That’s why our culinary team takes the time to develop delicious recipes that elevate classic flavors. To ensure every meal tastes fresh out of a restaurant kitchen, we use locally-sourced produce, high-quality protein, and surprising spices.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c": {
+          "type": "text",
+          "settings": {
+            "title": "A Personalized Culinary Experience",
+            "text": "Unlike other meal kit services in Raleigh, Table & Twine curates every Mother’s Day package with your family in mind. We hand- wrap each ingredient and create menus that truly honor the occasion. In doing so, we provide a culinary experience for the fraction of the cost of eating out.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "8b802fed-1ae5-4353-8caf-a744f2543220",
+        "8217ca09-8c2e-486a-8f92-bde989d66f78",
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c"
+      ],
+      "settings": {
+        "heading": "Why Choose a Mother’s Day Meal Kit?",
+        "image": "shopify:\/\/shop_images\/landing01.jpg",
+        "text": "No matter if you love to cook or prefer to microwave your dinners, you’ll be impressed by the convenience of Table & Twine. When we provide at-home Mother’s Day catering in Raleigh, we work to ensure every customer benefits from:",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 520,
+        "show_banner_image": true,
+        "show_number": false,
+        "show_images": false,
+        "show_icons": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Mother’s Day meal kit?",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Mother’s Day meal kit?",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Mother’s Day meal kit",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "Mother’s Day Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656573404d24b5e0b",
+    "1656601691ff2d8271",
+    "16566058721e114931",
+    "1656607284cc85fa5f"
+  ]
+}

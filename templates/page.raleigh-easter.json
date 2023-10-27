@@ -1,0 +1,163 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656573404d24b5e0b": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Raleigh Easter Meal Kits",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "Easter is for enjoying loved ones. But with hams to glaze and green beans to string, hosts barely have enough time to sit down at the dinner table. Fortunately, there’s a better solution. \n<br>\n<br>\nWith Table & Twine’s Easter meal kits in Raleigh, you can pull off a delicious spread in no time. Each kit comes with pre-measured and pre-prepared ingredients, meaning you won’t need to spend hours mincing veggies and muddling herbs. Instead, you can just heat, serve, and relax.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Browse our meals ›",
+        "button_link": "#shopify-section-template--15792724443285__1656601691ff2d8271",
+        "button_style": "b--tertiary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "1656601691ff2d8271": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "How Our Easter Meal Kits Work",
+        "text": "This Easter, impress friends and family by preparing a restaurant-quality feast in your very own kitchen. Since our chefs handle the more technical aspects of cooking, from julienning to sous-viding, you’ll just need to know the fundamentals to pull off an elegant Easter meal.  \n<br>\n<br>\nEven better, our carefully curated menus appeal to all guests – from picky kids to sophisticated adults. This spring, expect [description here].",
+        "header_width": 740,
+        "product_count": 3,
+        "collection": "easter-package-raleigh",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16566058721e114931": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "8b802fed-1ae5-4353-8caf-a744f2543220": {
+          "type": "text",
+          "settings": {
+            "title": "Less Stress, More Convenience",
+            "text": "As a host, it can be hard to enjoy your own party. But when you choose Easter at-home catering in Raleigh, you’ll never miss the egg hunt. Since our talented chefs prepare 90% of your meal, you won’t need to waste hours planning, shopping, and chopping. Plus, after your guests bid farewell, you won’t have a big mess to clean up.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "8217ca09-8c2e-486a-8f92-bde989d66f78": {
+          "type": "text",
+          "settings": {
+            "title": "Delicious, Family-Friendly Recipes",
+            "text": "We’ll whip up a restaurant-quality meal that is sure to please adults and children alike. These dishes take inspiration from classic, southern flavors and incorporate fresh, seasonal produce and sustainably-sourced proteins. Even better, our Executive Pastry Chef thoughtfully develops fun and exciting desserts each Easter.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c": {
+          "type": "text",
+          "settings": {
+            "title": "A Lasting Impression",
+            "text": "As catering professionals, we know no shindig is complete without good food. That’s why we have developed an Easter meal package that features all the fixings needed for a memorable family gathering. From savory sides to incredible entrées, we’ll provide you with recipes that make an impression.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "8b802fed-1ae5-4353-8caf-a744f2543220",
+        "8217ca09-8c2e-486a-8f92-bde989d66f78",
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c"
+      ],
+      "settings": {
+        "heading": "Why Choose an Easter Meal Kit?",
+        "image": "shopify:\/\/shop_images\/landing01.jpg",
+        "text": "Maybe you love to whip up lavish, home-cooked dinners. Or, maybe you prefer to microwave your meals. No matter your skill level, Table & Twine will help you put together a delicious family-style brunch or dinner. We work hard to make sure you enjoy the benefits of at-home Easter catering in Raleigh, including:",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 520,
+        "show_banner_image": true,
+        "show_number": false,
+        "show_images": false,
+        "show_icons": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Easter meal kit?",
+            "text": "<p>You’ll just need one to two hours to prepare your Easter meal. Afterward, you can sit down at the dinner table and enjoy your friends and family. <\/p>"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my Easter meal kit?",
+            "text": "<p>To ensure that you receive your meal kit on time, please order your Easter meal by [insert date].<\/p>"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Easter meal kit?",
+            "text": "<p>Our Easter meal kits cannot be customized. At Table & Twine, our chefs thoughtfully develop holiday meals with something for everyone. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "Easter Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656573404d24b5e0b",
+    "1656601691ff2d8271",
+    "16566058721e114931",
+    "1656607284cc85fa5f"
+  ]
+}

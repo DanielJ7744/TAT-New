@@ -1,0 +1,163 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656573404d24b5e0b": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Raleigh Thanksgiving Meal Delivery",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "Preparing a multi-course Thanksgiving meal can be nerve-wracking. Between basting the turkey and stringing the green beans, there’s little time to enjoy your friends and family. Fortunately, Table & Twine has a better solution.  \n<br>\n<br>\nWith our Raleigh Thanksgiving meal kit, you can whip up a lavish dinner in no time. Since our talented culinary team handles 90% of the cooking for you, you’ll just need to heat, garnish, and serve.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Browse our meals ›",
+        "button_link": "",
+        "button_style": "b--tertiary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "1656601691ff2d8271": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "How Our Thanksgiving Meal Kits Work",
+        "text": "At Table & Twine, our mission is to connect people through delicious yet convenient food. That’s why our Thanksgiving meal kits in Raleigh come with all the pre-measured and pre-prepared ingredients you need to host a festive gathering. You’ll just need to add some finishing touches to bring the meal together.  \n<br>\n<br>\nWe offer a decadent Thanksgiving meal package with all the fixings. We also offer à la carte holiday items, including [description here].",
+        "header_width": 740,
+        "product_count": 3,
+        "collection": "thanksgiving-package-raleigh",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16566058721e114931": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "8b802fed-1ae5-4353-8caf-a744f2543220": {
+          "type": "text",
+          "settings": {
+            "title": "Classic Flavors With a Twist",
+            "text": "Our talented chefs are passionate about developing recipes that provide customers with an at-home culinary experience. With this in mind, our Thanksgiving menu elevates classic flavors by incorporating seasonal produce, farm-raised proteins, and tantalizing spices. The result is sure to please all palettes.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "8217ca09-8c2e-486a-8f92-bde989d66f78": {
+          "type": "text",
+          "settings": {
+            "title": "Convenient Meal Preparation for Hosts",
+            "text": "At Table & Twine, we want to take the drudgery out of hosting Thanksgiving. Since our chefs prepare 90% of the feast, you won’t need to rush around chopping and stirring. Instead, you can relax and unwind with guests.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c": {
+          "type": "text",
+          "settings": {
+            "title": "Fewer Dishes and Less Cleanup",
+            "text": "Perhaps the worst part about Thanksgiving is the messy cleanup: greasy roasting pans, crusty gravy boats, cranberry-stained cutting boards. But with our Raleigh Thanksgiving meal kits, you’ll have way less to wash. That’s because many of our dishes can be cooked in their original packaging.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "8b802fed-1ae5-4353-8caf-a744f2543220",
+        "8217ca09-8c2e-486a-8f92-bde989d66f78",
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c"
+      ],
+      "settings": {
+        "heading": "Why Choose a Thanksgiving Meal Kit?",
+        "image": "shopify:\/\/shop_images\/landing01.jpg",
+        "text": "When you order a convenient meal kit from Table & Twine, you’ll be thankful for a delicious, restaurant-quality feast that impresses friends and family alike. You’ll also be thankful for:",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 520,
+        "show_banner_image": true,
+        "show_number": false,
+        "show_images": false,
+        "show_icons": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Thanksgiving meal kit?",
+            "text": "<p>Set aside about three hours to prepare your Thanksgiving meal. Our chefs will walk you through the cooking process with <a href=\"https:\/\/tableandtwine.com\/charleston\/heating-instructions\/\"><span style=\"text-decoration:underline\">step-by-step heating instructions<\/span><\/a>. <\/p>"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my Thanksgiving meal kit?",
+            "text": "<p>To receive your meal kit for Thanksgiving, please place an order by [insert date]. However, you can always order early! <\/p>"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Thanksgiving meal kit?",
+            "text": "<p>Table & Twine meal kits cannot be customized. But with a variety of <a href=\"https:\/\/tableandtwine.com\/raleigh\/apps-and-snacks\/\"><span style=\"text-decoration:underline\">side dishes<\/span><\/a> and <a href=\"https:\/\/tableandtwine.com\/raleigh\/desserts\/\"><span style=\"text-decoration:underline\">desserts<\/span><\/a>, there’s something for everyone. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "Thanksgiving Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656573404d24b5e0b",
+    "1656601691ff2d8271",
+    "16566058721e114931",
+    "1656607284cc85fa5f"
+  ]
+}

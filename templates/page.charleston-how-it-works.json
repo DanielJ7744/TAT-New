@@ -1,0 +1,281 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165643418008f8d783": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Table & Twine Charleston Meal Kit Subscriptions",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "How Our Charleston Subscriptions Work",
+        "text2": "When you subscribe to Table & Twine, you receive a personalized culinary experience that’s indistinguishable from that of a five-star restaurant.",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--hero.jpg",
+        "button_text": "Order Now",
+        "button_link": "shopify:\/\/pages\/charleston-subscription",
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "165643916638a5eea7": {
+      "type": "c__grid-section",
+      "blocks": {
+        "173c3c5b-a718-49ea-8e44-e50590ad29bf": {
+          "type": "text",
+          "settings": {
+            "title": "Personalized Subscription",
+            "text": "Customize your dinner meal kit subscription in Charleston to accommodate your family’s wants and needs. Add à la carte items like breakfast smoothies and desserts to your meal kit.",
+            "image": "shopify:\/\/shop_images\/asset__how-it-works--steps-1.jpg",
+            "icon_image": "none"
+          }
+        },
+        "fcf48f8a-b788-4a9c-b021-02b16372f547": {
+          "type": "text",
+          "settings": {
+            "title": "Rotating Recipes",
+            "text": "Our chefs believe dinner should never be boring. That’s why they reveal new, exciting recipes each and every week.",
+            "image": "shopify:\/\/shop_images\/asset__how-it-works--steps-2.jpg",
+            "icon_image": "none"
+          }
+        },
+        "490e49e1-5861-4ed7-adc9-c4495b9380da": {
+          "type": "text",
+          "settings": {
+            "title": "Savory Savings",
+            "text": "With a Charleston chef-prepared dinners subscription, you receive menu discounts that make healthy eating even more affordable.",
+            "image": "shopify:\/\/shop_images\/asset__how-it-works--steps-3.jpg",
+            "icon_image": "none"
+          }
+        },
+        "cad56f69-0efc-4f65-a4bf-c0e98cad4d94": {
+          "type": "text",
+          "settings": {
+            "title": "Free, Flexible Delivery",
+            "text": "With a dinner meal subscription in Charleston, we’ll deliver chef-inspired recipes right to your doorstep. Or, you can opt for contact-less curbside pick-up.",
+            "image": "shopify:\/\/shop_images\/asset__how-it-works--steps-4.jpg",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "173c3c5b-a718-49ea-8e44-e50590ad29bf",
+        "fcf48f8a-b788-4a9c-b021-02b16372f547",
+        "490e49e1-5861-4ed7-adc9-c4495b9380da",
+        "cad56f69-0efc-4f65-a4bf-c0e98cad4d94"
+      ],
+      "settings": {
+        "section_heading": "Build Your Weekly Subscription",
+        "heading_color": "",
+        "text": "With a dinner meal kit subscription in Charlotte, you can pick from chef-prepared entrées and lighter lunch options without the hassle of eating out.",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 760,
+        "show_number": true,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656443659c554ea1d": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "b7444a99-ab9e-4d39-aeb6-d2772dea5185": {
+          "type": "text",
+          "settings": {
+            "title": "Alter Your Subscription",
+            "text": "Up until your order is processed on Sunday morning, you can amend your subscription to better suit your needs.",
+            "image": "shopify:\/\/shop_images\/image07_e22f964c-70b6-442f-bcf2-3495cb4e1c7f.png",
+            "icon_image": "icon__subscription--modify.svg"
+          }
+        },
+        "805d5fd6-66c8-43c6-8c69-4611c182be69": {
+          "type": "text",
+          "settings": {
+            "title": "Modify Meals",
+            "text": "You can always change your mind with Table & Twine. Before your order processes, feel free to swap pizza for shrimp and grits or stir fry for gnocchi.",
+            "image": "shopify:\/\/shop_images\/image07_e22f964c-70b6-442f-bcf2-3495cb4e1c7f.png",
+            "icon_image": "icon__subscription--swap.svg"
+          }
+        },
+        "41801994-d22e-42d7-bb45-3fcaf4337211": {
+          "type": "text",
+          "settings": {
+            "title": "Take A Break",
+            "text": "Going out of town? With just 2 clicks you can pause your subscription for however long you need.",
+            "image": "shopify:\/\/shop_images\/image07_e22f964c-70b6-442f-bcf2-3495cb4e1c7f.png",
+            "icon_image": "icon__subscription--skip.svg"
+          }
+        }
+      },
+      "block_order": [
+        "b7444a99-ab9e-4d39-aeb6-d2772dea5185",
+        "805d5fd6-66c8-43c6-8c69-4611c182be69",
+        "41801994-d22e-42d7-bb45-3fcaf4337211"
+      ],
+      "settings": {
+        "section_heading": "Why Subscribe to Table & Twine?",
+        "heading_color": "",
+        "text": "All Table & Twine customers benefit from chef-inspired recipes and convenient, no-fuss preparation. However, with a dinner meal kit subscription in Charleston, you’ll receive discounted entrées and lunch items that save you both money and time.",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "165644475782f694ee": {
+      "type": "cc__banner-with-text",
+      "blocks": {
+        "08f72509-1040-4c4e-985b-f5b350adaafb": {
+          "type": "text",
+          "settings": {
+            "title": "Add Meals",
+            "text": "Is your child visiting from college? No worries. With a dinner meal subscription kit in Charleston, you can easily change the number of meals you need while still receiving subscription discounts."
+          }
+        },
+        "04d563b9-3c07-4153-a12d-60191cb5b3e8": {
+          "type": "text",
+          "settings": {
+            "title": "No Renewals",
+            "text": "Just because you added take-and-bake cookies to your order this week doesn’t mean you have to next. À la carte items are never automatically added to your next meal kit."
+          }
+        },
+        "e7fe8fe6-da97-4076-a31b-e53864379296": {
+          "type": "text",
+          "settings": {
+            "title": "Delicious Pairings",
+            "text": "Treat your family to a multi-course meal with Table & Twine’s delicious pairings. From appetizers to cocktails, our culinary team has thought of everything you may need for a fun night in."
+          }
+        },
+        "5f279152-dd76-4333-ab46-9ea589ab90ff": {
+          "type": "text",
+          "settings": {
+            "title": "Convenient Delivery",
+            "text": "Your à la carte selections will be delivered with your subscription order. That means you’ll never have to pay for shipping."
+          }
+        }
+      },
+      "block_order": [
+        "08f72509-1040-4c4e-985b-f5b350adaafb",
+        "04d563b9-3c07-4153-a12d-60191cb5b3e8",
+        "e7fe8fe6-da97-4076-a31b-e53864379296",
+        "5f279152-dd76-4333-ab46-9ea589ab90ff"
+      ],
+      "settings": {
+        "section_heading": "Adding À La Carte Items to Your Order",
+        "heading_size": "t-big",
+        "section_text": "",
+        "header_width": 520,
+        "add_city_select": false,
+        "use_overlay": true,
+        "overlay_percent": 10,
+        "text_align": "left",
+        "text_color": "",
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--la-carte.jpg",
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary"
+      }
+    },
+    "1656445743e5311b9e": {
+      "type": "cc__faq",
+      "blocks": {
+        "8216c866-5416-4d80-b75f-29ee1d5a9aec": {
+          "type": "text",
+          "settings": {
+            "title": "What’s included in my Charleston chef-prepared dinners subscription?",
+            "text": "<p>Your dinner meal kit will feature pre-measured and pre-prepared ingredients as well as easy-to-follow heating instructions. <\/p>"
+          }
+        },
+        "bfd57cfe-b827-49e7-a639-bfaea2d9768c": {
+          "type": "text",
+          "settings": {
+            "title": "Do I get to choose the meals I want or are they selected for me?",
+            "text": "<p>Each week, you will get to choose your meals from a list of rotating weekly options. <\/p>"
+          }
+        },
+        "18a5637f-5301-4d25-b042-04397032dff8": {
+          "type": "text",
+          "settings": {
+            "title": "Will I benefit from a dinner meal prep subscription in Charleston?",
+            "text": "<p>Definitely! A dinner meal prep subscription in Charleston makes your life easier. Since our chefs handle the more technical aspects of cooking, all of our meals can be <a href=\"https:\/\/tableandtwine.com\/charleston\/heating-instructions\/\"><span style=\"text-decoration:underline\">prepared in 15 minutes or less<\/span><\/a>. <\/p>"
+          }
+        },
+        "a7b61e78-7510-43ff-ac77-04b0af4f4b6e": {
+          "type": "text",
+          "settings": {
+            "title": "What if I want to order a kids’ meal?",
+            "text": "<p>Our <a href=\"https:\/\/tableandtwine.com\/charleston\/kids\/\"><span style=\"text-decoration:underline\">Charleston kids’ meals<\/span><\/a> are an à la carte option that you can add to your subscription order. These meals are fun and delicious, incorporating veggies and lean proteins in sneaky ways your kids will love. <\/p>"
+          }
+        },
+        "34a1fe2f-7c65-4fd8-8745-31cbc8185044": {
+          "type": "text",
+          "settings": {
+            "title": "Can I change my order?",
+            "text": "<p>Up until your order is processed on Sunday morning, you can make modifications. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8216c866-5416-4d80-b75f-29ee1d5a9aec",
+        "bfd57cfe-b827-49e7-a639-bfaea2d9768c",
+        "18a5637f-5301-4d25-b042-04397032dff8",
+        "a7b61e78-7510-43ff-ac77-04b0af4f4b6e",
+        "34a1fe2f-7c65-4fd8-8745-31cbc8185044"
+      ],
+      "settings": {
+        "section_heading": "Table & Twine Meal Kit Subscription FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165643418008f8d783",
+    "165643916638a5eea7",
+    "1656443659c554ea1d",
+    "165644475782f694ee",
+    "1656445743e5311b9e"
+  ]
+}

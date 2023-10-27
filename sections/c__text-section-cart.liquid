@@ -1,0 +1,191 @@
+<div
+  class="text-section"
+  style="color: {{ section.settings.text_color }}; background-color: {{ section.settings.background_color }};"
+>
+  <div class="
+      {% if section.settings.narrow_section %} section-tiny {% else %} section-small {% endif%}
+      {% if section.settings.deep_section %} general-section {% else %} general-section__secondary{% endif%}
+    ">
+    <div class="text-section__top">
+      {% if section.settings.heading != blank %}
+        <{{ section.settings.heading_tag }} class="text-section__heading">
+          {{ section.settings.heading }}
+        </{{ section.settings.heading_tag }}>
+      {% endif %}
+
+      <div class="text-section__text t-small">
+        Confirm your order & checkout below, or <a id="returnToStore">return to the store</a> to add more dishes
+      </div>
+    </div>
+    {% if section.settings.heading2 != blank or section.settings.text2 != blank %}
+      <div
+        class="text-section__bottom"
+        {% unless section.settings.heading == blank or section.settings.heading2 == blank %}
+          style="border-top:1px solid rgba(0,0,0,.16)";
+        {% endunless %}
+      >
+        {% if section.settings.heading2 != blank %}
+          <{{ section.settings.heading2_tag }} class="text-section__heading">
+            {{ section.settings.heading2 }}
+          </{{ section.settings.heading2_tag }}>
+        {% endif %}
+        {% if section.settings.text2 != blank %}
+          <div class="text-section__text t-small">
+            {{ section.settings.text2 }}
+          </div>
+        {% endif %}
+        <ul>
+          {% for block in section.blocks %}
+            <li>
+              <span>{{ block.settings.text }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    document.getElementById("returnToStore").onclick = function(){
+      if (localStorage.getItem("customerLocation") !== null) {
+        const savedLocation = JSON.parse(localStorage.getItem("customerLocation")).value.toLocaleLowerCase()
+        location.href = `/collections/full-menu-${savedLocation}`;
+      } else {
+        location.href = `/`;
+      }
+    };
+  });
+</script>
+
+{% schema %}
+{
+  "name": {
+    "en": "Cart Text Section"
+  },
+  "class": "index-section index-section--text",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "narrow_section",
+      "label": "Narrow Section",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "deep_section",
+      "label": "Bigger Top Spacing",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Lorem Ipsum"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading Tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "heading2",
+      "label": "Section Heading 2"
+    },
+    {
+      "type": "select",
+      "id": "heading2_tag",
+      "label": "Heading 2 Tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Block",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cart Text Section",
+      "category": "Advanced layout"
+    }
+  ]
+}
+{% endschema %}

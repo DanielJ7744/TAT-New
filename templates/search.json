@@ -1,0 +1,19 @@
+{
+    "layout" : "theme-ajaxRender",
+    "sections": {
+      "banner": {
+        "type": "banner",
+        "settings": {
+        }
+      },
+      "main": {
+        "type": "search__main",
+        "settings": {
+        }
+      }
+    },
+    "order": [
+      "banner",
+      "main"
+    ]
+  }

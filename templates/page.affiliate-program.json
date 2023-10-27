@@ -1,0 +1,293 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656607732d6784de8": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "Our Affiliate Program",
+        "heading": "Become a Table & Twine Affiliate",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "<p>Do you have a strong web presence? Is your audience hungry for delicious, restaurant-quality food that can be prepared in a flash? If so, you could earn attractive commissions through Table & Twine’s affiliate program.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Partner with us",
+        "button_link": "shopify:\/\/collections",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "left",
+        "box_image_position": "top",
+        "box_heading": "About our partner",
+        "box_text": "Learn more about how the Humane Society of Charlotte supports pets & their owners.",
+        "box_image1": "shopify:\/\/shop_images\/image07_e22f964c-70b6-442f-bcf2-3495cb4e1c7f.png",
+        "box_image1_icon": "none",
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_text2": "",
+        "box_button_text": "Visit website ›",
+        "box_button_link": "shopify:\/\/collections",
+        "box_button_style": "b--tertiary",
+        "css_class": "subpage-main-banner"
+      }
+    },
+    "1657317134bae301ff": {
+      "type": "c__grid-section",
+      "blocks": {
+        "0f54ecab-e791-4364-aa43-4224ed202495": {
+          "type": "text",
+          "settings": {
+            "title": "Receive the tools you need",
+            "text": "When you partner with us, we’ll provide you with a unique landing page, promo code, and Table & Twine marketing content.",
+            "icon_image": "icon__chef.svg"
+          }
+        },
+        "819859c0-5618-45b2-9d45-adfaca81522d": {
+          "type": "text",
+          "settings": {
+            "title": "Promote our award-winning meal kit delivery service",
+            "text": "Introduce your audience to the fresh flavors and convenience of Table & Twine via your blog, website, social media, or newsletter.",
+            "icon_image": "icon__fresh.svg"
+          }
+        },
+        "4782807c-538a-4f08-8fdb-495bcf71a150": {
+          "type": "text",
+          "settings": {
+            "title": "Receive yummy kick-backs",
+            "text": "We offer competitive commission rates that’ll boost your profits. Plus, we dish up delicious discounts on chef-prepared meals.",
+            "icon_image": "icon__no-hassle.svg"
+          }
+        }
+      },
+      "block_order": [
+        "0f54ecab-e791-4364-aa43-4224ed202495",
+        "819859c0-5618-45b2-9d45-adfaca81522d",
+        "4782807c-538a-4f08-8fdb-495bcf71a150"
+      ],
+      "settings": {
+        "section_heading": "How Our Affiliate Program Works",
+        "heading_color": "",
+        "text": "",
+        "header_align": "center",
+        "section_type": "section-small",
+        "header_width": 1000,
+        "show_number": false,
+        "button_text": "Get started",
+        "button_link": "shopify:\/\/collections",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": true,
+        "use_landscape_image": false
+      }
+    },
+    "1656443659c554ea1d": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "b7444a99-ab9e-4d39-aeb6-d2772dea5185": {
+          "type": "text",
+          "settings": {
+            "title": "Competitive Commissions",
+            "text": "On every chef-prepared meal kit ordered using your unique promo code",
+            "icon_image": "none"
+          }
+        },
+        "805d5fd6-66c8-43c6-8c69-4611c182be69": {
+          "type": "text",
+          "settings": {
+            "title": "Table & Twine Marketing Content",
+            "text": "That engages audiences, attracts more followers, and boosts earnings",
+            "icon_image": "none"
+          }
+        },
+        "41801994-d22e-42d7-bb45-3fcaf4337211": {
+          "type": "text",
+          "settings": {
+            "title": "Savory Customer Offers",
+            "text": "Discounts and no-charge add-ons that’ll make dinnertime brilliant, not boring",
+            "icon_image": "none"
+          }
+        },
+        "1444dd94-20c7-4a08-8d98-420b7f08ea84": {
+          "type": "text",
+          "settings": {
+            "title": "Complimentary Meal Kits",
+            "text": "So you can experience the fresh flavors and unparalleled convenience of Table & Twine for yourself",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "b7444a99-ab9e-4d39-aeb6-d2772dea5185",
+        "805d5fd6-66c8-43c6-8c69-4611c182be69",
+        "41801994-d22e-42d7-bb45-3fcaf4337211",
+        "1444dd94-20c7-4a08-8d98-420b7f08ea84"
+      ],
+      "settings": {
+        "section_heading": "Perks for Table & Twine Affiliates",
+        "heading_color": "",
+        "text": "",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/002_1828ba01-5357-4f30-97f5-e567800f9c5e.jpg"
+      }
+    },
+    "165643916638a5eea7": {
+      "type": "c__grid-section",
+      "blocks": {
+        "173c3c5b-a718-49ea-8e44-e50590ad29bf": {
+          "type": "text",
+          "settings": {
+            "title": "We carefully curate  thoughtful menus",
+            "text": "Our chefs want to bring an impressive culinary experience to every customer’s table. That’s why they spend hours each week developing restaurant-quality meals that incorporate bold, fresh flavors.",
+            "image": "shopify:\/\/shop_images\/Creamy_Mushroom_Chicken-3.jpg",
+            "icon_image": "none"
+          }
+        },
+        "fcf48f8a-b788-4a9c-b021-02b16372f547": {
+          "type": "text",
+          "settings": {
+            "title": "We don’t let convenience  overshadow quality",
+            "text": "From steak frites to chicken confit, every dinner from Table & Twine only takes 15 minutes to prepare. But trust us: the food will taste like you spent hours in the kitchen.",
+            "image": "shopify:\/\/shop_images\/Charlotte_Meal_Train_Ideas_to_Support_Loved_Ones.jpg",
+            "icon_image": "none"
+          }
+        },
+        "490e49e1-5861-4ed7-adc9-c4495b9380da": {
+          "type": "text",
+          "settings": {
+            "title": "We help customers cook  five-star meals",
+            "text": "When you partner with Table & Twine, you gain the expertise of a professional chef. Our culinary team will handle the more tedious aspects of cooking for you and then provide step-by-step directions to help you bring the dish together.",
+            "image": "shopify:\/\/shop_images\/Which_Meal_Kit_Delivery_Service_Is_Right_for_You.jpg",
+            "icon_image": "none"
+          }
+        },
+        "cad56f69-0efc-4f65-a4bf-c0e98cad4d94": {
+          "type": "text",
+          "settings": {
+            "title": "We value quality  ingredients",
+            "text": "Unlike other meal kit delivery services, we never source ingredients from big conglomerates. Instead, we purchase seasonal produce and ethically-raised meats from local farmers. This ensures every dish is fresh and flavorful.",
+            "image": "shopify:\/\/shop_images\/website_hero_1640_x_1000_px_24.png",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "173c3c5b-a718-49ea-8e44-e50590ad29bf",
+        "fcf48f8a-b788-4a9c-b021-02b16372f547",
+        "490e49e1-5861-4ed7-adc9-c4495b9380da",
+        "cad56f69-0efc-4f65-a4bf-c0e98cad4d94"
+      ],
+      "settings": {
+        "section_heading": "Why Partner With Table & Twine?",
+        "heading_color": "",
+        "text": "Forget everything you know about meal kit delivery services. At Table & Twine, we stand out from competitors because:",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 760,
+        "show_number": true,
+        "button_text": "Learn More About Us",
+        "button_link": "shopify:\/\/pages\/about",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "What does Table & Twine look for in an affiliate?",
+            "text": "<p>Table & Twine partners with like-minded influencers whose audiences value convenient, restaurant-quality food. We do NOT partner with individuals who promote violence, drugs, or obscene gestures or language.<\/p>"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "Do I need to live in North Carolina or South Carolina to be an affiliate?",
+            "text": "<p>Yes. Since Table & Twine currently only serves customers in Charlotte, Raleigh, and Charleston, we give preference to individuals who live in the Carolinas.<\/p>"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "How do I earn a commission?",
+            "text": "<p>Each time a meal kit is ordered using your promo code, you’ll receive a commission.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "Affiliate Program FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1656516837868767fd": {
+      "type": "cc__banner-with-text",
+      "settings": {
+        "section_heading": "Partner With Table & Twine",
+        "heading_size": "t-large",
+        "section_text": "When you join Table & Twine’s affiliate program, you’ll earn savory commissions while introducing your audience to delicious, convenient food. It’s a win-win!",
+        "header_width": 840,
+        "text_width": 1400,
+        "add_city_select": false,
+        "use_overlay": true,
+        "overlay_percent": 44,
+        "text_align": "center",
+        "text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/asset__home--subscriptions2.jpg",
+        "button_text": "Get started",
+        "button_link": "shopify:\/\/collections\/family-meals",
+        "to_location_selector": false,
+        "button_style": "b--primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656607732d6784de8",
+    "1657317134bae301ff",
+    "1656443659c554ea1d",
+    "165643916638a5eea7",
+    "1656607284cc85fa5f",
+    "1656516837868767fd"
+  ]
+}

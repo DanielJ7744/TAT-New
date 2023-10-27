@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Subscription [Sklp]</title>
+    <g id="Subscription-[Sklp]" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="icon__subscription--skip" transform="translate(1.000000, 5.000000)" stroke="#B29A7A" stroke-width="2">
+            <path d="M30.6882052,56.3675421 C17.8094175,59.9325707 4.45758038,52.4124498 0.889890738,39.5918263 C-1.54262949,30.8743229 1.16016519,21.9550624 7.18740033,16.0089372" id="Path"></path>
+            <polyline id="Path" points="26.8767785 52.1972423 31.9175053 56.4752912 27.606521 61.5066391"></polyline>
+            <polygon id="Path" points="42.9726276 1.53362248 42.9726276 16.3318212 26.2558758 16.3318212 26.2558758 31.5200908 12.7418624 31.5200908 12.7418624 1.53362248"></polygon>
+            <polygon id="Path" points="42.9726276 1.53362248 12.7418624 1.53362248 12.7418624 10.9506157 42.9726276 10.9506157"></polygon>
+            <line x1="21.1200505" y1="0" x2="21.1200505" y2="3.06725949" id="Path"></line>
+            <line x1="34.607381" y1="0" x2="34.607381" y2="3.06725949" id="Path"></line>
+            <polygon id="Path" points="70 40.937164 39.7691621 40.937164 39.7691621 61.5066391 70 61.5066391"></polygon>
+            <polygon id="Path" points="70 31.5200908 39.7691621 31.5200908 39.7691621 40.9370913 70 40.9370913"></polygon>
+            <line x1="48.1473502" y1="29.9864465" x2="48.1473502" y2="33.0537351" id="Path"></line>
+            <line x1="61.6347534" y1="29.9864465" x2="61.6347534" y2="33.0537351" id="Path"></line>
+            <polygon id="Path" points="56.4870045 25.748749 56.4870045 31.5200181 39.7702527 31.5200181 39.7702527 46.3182241 26.2562393 46.3182241 26.2562393 25.748749"></polygon>
+            <polygon id="Path" points="56.4870045 16.3318212 26.2562393 16.3318212 26.2562393 25.7488217 56.4870045 25.7488217"></polygon>
+            <line x1="34.6343547" y1="14.7981769" x2="34.6343547" y2="17.8653928" id="Path"></line>
+            <line x1="48.1217579" y1="14.7981769" x2="48.1217579" y2="17.8653928" id="Path"></line>
+        </g>
+    </g>
+</svg>

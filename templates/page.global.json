@@ -1,0 +1,12 @@
+{
+    "layout" : "theme-ajaxRender",
+    "sections": {
+      "main": {
+        "type": "page-content__main--ajax-render",
+        "settings": {}
+      }
+    },
+    "order": [
+      "main"
+    ]
+  }

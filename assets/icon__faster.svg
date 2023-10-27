@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Faster</title>
+    <g id="Faster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon__faster" transform="translate(7.000000, 1.000000)" stroke="#B29A7A" stroke-width="2">
+            <path d="M29.2022843,70 C45.3302171,70 58.4045687,56.9257298 58.4045687,40.7977157 C58.4045687,24.6697829 45.3302171,11.5954313 29.2022843,11.5954313 C13.0742702,11.5954313 0,24.6697829 0,40.7977157 C0,56.9257298 13.0742702,70 29.2022843,70 Z" id="Path"></path>
+            <path d="M29.202203,64.911863 C42.5200119,64.911863 53.3162691,54.1156871 53.3162691,40.7978782 C53.3162691,27.4800694 42.5200119,16.6838935 29.202203,16.6838935 C15.8844754,16.6838935 5.08823457,27.4800694 5.08823457,40.7978782 C5.08823457,54.1156871 15.8844754,64.911863 29.202203,64.911863 Z" id="Path"></path>
+            <path d="M25.5939129,-7.21981899e-16 L32.8105745,-7.21981899e-16 C34.1608484,-7.21981899e-16 35.2593735,1.09851703 35.2593735,2.44878279 L35.2593735,4.89756559 L23.1451138,4.89756559 L23.1451138,2.44878279 C23.1451138,1.09851703 24.243639,-7.21981899e-16 25.5939129,-7.21981899e-16 Z" id="Path" stroke-linejoin="round"></path>
+            <polygon id="Path" stroke-linejoin="round" points="31.4374587 4.89751682 26.96711 4.89751682 26.96711 11.5954313 31.4374587 11.5954313"></polygon>
+            <polygon id="Path" stroke-linejoin="round" points="56.1033885 17.0835863 52.9423446 13.9225424 48.2061843 18.6587026 51.3672282 21.8196653"></polygon>
+            <line x1="29.202203" y1="19.4301251" x2="29.202203" y2="25.0981703" id="Path" stroke-linecap="round"></line>
+            <line x1="23.7859879" y1="31.2927174" x2="29.2022843" y2="40.7978782" id="Path" stroke-linecap="round"></line>
+            <line x1="35.5492463" y1="40.7673953" x2="29.202203" y2="40.7673953" id="Path" stroke-linecap="round"></line>
+            <line x1="18.5374698" y1="22.2982073" x2="21.3753129" y2="27.2110063" id="Path" stroke-linecap="round"></line>
+            <line x1="10.7410626" y1="30.1253414" x2="15.6463018" y2="32.9631845" id="Path" stroke-linecap="round"></line>
+            <line x1="7.89557845" y1="40.7975531" x2="13.5636236" y2="40.7975531" id="Path" stroke-linecap="round"></line>
+            <line x1="10.7715456" y1="51.47009" x2="15.6767035" y2="48.6322469" id="Path" stroke-linecap="round"></line>
+            <line x1="18.590876" y1="59.2664972" x2="21.4287191" y2="54.3613393" id="Path" stroke-linecap="round"></line>
+            <line x1="29.2708913" y1="62.1119813" x2="29.2708913" y2="56.4439362" id="Path" stroke-linecap="round"></line>
+            <line x1="39.9357059" y1="59.2360142" x2="37.0978628" y2="54.3232152" id="Path" stroke-linecap="round"></line>
+            <line x1="47.7321943" y1="51.4092866" x2="42.8269552" y2="48.5790846" id="Path" stroke-linecap="round"></line>
+            <line x1="50.5776785" y1="40.736831" x2="44.9096334" y2="40.736831" id="Path" stroke-linecap="round"></line>
+            <line x1="47.7016301" y1="30.0717726" x2="42.7964722" y2="32.9019746" id="Path" stroke-linecap="round"></line>
+            <line x1="39.8822997" y1="22.2680495" x2="37.0444566" y2="27.1808485" id="Path" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

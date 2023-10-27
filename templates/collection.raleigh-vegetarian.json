@@ -1,0 +1,253 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Our Vegetarian Menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Less Environmental Impact",
+            "text": "<p>Compared to a serving of vegetables, meat is linked to more greenhouse emissions and water consumption. Fortunately, when you opt for a vegetarian meal kit in Raleigh, you can rest easy knowing that your dinner had little impact on the earth<\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Improved Heart Function",
+            "text": "<p>Meat is high in saturated fat, which can boost your cholesterol and affect cardiovascular function. Comparatively, fruits and vegetables have the opposite effect. High levels of antioxidants can actually reduce plaque buildup and improve heart function. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "More “You” Time",
+            "text": "<p>In today’s busy world, it can be hard to find time to exercise, read, or just relax. But with Table & Twine’s vegetarian meal kits, you can reclaim some “me” time. Since our chefs handle all the shopping and chopping, you can whip up a home-cooked meal in 15 minutes or less. <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Vegetarian Meal Kit?",
+        "heading_color": "",
+        "text": "At Table & Twine, our weekly menus are crafted by passionate and experienced chefs who care about your culinary experience. We want each customer to feel good about what they’re eating. Other reasons why Raleigh residents love our vegetarian meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "724f83ec-6d18-4737-8cb9-d2de03f6bfc3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Meat-Free: <\/strong>No longer will you need to scrutinize nutrition labels for trace amounts of lard or gelatin. Instead, you can trust our chefs to artfully prepare 100% meat-free dishes.<\/p>"
+          }
+        },
+        "df0daa97-b8b7-4a88-aacf-c3746a84705a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Pre-Prepared Ingredients:<\/strong> Are you tired of chopping butternut squash and mincing onions? If so, partner with Table & Twine. In your Raleigh vegetarian meal kit, you’ll receive all the pre-prepared ingredients you need to whip up a decadent dinner.<\/p>"
+          }
+        },
+        "4c2f3fad-2c21-417a-93cb-4560005573a4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Seasonal Produce: <\/strong>Unlike other meal kit services, we don’t import fruits and vegetables from overseas. Instead, we rely on local growers to provide us with the freshest, most nutritious produce possible. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "724f83ec-6d18-4737-8cb9-d2de03f6bfc3",
+        "df0daa97-b8b7-4a88-aacf-c3746a84705a",
+        "4c2f3fad-2c21-417a-93cb-4560005573a4"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Vegetarian Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Raleigh residents love our vegetarian meal meal service because it makes healthy, meat-free eating more convenient. <\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Do you have to be vegetarian to eat vegetarian meals?",
+            "text": "<p>Absolutely not! Our chefs prepare plant-based meals that are tasty to vegetarians and meat eaters alike. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Are vegetarian meals healthier?",
+            "text": "<p>Countless studies suggest eating a more plant-based diet can improve cardiovascular function, lower your risk for developing certain cancers, and increase your overall well-being. Fortunately, Table & Twine makes eating a balanced vegetarian diet super easy. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "What will come in my Raleigh vegetarian meal kit?",
+            "text": "<p>Each vegetarian meal kit will come with the pre-measured and pre-prepared ingredients you need to prepare a delicious, plant-based dinner. <\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "How do I benefit from a Raleigh vegetarian meal subscription service?",
+            "text": "<p>If you’re stuck in a vegetarian rut, eating nothing but rice and beans, you could benefit from a Raleigh vegetarian meal kit. With Table & Twine, our chefs do all the meal planning for you. That way, you can count on delicious and exciting meals that only take <a href=\"https:\/\/tableandtwine.com\/raleigh\/heating-instructions\/\"><span style=\"text-decoration:underline\">15 minutes to prepare<\/span><\/a>. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7"
+      ],
+      "settings": {
+        "section_heading": "Vegetarian Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

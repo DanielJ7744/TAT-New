@@ -1,0 +1,139 @@
+
+{% assign allCities = settings.city_list | remove: " "  | split: ","  %}
+
+
+<div class="location-popup">
+    <div id="locationPopupBody" class="location-popup__modal">
+      <div class="location-popup__modal-content">
+
+        <span class="location-popup__close" id="closeLocationPopup">&times;</span>
+
+        <h3 class="location-popup__label">Choose Your Location</h3>
+
+        <div class="location-popup__selector">
+            {% for city in allCities %}
+              <div class="location-popup__selector--child" value="{{ city }}">{{ city }}</div>
+            {% endfor %}
+        </div>
+
+        <div  class="location-popup__confirm">
+            <button class="b--custom b--primary" id="confirmLocation" disabled>Confirm</button>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function(event) { 
+
+        // Close modal when click close button, or Anywhere in windows
+        const modalMain = document.getElementById("locationPopupBody");
+        const closeModal = document.getElementById("closeLocationPopup");
+        closeModal.onclick = function() {
+            modalMain.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modalMain) {
+                modalMain.style.display = "none";
+            }
+        }
+
+        
+
+        // THis is for expire locals storage
+        if (localStorage.getItem("customerLocation") !== null) {
+            const currentTime = new Date().getTime()
+            const expiredTime = currentTime - JSON.parse(localStorage.getItem("customerLocation")).timestamp
+            // Remove localstorage if it is expired 10 days
+            if (expiredTime > 1000*3600*24*10) {
+                localStorage.removeItem('customerLocation');
+            }
+        }
+
+        // Set default location value
+        let locationValue = 'default'
+
+        // If there is no local storage item, then show modal after 30 second
+        if (localStorage.getItem("customerLocation") === null) {
+            setTimeout(function() {
+                modalMain.style.display = "block";
+            }, 30000);
+        } else {
+            // If there is local storage item exist.
+            const currentPageLayout = document.querySelector('body').getAttribute('layout-name')
+            const savedLocation = JSON.parse(localStorage.getItem("customerLocation")).value.toLocaleLowerCase()
+            const currentUrl = window.location.pathname
+            const targetUrl = `/pages/${savedLocation}`
+            // If current page layout is same as saved location
+            if (currentPageLayout !== savedLocation && currentPageLayout !== 'ajaxRender') {
+                // If current is url is not target url (to prevent infinite re-loading)
+                if (currentUrl !== targetUrl) {
+                    // If this is customer preview portal.
+                    if (currentUrl.includes('tools/recurring/')) {
+                        const savedLocation = JSON.parse(localStorage.getItem("customerLocation")).value.toLocaleLowerCase();
+                        const shopUrl = {{ shop.url | json }};
+                        const urlToFetch = `${shopUrl}/pages/${savedLocation}`;
+                        $.ajax({
+                            type: 'GET',
+                            url: urlToFetch,
+                            processData: false,
+                            contentType: false,
+                            success: function(data) {
+                                $currentAjaxCart = $('#ajax-cart__content').html();
+                                $headerSection = jQuery(data).find('#header').html();
+                                $footerSection = jQuery(data).find('footer').html();
+                                $('#header').empty().html($headerSection)
+                                $('footer').empty().html($footerSection)
+                                $('#ajax-cart__content').empty().html($currentAjaxCart);
+                            }
+                        });
+                    } else {
+                        window.location.href = targetUrl
+                    }
+                }
+            }
+            
+        }
+
+        const confirmLocation = document.getElementById("confirmLocation");
+        const allLoacations =  document.querySelectorAll('.location-popup__selector--child')
+        // When click location items in modal
+        for (const location of allLoacations) {
+            location.addEventListener('click', function handleClick() {
+                for (const oneLocation of allLoacations) {
+                    oneLocation.classList.remove('active')
+                }
+                location.classList.add('active')
+                confirmLocation.removeAttribute('disabled')
+                locationValue = location.getAttribute('value')
+            });
+        }
+
+        // When click confirm button, save value to localstorage, and go to location page.
+        confirmLocation.addEventListener('click', function handleClick() {
+            if (locationValue !== 'default') {
+                var dataToSave = {value: locationValue, timestamp: new Date().getTime()}
+                localStorage.setItem("customerLocation", JSON.stringify(dataToSave));
+                window.location.href = `/pages/${locationValue.toLocaleLowerCase()}`
+            }
+            modalMain.style.display = "none";
+        });
+
+    });
+
+</script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) { 
+        if (localStorage.getItem("customerLocation") === null) {
+            // Avtive default menus
+            document.querySelector('.header__brand--default').classList.add('active');
+            document.querySelector('.header__menu--default').classList.add('active');
+        }
+    });
+</script>
+

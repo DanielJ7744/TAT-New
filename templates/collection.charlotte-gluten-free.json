@@ -1,0 +1,267 @@
+{
+  "layout": "theme-charlotte",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "{{ collection.metafields.custom.extended_collection_header.value }}",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Make Your Gut Happy",
+            "text": "<p>Anyone with a gluten intolerance knows how painful an unhappy gut can be. A gluten-free meal service can help you avoid meals that cause bloating or gastrointestinal discomfort. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Better Energy & Focus",
+            "text": "<p>If gluten leaves you feeling tired and foggy, a gluten-free meal service will dish up food that boosts energy and focus. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Affordable & Convenient",
+            "text": "<p>We know you're busy and don't have a lot of time to cook well-rounded meals. That’s why we’ve made our gluten-free meal delivery service affordable and convenient.<\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Gluten-Free Meal Kit?",
+        "heading_color": "",
+        "text": "When you have a gluten allergy or sensitivity, preparing meals for the week can easily consume an entire Sunday. But when you order a gluten-free meal kit in Charlotte, you can reclaim your weekend. Other benefits of Charlotte gluten-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "321753ca-6e88-414f-a832-f9ceb0a6b00f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Zero Gluten:<\/strong> There's no wheat, period. In fact, our gluten-free meals are prepared separately from other meals, so they won't touch the same surfaces or tools as meals with gluten. Our meals are safe and delicious.<\/p>"
+          }
+        },
+        "fb712ff4-ab17-4199-b1dc-2beb250f02dc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Gourmet Creations:<\/strong> Each <a href=\"\/collections\/weekly-menu-charlotte\" title=\"\/collections\/weekly-menu-charlotte\"><span style=\"text-decoration:underline\">weekly menu <\/span><\/a>is crafted by passionate and experienced chefs who care about your culinary experience. Unlike other meal subscription services, we don’t dish out boring flavors or heavy sauces.  <\/p>"
+          }
+        },
+        "052496f9-c8d5-4236-9bd1-0d7fc5845f20": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Fresh Seasonal Flavors:<\/strong> We use seasonal produce so that our meals taste fresher and use fewer preservatives. In fact, our weekly menu is seasonally-driven, so meal options change regularly for more variety and flavor.<\/p>"
+          }
+        },
+        "b6f33657-16c9-4623-a085-8fb80e888313": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Delightful Pairings:<\/strong> We believe that each meal should be well-rounded and fully satisfying. That’s why our chefs curate a list of pairings to complement each meal. From <a href=\"\/collections\/appetizers-and-snack-menu-charlotte\" title=\"\/collections\/appetizers-and-snack-menu-charlotte\"><span style=\"text-decoration:underline\">appetizers <\/span><\/a>to <a href=\"\/collections\/desserts-menu-charlotte\" title=\"\/collections\/desserts-menu-charlotte\"><span style=\"text-decoration:underline\">desserts<\/span><\/a>, there’s something for everyone. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "321753ca-6e88-414f-a832-f9ceb0a6b00f",
+        "fb712ff4-ab17-4199-b1dc-2beb250f02dc",
+        "052496f9-c8d5-4236-9bd1-0d7fc5845f20",
+        "b6f33657-16c9-4623-a085-8fb80e888313"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }} <\/p>",
+        "heading2": "What To Expect From Our Gluten-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Charlotte residents love our gluten-free meals. Why? Because we make healthy foods that don’t sacrifice flavor. <\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "What is gluten?",
+            "text": "<p>Gluten is a generic name for the proteins found in wheat, barley, and rye. It's a gluey ingredient that helps breads and other foods hold their shape. Pure gluten can be very sticky and rubbery.<\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Should I avoid gluten even if I don't have an intolerance?",
+            "text": "<p>Avoiding gluten is important for people who have conditions like celiac disease. However, many people claim to benefit from a gluten-free diet, even if they don't have a gluten intolerance. Note: Always consult with your doctor before making major changes to your diet.<\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "What will I get in my Table & Twine gluten-free meal?",
+            "text": "<p>You’ll find pre-measured and pre-chopped ingredients that can be used to create a satisfying gluten-free meal in 15 minutes or less. You’ll also receive a QR that you can scan for <a href=\"\/pages\/heating-instructions\" title=\"\/pages\/heating-instructions\"><span style=\"text-decoration:underline\">heating instructions<\/span><\/a>. Recipes are created each week, so every meal is exciting and flavorful. <\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "Are gluten-free meals healthier?",
+            "text": "<p>Since Table & Twine’s gluten-free meals incorporate fresh, seasonal produce and lean proteins, they are very healthy. However, you should consult with your doctor to determine if a gluten-free diet is right for you.  <\/p>"
+          }
+        },
+        "59b73ccc-053a-4959-99dd-ca5e571c09cd": {
+          "type": "text",
+          "settings": {
+            "title": "Can this meal plan be helpful for me?",
+            "text": "<p>If you have a hard time planning nutritious and tasty meals, then Table & Twine’s gluten-free meal kits in Charlotte can help. We take the drudgery out of dinnertime, delivering a well-rounded yet delicious lineup of meals.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7",
+        "59b73ccc-053a-4959-99dd-ca5e571c09cd"
+      ],
+      "settings": {
+        "section_heading": "Gluten-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

@@ -1,0 +1,807 @@
+<div class="subscription-widget" style="color: {{section.settings.text_color}};">
+
+    <div class="subscription-widget__first">
+
+        <div class="subscription-widget__first--header" style="background-color:  {{ section.settings.background_color }};">
+            <div class="general-section__secondary section-tiny">
+                {% if section.settings.step1_sub_heading != blank %}
+                <p class="subscription-widget__first--sub-heading sp-mb-2 t-tiny">
+                    {{ section.settings.step1_sub_heading }}
+                </p>
+                {% endif %}
+                {% if section.settings.step1_heading != blank %}
+                <h1 class="subscription-widget__first--heading t-large">
+                    {{ section.settings.step1_heading }}
+                </h1>
+                {% endif %}
+            </div>
+        </div>
+
+        {% assign peopleCounts = section.settings.step1_people_count | remove: " "  | split: ","  %}
+        {% assign mealCounts = section.settings.step1_meal_count | remove: " "  | split: ","  %}
+
+        <div class="general-section__secondary section-tiny">
+
+            <div class="subscription-widget__first--customer">
+                {% if customer %}
+                    <h4 class="subscription-widget__first--customer-loggedin">Hello, {{ customer.first_name }}</h4>
+                {% else %}
+
+                    <h4 class="subscription-widget__first--customer-heading">Are you new customer?</h4>
+                    <a class="b--custom b--primary subscription-widget__first--customer-register" href="/account/register">Register new account</a>
+
+                    <div class="subscription-widget__first--customer-divider">
+                        <p>or</p>
+                    </div>
+            
+                    <h4 class="subscription-widget__first--customer-heading">Already a customer?</h4>
+                    <a class="b--custom b--primary subscription-widget__first--customer-login" href="/account/login">Sign in to your account</a>
+
+                {% endif %}
+            </div>
+
+            <div class="subscription-widget__first--people-count">
+                <h3 class="t-medium sp-mb-3">
+                    {{ section.settings.step1_people_count_heading }}
+                </h3>
+                <div class="people-counter">
+                    {% for peopleCount  in peopleCounts %}
+                    <div class="people-counter-child {% if forloop.index == 2 %} active {% endif %}" value="{{ peopleCount }}">{{ peopleCount }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="subscription-widget__first--meal-count">
+                <h3 class="t-medium sp-mb-2">
+                    {{ section.settings.step1_meal_count_heading }}
+                </h3>
+                <p class="t-small sp-mb-3">
+                    {{ section.settings.step1_meal_count_subheading }}
+                </p>
+                <div class="meal-counter">
+                    {% for mealCount  in mealCounts %}
+                    <div class="meal-counter-child {% if forloop.index == 2 %} active {% endif %}" value="{{ mealCount }}">{{ mealCount }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="subscription-widget__first--meal-type">
+                <h3 class="t-medium sp-mb-2">
+                    {{ section.settings.step1_meal_type_heading }}
+                </h3>
+                <p class="t-small sp-mb-3">
+                    {{ section.settings.step1_meal_type_subheading }}
+                </p>
+                <div class="meal-type">
+                    {% for block in section.blocks %}
+                    {% if block.type == 'main-collection'  %}
+                        <div class="meal-type-child {% if forloop.index == 1 %} active {% endif %}" value="{{ block.settings.main_collection.handle}}">
+                            <div class="meal-type-child__icon sp-mb-2">
+                                {% render 'icon',
+                                    name: 'checkmark',
+                                    icon_class: 'icon--active'
+                                %}
+                            </div>
+                            <h3 class="t-small--secondary sp-mb-1">
+                                {% if block.settings.heading %}
+                                {{ block.settings.heading }}
+                                {% else %}
+                                {{ block.settings.main_collection.title}}
+                                {% endif %}
+                            </h3>
+                            <p class="t-tiny sp-mb-1">
+                                {% if block.settings.sub_heading %}
+                                {{ block.settings.sub_heading }}
+                                {% else %}
+                                {{ block.settings.main_collection.description}}
+                                {% endif %}
+                            </p>
+                            <p class="t-tiny">Starting at just 
+                                <span class="tw-medium">
+                                    {% if block.settings.price %}
+                                    {{ block.settings.price }}
+                                    {% else %}
+                                    {{ block.settings.main_collection.metafields.custom.subscription_price}}
+                                    {% endif %}
+                                    
+                                    /serving
+                                </span>
+                            </p>
+                        </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="subscription-widget__first--next">
+                <div class="subscription-widget__first--next-labels sp-mb-2">
+                    <p class="t-tiny" value="first">Next step: Allocate your meals</p>
+                </div>
+                <button class="b--primary subscription-widget__first--next-button">Next step ›</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="subscription-widget__second">
+
+        <div class="subscription-widget__second--header" style="background-color:  {{ section.settings.background_color }};">
+            <div class="general-section__secondary section-small subscription-widget__second--header-wrapper">
+                <div class="subscription-widget__second--header-left">
+                    <p class="subscription-widget__second--sub-heading sp-mb-2 t-tiny">
+                        {{ section.settings.step2_sub_heading }}
+                    </p>
+                    <h2 class="subscription-widget__second--heading sp-mb-3 t-large">
+                        {{ section.settings.step2_heading }}
+                    </h2>
+                    <p>
+                        {{ section.settings.step2_description }}
+                    </p>
+                </div>
+                <div class="subscription-widget__second--header-right">
+                    <p class="subscription-widget__second--selection t-medium sp-mb-1">
+                        <span class="subscription-widget__second--selection-progress progress-top">0</span>
+                        <span>/</span>
+                        <span class="subscription-widget__second--selection-total total-top">9</span>
+                        <span> meals selected</span>
+                    </p>
+                    <p class="t-tiny sp-mb-2">Next step: Allocate your meals</p>
+                    <button class="b--primary b--custom subscription-widget__second--prev">
+                        Prev step
+                    </button>
+                    <button class="b--primary b--custom subscription-widget__second--next" disabled>
+                        Next step ›
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="general-section__secondary section-small">
+            {% for block in section.blocks %}
+            {% if block.type == 'main-collection'  %}
+            <div class="subscription-widget__second--collection" handle="{{block.settings.main_collection.handle}}">
+                <h2 class="t-big sp-mb-5">
+                    {% if block.settings.heading %}
+                    {{ block.settings.heading }}
+                    {% else %}
+                    {{ block.settings.main_collection.title}}
+                    {% endif %}
+                </h2>
+                <div class="subscription-widget__second--collection-wrapper">
+                    {% render 'product-loop--subscription',
+                        products: block.settings.main_collection.products,
+                        products_per_row: 3,
+                        mobile_products_per_row: 1,
+                        limit: section.settings.product_count,
+                        collection_type: 'main'
+                    %}
+                </div>
+
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="subscription-widget__second--footer" style="background-color:  {{ section.settings.background_color }};">
+            <div class="general-section__secondary section-small subscription-widget__second--footer-wrapper">
+                <div class="subscription-widget__second--footer-left">
+                    <p class="subscription-widget__second--selection t-medium sp-mb-1">
+                        <span class="subscription-widget__second--selection-progress progress-bottom">0</span>
+                        <span>/</span>
+                        <span class="subscription-widget__second--selection-total total-bottom">9</span>
+                        <span> meals selected</span>
+                    </p>
+                </div>
+                <div class="subscription-widget__second--footer-right">
+                    <p class="t-tiny sp-mb-2">Next step: Allocate your meals</p>
+                    <button class="b--primary b--custom subscription-widget__second--prev">
+                        Prev step
+                    </button>
+                    <button class="b--primary b--custom subscription-widget__second--next" disabled>
+                        Next step ›
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="subscription-widget__third">
+
+        <div class="subscription-widget__third--header" style="background-color:  {{ section.settings.background_color }};">
+            <div class="general-section__secondary section-small subscription-widget__third--header-wrapper">
+                <div class="subscription-widget__third--header-left">
+                    <p class="subscription-widget__third--sub-heading sp-mb-2 t-tiny">
+                        {{ section.settings.step3_sub_heading }}
+                    </p>
+                    <h2 class="subscription-widget__third--heading sp-mb-3 t-large">
+                        {{ section.settings.step3_heading }}
+                    </h2>
+                    <p>
+                        {{ section.settings.step3_description }}
+                    </p>
+                </div>
+                <div class="subscription-widget__third--header-right">
+                    <p class="t-tiny sp-mb-2">Next step: Your basket</p>
+                    <button class="b--primary b--custom subscription-widget__third--prev">
+                        Prev step ›
+                    </button>
+                    <button class="b--primary b--custom subscription-widget__third--next">
+                        Next step ›
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="general-section__secondary section-small">
+
+            <div class="subscription-widget__third-jumpto">
+                <div class="subscription-widget__third-jumpto--label sp-mb-1 t-tiny">Jump to collection:</div>
+                <div class="subscription-widget__third-jumpto--triggers">
+                    {% for block in section.blocks %}
+                    {% if block.type == 'upsell-collection'  %}
+                        <p class="t-small tw-medium">
+                            <a href="#{{block.settings.upsell_collection.handle}}">
+                                {% if block.settings.heading %}
+                                {{ block.settings.heading }}
+                                {% else %}
+                                {{ block.settings.upsell_collection.title}}
+                                {% endif %}
+                            </a>
+                        </p>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            {% for block in section.blocks %}
+            {% if block.type == 'upsell-collection'  %}
+            <div class="subscription-widget__third--collection" handle="{{block.settings.upsell_collection.handle}}">
+                <h2 class="t-big sp-mb-5 sp-mt-3" id="{{block.settings.upsell_collection.handle}}">
+                    {% if block.settings.heading %}
+                    {{ block.settings.heading }}
+                    {% else %}
+                    {{ block.settings.upsell_collection.title}}
+                    {% endif %}
+                </h2>
+                <div class="subscription-widget__third--collection-wrapper">
+                    {% render 'product-loop--subscription',
+                        products: block.settings.upsell_collection.products,
+                        products_per_row: 3,
+                        mobile_products_per_row: 1,
+                        limit: section.settings.product_count,
+                        collection_type: 'upsell'
+                    %}
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="subscription-widget__third--footer general-section__secondary section-tiny">
+            <div class="subscription-widget__third--footer-labels sp-mb-2">
+                <p class="t-tiny" value="first">Next step: Confirm your subscription</p>
+            </div>
+            <button class="b--primary subscription-widget__third--next">Next step ›</button>
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+
+<style>
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+</style>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+
+    // Remove localstorage item when page load
+    if (localStorage.getItem("loginFromSubscription") !== null) {
+        localStorage.removeItem('loginFromSubscription');
+    }
+
+    // When click login or register button
+    const currentPageUrl = window.location.pathname
+    if (document.getElementsByClassName('subscription-widget__first--customer-register').length > 0) {
+        document.querySelector('.subscription-widget__first--customer-register').addEventListener('click', function handleClick() {
+            localStorage.setItem("loginFromSubscription", currentPageUrl);
+        });
+    }
+    if (document.getElementsByClassName('subscription-widget__first--customer-login').length > 0) {
+        document.querySelector('.subscription-widget__first--customer-login').addEventListener('click', function handleClick() {
+            localStorage.setItem("loginFromSubscription", currentPageUrl);
+        });
+    }
+
+
+    // Get presetting: People count, Meal Count, and Main collection (when page load)
+    let totalPeopleCount = document.querySelector('.people-counter-child.active').getAttribute('value')
+    let totalMealCount = document.querySelector('.meal-counter-child.active').getAttribute('value')
+    let finalMealType = document.querySelector('.meal-type-child.active').getAttribute('value')
+
+
+    // Container to save all main collection items (pre-cart)
+    let mainFoodCollection = []
+
+
+    // First Step - When click People Count (change values when click another option)
+    const allPeopleCounts = document.querySelectorAll('.people-counter-child')
+    for (const peopleCount of allPeopleCounts) {
+        peopleCount.addEventListener('click', function handleClick() {
+            for (const oneCount of allPeopleCounts) {
+                oneCount.classList.remove('active')
+            }
+                peopleCount.classList.add('active')
+                totalPeopleCount = peopleCount.getAttribute('value')
+        });
+    }
+    
+
+    // First Step - When click Meal Count (change values when click another option)
+    const allMealCounts = document.querySelectorAll('.meal-counter-child')
+    for (const mealCount of allMealCounts) {
+        mealCount.addEventListener('click', function handleClick() {
+            for (const oneCount of allMealCounts) {
+                oneCount.classList.remove('active')
+            }
+                mealCount.classList.add('active')
+                totalMealCount = mealCount.getAttribute('value')
+        });
+    }
+
+
+    // First Step - When click Meal Type (change values when click another option)
+    const allMealTypes = document.querySelectorAll('.meal-type-child')
+    for (const mealType of allMealTypes) {
+        mealType.addEventListener('click', function handleClick() {
+            for (const oneCount of allMealTypes) {
+                oneCount.classList.remove('active')
+            }
+            mealType.classList.add('active')
+            finalMealType = mealType.getAttribute('value')
+        });
+    }
+
+
+    //First Step - Click Next Button : Hide first step, and show second step, Also set totalMealCount
+    const firstNextButton = document.querySelector('.subscription-widget__first--next-button')
+    firstNextButton.addEventListener('click', function handleClick() {
+        document.querySelector('.subscription-widget__first').classList.add('inactive')
+        window.scrollTo({ top: 0 })
+        document.querySelector('.subscription-widget__second').classList.add('active')
+        document.querySelector(`.subscription-widget__second--collection[handle='${finalMealType}']`).classList.add('active')
+        document.querySelector('.subscription-widget__second--selection-total.total-top').textContent = totalPeopleCount * totalMealCount
+        document.querySelector('.subscription-widget__second--selection-total.total-bottom').textContent = totalPeopleCount * totalMealCount
+    });
+
+
+    const secondNextButtons = document.querySelectorAll('.subscription-widget__second--next')
+
+    // Second Step click Add to cart
+    const allMainAddButton = document.querySelectorAll('.subscription-widget__second .subscription-add-button')
+    for (const mainButton of allMainAddButton) {
+        mainButton.addEventListener('click', function handleClick() {
+            const productId = mainButton.getAttribute('product-id')
+            const productHandle = mainButton.getAttribute('product-handle')
+            const variantId = document.querySelector(`.variant-selection.main[product-id='${productId}']`).getAttribute('variant')
+            const productQuantity = document.querySelector(`.purchase-details.main[product-id='${productId}'] .quantity-input`).value
+            
+            const currentProgress = parseInt(document.querySelector('.subscription-widget__second--selection-progress.progress-top').textContent)
+            const newProgress = currentProgress + parseInt(productQuantity)
+
+            const maximumInventory = mainButton.getAttribute('inventory')
+
+            // Can't add more than inventory
+            if (parseInt(productQuantity) > parseInt(maximumInventory)) {
+                alert(`You can't add more than ${parseInt(maximumInventory)}`)
+            } else if (newProgress > totalPeopleCount * totalMealCount) {
+                // Not allowed to add more than Pre-Setting
+                alert(`You can only add ${totalPeopleCount * totalMealCount}`)
+            } else {
+                // Disable add to cart button, and show remove button
+                mainButton.classList.add('inactive')
+                document.querySelector(`.subscription-widget__second .subscription-remove-button[product-id='${productId}']`).classList.add('active')
+                // Set progress
+                document.querySelector('.subscription-widget__second--selection-progress.progress-top').textContent = newProgress
+                document.querySelector('.subscription-widget__second--selection-progress.progress-bottom').textContent = newProgress
+                // Save selected product to Main Container
+                let newFood = {
+                    productId:productId,
+                    id:parseInt(variantId),
+                    quantity:parseInt(productQuantity),
+                    collectionType: 'main',
+                    productHandle:productHandle
+                }
+                
+                if (mainButton.getAttribute('subscription-id') !== '') {
+                    const subscriptionId = mainButton.getAttribute('subscription-id')
+                    newFood.selling_plan = parseInt(subscriptionId)
+                }
+
+                mainFoodCollection.push(newFood)
+                // If all meal selected, then enable next button
+                if (newProgress === totalPeopleCount * totalMealCount) {
+                    for (const secondNext of secondNextButtons) {
+                        secondNext.removeAttribute('disabled')
+                    }
+                }
+            }
+        });
+    }
+
+
+    // Second step Click Remove button
+    const allMainRemoveButton = document.querySelectorAll('.subscription-widget__second .subscription-remove-button')
+    for (const removeButton of allMainRemoveButton) {
+        removeButton.addEventListener('click', function handleClick() {
+            // Hide remove button, and show add to cart button again
+            const productId = removeButton.getAttribute('product-id')
+            removeButton.classList.remove('active')
+            document.querySelector(`.subscription-widget__second .subscription-add-button[product-id='${productId}']`).classList.remove('inactive')
+            // Get quantity to be removed
+            let removedQuantity = 0
+            mainFoodCollection.forEach((element) => {
+                if (parseInt(element.productId) === parseInt(productId)) {
+                    removedQuantity = element.quantity
+                }
+            });
+            // Set new progress 
+            const currentProgress = parseInt(document.querySelector('.subscription-widget__second--selection-progress.progress-top').textContent)
+            const newProgress = currentProgress - parseInt(removedQuantity)
+            document.querySelector('.subscription-widget__second--selection-progress.progress-top').textContent = newProgress
+            document.querySelector('.subscription-widget__second--selection-progress.progress-bottom').textContent = newProgress
+            // If count is smaller than total count, then disable next button
+            if (newProgress < totalPeopleCount * totalMealCount) {
+                for (const secondNext of secondNextButtons) {
+                    secondNext.setAttribute('disabled', '')
+                }
+            }
+            // Remove product from Container
+            const newMainCollection = mainFoodCollection.filter(function (el) {
+                return  el.collectionType === 'upsell' || (el.collectionType === 'main' && !(parseInt(el.productId) === parseInt(productId)))
+            });
+            mainFoodCollection = newMainCollection
+        });
+    }
+
+
+    // Click Second step Next button : hide second Step, and show third step
+    for (const nextButton of secondNextButtons) {
+        nextButton.addEventListener('click', function handleClick() {
+            document.querySelector('.subscription-widget__second').classList.remove('active')
+            window.scrollTo({ top: 0 })
+            document.querySelector('.subscription-widget__third').classList.add('active')
+        });
+    }
+
+
+    // Click Second step Prev button : hide second Step, and show first step, remove added products and to default status.
+    const secondPrevButtons = document.querySelectorAll('.subscription-widget__second--prev')
+    for (const prevButton of secondPrevButtons) {
+        prevButton.addEventListener('click', function handleClick() {
+            document.querySelector(`.subscription-widget__second--collection[handle='${finalMealType}']`).classList.remove('active')
+            document.querySelector('.subscription-widget__second--selection-progress.progress-top').textContent = 0
+            document.querySelector('.subscription-widget__second--selection-progress.progress-bottom').textContent = 0
+            for (const secondNext of secondNextButtons) {
+                secondNext.setAttribute('disabled', '')
+            }
+            const allRemoveButtons = document.querySelectorAll(`.subscription-widget__second .subscription-remove-button`)
+            for (const removeButton of allRemoveButtons) {
+                removeButton.classList.remove('active')
+            }
+            const allAddButtons = document.querySelectorAll(`.subscription-widget__second .subscription-add-button`)
+            for (const addButton of allAddButtons) {
+                addButton.classList.remove('inactive')
+            }
+            document.querySelector('.subscription-widget__second').classList.remove('active')
+            window.scrollTo({ top: 0 })
+            document.querySelector('.subscription-widget__first').classList.remove('inactive')
+            mainFoodCollection = []
+        });
+    }
+
+
+    // Third Step click Add to cart
+    const allUpsellAddButton = document.querySelectorAll('.subscription-widget__third .subscription-add-button')
+    for (const upsellButton of allUpsellAddButton) {
+        upsellButton.addEventListener('click', function handleClick() {
+            const productId = upsellButton.getAttribute('product-id')
+            const productHandle = upsellButton.getAttribute('product-handle')
+            const variantId = document.querySelector(`.variant-selection.upsell[product-id='${productId}']`).getAttribute('variant')
+            const productQuantity = document.querySelector(`.purchase-details.upsell[product-id='${productId}'] .quantity-input`).value
+            const maximumInventory = upsellButton.getAttribute('inventory')
+
+            // Can't add more than inventory
+            if (parseInt(productQuantity) > parseInt(maximumInventory)) {
+                alert(`You can't add more than ${parseInt(maximumInventory)}`)
+            } else {
+                // Disable add to cart button, and show remove button
+                upsellButton.classList.add('inactive')
+                document.querySelector(`.subscription-widget__third .subscription-remove-button[product-id='${productId}']`).classList.add('active')
+                // Save selected product to Main Container
+                let newFood = {
+                    productId:productId,
+                    id:parseInt(variantId),
+                    quantity:parseInt(productQuantity),
+                    collectionType: 'upsell',
+                    productHandle:productHandle
+                }
+
+                if (upsellButton.getAttribute('subscription-id') !== '') {
+                    const subscriptionId = upsellButton.getAttribute('subscription-id')
+                    newFood.selling_plan = parseInt(subscriptionId)
+                }
+                mainFoodCollection.push(newFood)
+            }
+
+        });
+    }
+
+
+    // Third step Click Remove button
+    const allUpsellRemoveButton = document.querySelectorAll('.subscription-widget__third .subscription-remove-button')
+    for (const removeButton of allUpsellRemoveButton) {
+        removeButton.addEventListener('click', function handleClick() {
+            // Hide remove button, and show add to cart button again
+            const productId = removeButton.getAttribute('product-id')
+            removeButton.classList.remove('active')
+            document.querySelector(`.subscription-widget__third .subscription-add-button[product-id='${productId}']`).classList.remove('inactive')
+            // Remove product from Container
+            const newMainCollection = mainFoodCollection.filter(function (el) {
+                return  el.collectionType === 'main' || (el.collectionType === 'upsell' && !(parseInt(el.productId) === parseInt(productId)))
+            });
+            mainFoodCollection = newMainCollection
+        });
+    }
+
+
+    // Click Third step Next button : hide second Step, and show third step
+    const thirdNextButtons = document.querySelectorAll('.subscription-widget__third--next')
+    for (const nextButton of thirdNextButtons) {
+        nextButton.addEventListener('click', function handleClick() {
+  
+            $.ajax({
+                url: '/cart/add.js',
+                dataType: 'json',
+                cache: false,
+                type: 'post',
+                data: {items: mainFoodCollection},
+                beforeSend: function () {
+                    console.log('Adding')
+                },
+                success: function (product) {
+                    console.log('Added')
+                    document.location.href = '/cart/checkout';
+                },
+                error: function (XMLHttpRequest) {
+                    console.log('Error during adding')
+                }
+            });
+    
+        });
+    }
+
+
+    // Click Third step Prev button : hide third Step, and show second step, remove added upsell products and to default status.
+    const thirdPrevButtons = document.querySelectorAll('.subscription-widget__third--prev')
+    for (const prevButton of thirdPrevButtons) {
+        prevButton.addEventListener('click', function handleClick() {
+            const allRemoveButtons = document.querySelectorAll(`.subscription-widget__third .subscription-remove-button`)
+            for (const removeButton of allRemoveButtons) {
+                removeButton.classList.remove('active')
+            }
+            const allAddButtons = document.querySelectorAll(`.subscription-widget__third .subscription-add-button`)
+            for (const addButton of allAddButtons) {
+                addButton.classList.remove('inactive')
+            }
+            document.querySelector('.subscription-widget__third').classList.remove('active')
+            window.scrollTo({ top: 0 })
+            document.querySelector('.subscription-widget__second').classList.add('active')
+            mainFoodCollection = mainFoodCollection.filter(function (el) {
+                return  el.collectionType === 'main'
+            });
+        });
+    }
+
+
+});
+
+</script>
+
+
+{% schema %}
+  {
+    "name": {
+      "en": "Subscription Widget"
+    },
+    "class": "index-section index-section--subscription-widget",
+    "max_blocks": 25,
+    "settings": [
+      {
+        "type": "header",
+        "content": "Global Settings"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Header Background Color"
+      },
+      {
+        "type": "header",
+        "content": "Step 1 Settings"
+      },
+      {
+        "type": "text",
+        "id": "step1_heading",
+        "label": "Section Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "step1_sub_heading",
+        "label": "Sub Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "text",
+        "id": "step1_people_count",
+        "label": "People Count Option",
+        "default": "1, 2, 3, 4"
+      },
+      {
+        "type": "text",
+        "id": "step1_people_count_heading",
+        "label": "People Count Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "text",
+        "id": "step1_meal_count",
+        "label": "Meal Count Option",
+        "default": "2, 3, 4"
+      },
+      {
+        "type": "text",
+        "id": "step1_meal_count_heading",
+        "label": "Meal Count Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "step1_meal_count_subheading",
+        "label": "Meal Count Sub Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "text",
+        "id": "step1_meal_type_heading",
+        "label": "Meal Type Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "step1_meal_type_subheading",
+        "label": "Meal Type Sub Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "header",
+        "content": "Step 2 Settings"
+      },
+      {
+        "type": "text",
+        "id": "step2_heading",
+        "label": "Section Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "step2_sub_heading",
+        "label": "Sub Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "step2_description",
+        "label": "Description",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "header",
+        "content": "Step 3 Settings"
+      },
+      {
+        "type": "text",
+        "id": "step3_heading",
+        "label": "Section Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "step3_sub_heading",
+        "label": "Sub Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "step3_description",
+        "label": "Description",
+        "default": "Lorem Ipsum"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "main-collection",
+        "name": "Main Collection",
+        "settings": [
+          {
+            "type": "collection",
+            "id": "main_collection",
+            "label": "Select Collection"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Custom Title",
+            "info" : "Leave blank to show default collection title",
+            "default": "Lorem Ipsum"
+          },
+          {
+            "type": "textarea",
+            "id": "sub_heading",
+            "info" : "Leave blank to show default collection description",
+            "label": "Custom Description",
+            "default": "Lorem Ipsum"
+          },
+          {
+            "type": "text",
+            "id": "price",
+            "info" : "Leave blank to show Subscription Price metafield value",
+            "label": "Price",
+            "default": "$11.99"
+          }
+        ]
+      },
+      {
+        "type": "upsell-collection",
+        "name": "Upsell Collection",
+        "settings": [
+          {
+            "type": "collection",
+            "id": "upsell_collection",
+            "label": "Select Collection"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "info" : "Leave blank to show default collection title",
+            "label": "Custom Title",
+            "default": "Lorem Ipsum"
+          }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "Subscription Widget",
+      "category": "A Subscription"
+    }
+  ]
+  }
+{% endschema %}

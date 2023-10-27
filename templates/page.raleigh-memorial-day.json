@@ -1,0 +1,163 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656573404d24b5e0b": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Raleigh Memorial Day Meal Kits",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "Are you tired of standing over the grill during your Memorial Day celebration? If so, skip the hotdogs and partner with Table & Twine. When you order a Raleigh Memorial Day meal kit, you’ll spend less time cooking and more time entertaining.  \n<br>\n<br>\n\nThese kits include everything you need to pull off a backyard feast, including pre-prepared menu items that only take 15 minutes to complete. Even better, our chefs have curated recipes that elevate classic American flavors with seasonal produce, thoughtfully-sourced proteins, and savory spices.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Browse our meals ›",
+        "button_link": "#shopify-section-template--15832249270421__1656601691ff2d8271",
+        "button_style": "b--tertiary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "1656601691ff2d8271": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "How Our Memorial Day Meal Kits Work",
+        "text": "With Table & Twine, you can make meals that will impress friends and family in a flash. That’s because our talented chefs handle all the planning, shopping, and chopping. Once you receive your Raleigh Memorial Day meal kit, all you’ll need to do is add the finishing touches.   \n<br>\n<br>\nFrom grillmasters to microwaving mavens, chefs of all levels will be able to pull off a memorable Memorial Day meal with the help of Table & Twine. This year, our menu includes  \n[description here].",
+        "header_width": 740,
+        "product_count": 3,
+        "collection": "memorial-day-package-raleigh",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16566058721e114931": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "8b802fed-1ae5-4353-8caf-a744f2543220": {
+          "type": "text",
+          "settings": {
+            "title": "Less Chopping, More Talking",
+            "text": "Normally, hosts are so busy mincing and measuring that they can’t even enjoy their celebration. Table & Twine offers a better solution. Since our chefs cook 90% of your holiday feast, you just need to heat and serve. Thanks to tasty, easy-to-prepare food, you’ll be the life of the party in no time.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "8217ca09-8c2e-486a-8f92-bde989d66f78": {
+          "type": "text",
+          "settings": {
+            "title": "Easy Cleanup for the Host",
+            "text": "At Table & Twine, we ship many of our dishes in oven-ready packaging. That means instead of spending all of Memorial Day washing crusty roasting pans and greasy utensils, you can unwind with your friends and family.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c": {
+          "type": "text",
+          "settings": {
+            "title": "Restaurant-Quality Flavors in Your Backyard",
+            "text": "Five-star dining can be expensive and impractical for a big crowd. Luckily, Table & Twine brings the restaurant experience to your backyard for a fraction of the price. With chef-inspired entrées, savory sides, and delectable desserts, our Raleigh Memorial Day meal kit has something for everyone.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "8b802fed-1ae5-4353-8caf-a744f2543220",
+        "8217ca09-8c2e-486a-8f92-bde989d66f78",
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c"
+      ],
+      "settings": {
+        "heading": "Why Choose a Memorial Day Meal Kit?",
+        "image": "shopify:\/\/shop_images\/landing01.jpg",
+        "text": "To help you host the best Memorial Day gathering yet, our chefs have developed a lineup of festive recipes that are as convenient as they are delicious. Other benefits of our Raleigh Memorial Day meal kits include:",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 520,
+        "show_banner_image": true,
+        "show_number": false,
+        "show_images": false,
+        "show_icons": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Memorial Day meal kit?",
+            "text": "<p>With Memorial Day at-home catering in Raleigh, you won’t need to spend all day in the kitchen. Instead, plan for one to two hours of cooking. <\/p>"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my Memorial Day meal kit?",
+            "text": "<p>Place an order by [insert date] to receive your Memorial Day kit on time. <\/p>"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Memorial Day meal kit?",
+            "text": "<p>No, you cannot customize the Memorial Day meal kit. At Table & Twine, our chefs carefully curate each holiday menu with even the pickiest of guests in mind.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "Memorial Day Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656573404d24b5e0b",
+    "1656601691ff2d8271",
+    "16566058721e114931",
+    "1656607284cc85fa5f"
+  ]
+}

@@ -1,0 +1,232 @@
+
+
+<div class="schedule-section 
+    {% if section.settings.second_type %} schedule-section__second {% endif %}
+    {% if section.settings.show_left_border %} schedule-section__second--border {% endif %}" 
+    style="color: {{section.settings.text_color}}; 
+    background-color: {{ section.settings.background_color }}; 
+    {% if section.settings.use_background_image %}background-image: url({{ section.settings.background_image | img_url: 'master' }}) {% endif %}"
+>
+    <div class="section general-section schedule-section__main section-small">
+        <div class="schedule-section__left">
+            {% if section.settings.section_heading != blank %}
+            <h2 class="schedule-section__heading t-big" style="color: {{section.settings.text_color}};">
+                {{ section.settings.section_heading }}
+            </h2>
+            {% endif %}
+            {% if section.settings.section_text != blank %}
+            <p class="schedule-section__text t-small">
+                {{ section.settings.section_text}}
+            </p>
+            {% endif %}
+            <div class="schedule-section__button">
+                {% if section.settings.button_link != blank %}
+                <a href="{{ section.settings.button_link }}" class="{{section.settings.button_style}}">
+                    {{ section.settings.button_text }}
+                </a>
+                {% elsif section.settings.to_location_selector %}
+                <button class="{{section.settings.button_style}} popup-trigger-button">{{section.settings.button_text}}</button>
+                {% endif %}
+            </div>
+        </div>
+        <div class="schedule-section__right">
+            <div class="schedule-section__contents">
+                {% unless section.settings.second_type %}
+                <div class="schedule-section__fromto t-tiny">
+                    {% if section.settings.from_text != blank %}
+                    <div>{{section.settings.from_text}}</div>
+                    {% endif %}
+                    {% if section.settings.to_text != blank %}
+                    <div>{{section.settings.to_text}}</div>
+                    {% endif %}
+                </div>
+                {% endunless %}
+                {% for block in section.blocks %}
+                {% if block.type == 'first_block'  %}
+                    <div class="schedule-section__child t-small">
+                        <div class="">
+                        {% if block.settings.text1 != blank %}
+                            {{ block.settings.text1 }}
+                        {% endif %}
+                        </div>
+                        <div class="schedule-section__divider">
+                            {% render 'icon',
+                                name: 'right-arrow'
+                            %}
+                        </div>
+                        <div class="schedule-section__child--right">
+                            {% if block.settings.text1 != blank %}
+                            {{ block.settings.text2 }}
+                            {% endif %}
+                        </div>
+                    </div>
+                {% elsif block.type == 'second_block'  %}
+                <p class="schedule-section__list t-tiny">
+                  <a href="{{ block.settings.collection.url}}">
+                    {% if block.settings.title != blank %}
+                    {{ block.settings.title }}
+                    {% else %}
+                    {{ block.settings.collection.title}}
+                    {% endif %}
+                    {% render 'icon',
+                            name: 'right-caret',
+                            icon_class: ''
+                    %}
+                  </a>
+                </p>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% if section.settings.use_background_image %}
+    <img class="schedule-section__bottom-image" src="{{ section.settings.background_image | img_url: 'master' }}">
+    {% endif %}
+  </div>
+  
+{% schema %}
+  {
+    "name": {
+      "en": "Schedule Section"
+    },
+    "class": "index-section index-section--schedule",
+    "max_blocks": 15,
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background",
+        "default": "#EEEEEE"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Image"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_background_image",
+        "label": "Use background image",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "second_type",
+        "label": "Use second theme",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_left_border",
+        "label": "Show Left Border",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "section_heading",
+        "label": "Section Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "section_text",
+        "label": "Section Text",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "from_text",
+        "label": "From Text",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "to_text",
+        "label": "To Text",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "VIEW ALL"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "checkbox",
+        "id": "to_location_selector",
+        "label": "Make button To Location Trigger",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "options": [
+          {
+            "value": "b--primary",
+            "label": "Primary"
+          },
+          {
+            "value": "b--secondary",
+            "label": "Secondary"
+          }
+        ],
+        "default": "b--primary"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "first_block",
+        "name": "First Type",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text1",
+            "label": "From",
+            "default": "Monday"
+          },
+          {
+            "type": "text",
+            "id": "text2",
+            "label": "To",
+            "default": "Monday"
+          }
+        ]
+      },
+      {
+        "type": "second_block",
+        "name": "Second Type",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Lorem Ipsum"
+          },
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "Schedule Section",
+      "category": "Advanced layout"
+    }
+  ]
+  }
+{% endschema %}
+  

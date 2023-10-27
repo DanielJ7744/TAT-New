@@ -1,0 +1,22 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "main": {
+      "type": "login-form",
+      "settings": {
+        "title": "Sign In",
+        "background_color": "#f8f4ef",
+        "richtext": "<p>Your Account<\/p>",
+        "image_position": "right",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

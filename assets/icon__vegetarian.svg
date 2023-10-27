@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Grid-[Dietary-Icons]" transform="translate(-178.000000, 0.000000)" stroke="#B29A7A" stroke-width="1.5">
+            <g id="Icon-—-Vegetarian" transform="translate(164.000000, 1.000000)">
+                <g id="Icon" transform="translate(15.000000, 0.000000)">
+                    <path d="M24,48 C37.25484,48 48,37.25484 48,24 C48,10.745172 37.25484,0 24,0 C10.745172,0 0,10.745172 0,24 C0,37.25484 10.745172,48 24,48 Z" id="Path"></path>
+                    <path d="M32.89176,23.6124 C32.89176,30.12324 29.05536,32.63304 23.64588,33.4368 C18.2364,32.62956 14.4,30.12324 14.4,23.6124 C14.4,17.10156 20.7774,10.164132 23.64948,6.72012 C26.63892,10.287504 32.89536,17.09796 32.89536,23.6124 L32.89176,23.6124 Z" id="Path"></path>
+                    <line x1="23.64936" y1="19.63596" x2="23.64936" y2="40.575" id="Path"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

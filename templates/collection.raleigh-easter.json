@@ -1,0 +1,245 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "disabled": true,
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Avoid Allergic Reactions",
+            "text": "<p>Table & Twine’s allergy-friendly meal kits make dinnertime enjoyable – not stressful. Since our chefs thoughtfully develop these recipes, you don’t need to worry about uncomfortable symptoms like coughing or digestive upset. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Eliminate Time-Consuming Label Examination",
+            "text": "<p>Whether you have a serious nut allergy or a mild gluten sensitivity, you likely spend loads of time reading nutrition labels. Fortunately, when you order an allergy-friendly meal kit from Table & Twine, you can simply untwine and dine. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Everyone Can Eat at the Same Time",
+            "text": "<p>All Table & Twine meals – allergy-friendly or not – can be prepared in 15 minutes or less. That means even if you order a different dish from your wife and kids, you can all start eating in just 15 minutes. <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose an Allergy-Friendly Meal Kit in Charlotte?",
+        "heading_color": "",
+        "text": "Our talented chefs have developed a variety of allergy-friendly meals that are delicious and convenient. Since these dishes are easy to prepare and come in single-serving portions, you can enjoy a meal with the rest of your family. Other benefits of allergy-friendly meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "e8f07376-aea6-4d38-9695-b426f1882bd2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Less Stress, More Convenience:<\/strong>As a host, it can be hard to enjoy your own party. But when you choose Easter at-home catering in Raleigh, you’ll never miss the egg hunt. Since our talented chefs prepare 90% of your meal, you won’t need to waste hours planning, shopping, and chopping. Plus, after your guests bid farewell, you won’t have a big mess to clean up. <\/p>"
+          }
+        },
+        "3d4d8c7a-cc6b-4fa3-ab49-092aa5541c48": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Delicious, Family-Friendly Recipes:<\/strong>We’ll whip up a restaurant-quality meal that is sure to please adults and children alike. These dishes take inspiration from classic, southern flavors and incorporate fresh, seasonal produce and sustainably-sourced proteins. Even better, our Executive Pastry Chef thoughtfully develops fun and exciting desserts each Easter.  <\/p>"
+          }
+        },
+        "c308352d-4767-4d8c-8d9f-cb9a735eea38": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>A Lasting Impression:<\/strong>As catering professionals, we know no shindig is complete without good food. That’s why we have developed an Easter meal package that features all the fixings needed for a memorable family gathering. From savory sides to incredible entrées, we’ll provide you with recipes that make an impression. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e8f07376-aea6-4d38-9695-b426f1882bd2",
+        "3d4d8c7a-cc6b-4fa3-ab49-092aa5541c48",
+        "c308352d-4767-4d8c-8d9f-cb9a735eea38"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "Why Choose an Easter Meal Kit?",
+        "heading2_tag": "h2",
+        "text2": "<p>Maybe you love to whip up lavish, home-cooked dinners. Or, maybe you prefer to microwave your meals. No matter your skill level, Table & Twine will help you put together a delicious family-style brunch or dinner. We work hard to make sure you enjoy the benefits of at-home Easter catering in Raleigh, including:<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Easter meal kit?",
+            "text": "<p>You’ll just need one to two hours to prepare your Easter meal. Afterward, you can sit down at the dinner table and enjoy your friends and family. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my Easter meal kit?",
+            "text": "<p>To ensure that you receive your meal kit on time, please order your Easter meal by April 10th.<\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Easter meal kit?",
+            "text": "<p>Our Easter meal kits cannot be customized. At Table & Twine, our chefs thoughtfully develop holiday meals with something for everyone. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5"
+      ],
+      "settings": {
+        "section_heading": "Easter Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

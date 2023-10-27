@@ -1,0 +1,89 @@
+{% comment %}
+** 404 page - main content area **
+- Appears when a file path cannot be found
+{% endcomment %}
+
+{% assign id = section.id %}
+{% comment %}Advanced{% endcomment %}
+{% assign css_class = section.settings.css_class %}
+{% assign custom_css = section.settings.custom_css %}
+
+{% style %}
+  {% render 'css-loop',
+          css: section_css,
+          id: id
+  %}
+  {% render 'css-loop',
+          css: custom_css,
+          id: id
+  %}
+{% endstyle %}
+
+
+<div class="container--interior-basic" style=" background-color:  {{ section.settings.background_color }}; ">
+  
+  <section class="section--page-header">
+    <div class="wrap--base push--center">
+    
+      {% if section.settings.subheading != blank %}
+        <h6 class="not-found__subheading t-tiny font-p sp-mb-2">
+          {{ section.settings.subheading }}
+        </h6>
+      {% endif %}
+  
+      {% if section.settings.heading != blank %}
+        <h1>{{ section.settings.heading }}</h1>
+      {% endif %}
+
+    </div>      
+  </section>
+
+  <section class="section--content section--content-base">
+    <div class="wrap--small push--center">
+      
+      {% if section.settings.content != blank %}
+        {{ section.settings.content }}
+      {% endif %}
+      
+    </div>
+  </section>
+    
+</div>
+
+{% render 'cc__ajax-renderer' %}
+
+{% schema %}
+
+{
+  "name": "Interior [Basic]",
+  "class": "interior-basic__page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ]
+}
+
+{% endschema %}

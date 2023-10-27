@@ -1,0 +1,62 @@
+{% comment %}
+----------------
+Optional values
+context: <string>
+{% endcomment %}
+
+{% comment %} Check if product is on sale {% endcomment %}
+{% if product.compare_at_price_max > product.price %}
+  {% assign product_on_sale = true %}
+{% endif %}
+
+{% comment %} Check if sticker holder should be displayed {% endcomment %}
+{% if collection_handles contains 'best-seller' or
+      collection_handles contains 'coming-soon' or
+      collection_handles contains 'new' or
+      collection_handles contains 'pre-order' or
+      collection_handles contains 'staff-pick' or
+      product_on_sale %}
+  <div class="
+              sticker-holder
+              sticker-shape-{{ settings.sticker_shape }}
+              sticker-position-{{ settings.sticker_position }}">
+    <div class="sticker-holder__content sticker-holder__content--{{ context }}">
+
+      {% if collection_handles contains 'best-seller' %}
+          <span class="custom-badges__badge">{{ 'collections.general.best_seller' | t }}</span>
+      {% endif %}
+
+
+      {% if collection_handles contains 'coming-soon' %}
+          <span class="custom-badges__badge">{{ 'collections.general.coming_soon' | t }}</span>
+      {% endif %}
+
+
+      {% if collection_handles contains 'new' %}
+          <span class="custom-badges__badge">{{ 'collections.general.new' | t }}</span>
+      {% endif %}
+
+      {% if collection_handles contains 'pre-order' %}
+          <span class="custom-badges__badge">{{ 'collections.general.pre_order' | t }}</span>
+      {% endif %}
+
+      {% if product.available and product_on_sale %}
+          <span class="custom-badges__badge">{{ 'collections.general.sale' | t }}</span>
+      {% endif %}
+
+      {% unless product.available %}
+          <span class="custom-badges__badge">{{ 'collections.general.sold_out' | t }}</span>
+      {% endunless %}
+
+      {% if collection_handles contains 'staff-pick' %}
+          <span class="custom-badges__badge">{{ 'collections.general.staff_pick' | t }}</span>
+      {% endif %}
+
+      {% assign allBadges = product.metafields.custom.badges  | split: ","  %}
+        {% for badge in allBadges %}
+          <span class="custom-badges__badge">{{ badge }}</span>
+        {% endfor %}
+
+    </div>
+  </div>
+{% endif %}

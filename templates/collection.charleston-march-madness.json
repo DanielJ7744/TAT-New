@@ -1,0 +1,194 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "f06f617e-decb-4d38-9f89-cd8721b41f82": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Personalized Culinary Experience:<\/strong> At Table & Twine, we understand that food can make or break a March Madness get-together. Our experienced chefs specially craft a game-day menu that will delight you and your guests. Even better, each meal kit is thoughtfully hand-wrapped by chefs who care about quality ingredients.<\/p>"
+          }
+        },
+        "b565540b-823b-4360-95ee-f46883bce135": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Convenient Game Day Preparation: <\/strong>During March Madness, it’s important to not be away from the couch for too long. We understand that and design our meal kits to minimize the time you spend in the kitchen. All the planning, sourcing, cooking, and prepping that doesn’t affect the meal’s quality is done beforehand so you have appetizers ready to go in no time at all.<\/p>"
+          }
+        },
+        "45b5c1ee-55dc-454b-8653-3bf2bbf8fde0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Mouthwatering Flavors:<\/strong> Our delicious game-day treats will bring the flavor. Using seasonal ingredients, each dish will taste fresh and satisfy any palette. At Table & Twine, our chefs intentionally curate the menu to deliver maximum flavor.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f06f617e-decb-4d38-9f89-cd8721b41f82",
+        "b565540b-823b-4360-95ee-f46883bce135",
+        "45b5c1ee-55dc-454b-8653-3bf2bbf8fde0"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "Why Choose a March Madness Meal Kit?",
+        "heading2_tag": "h2",
+        "text2": "<p>During March Madness, the most important thing is to spend time with your friends watching the game. Partnering with Table & Twine relieves the stress of meal prep so you can do just that. Some other benefits of our catered March Madness meal kits include:<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my March Madness meal kit?",
+            "text": "<p>Before the game starts, set aside at least one to two hours to prepare the food in your meal kit. Our meal kits require only a few finishing steps to put a delicious March Madness spread on the table.<\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my March Madness meal kit?",
+            "text": "<p>Take the stress of hosting away and choose Table & Twine to cater your game day celebration. Place an order beginning Tuesday, March 8th through Friday, April 1st. to receive your March Madness meal kit.<\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my March Madness meal kit?",
+            "text": "<p>No, the March Madness meal kit cannot be customized. However, everyone will be able to choose what they find the tastiest from the variety of dishes.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5"
+      ],
+      "settings": {
+        "section_heading": "March Madness Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

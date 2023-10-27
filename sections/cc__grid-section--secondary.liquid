@@ -1,0 +1,316 @@
+<div style="color: {{section.settings.text_color}}; background-color:  {{ section.settings.background_color }};">
+    <div class="grid-secondary section general-section {{ section.settings.section_type }}">
+  
+      <div class="grid-secondary__header grid-secondary__header--{{ section.settings.header_align }} sp-mb-8">
+        <div style="text-align: {{ section.settings.header_align }}; max-width: {{ section.settings.header_width }}px">
+          {% if section.settings.heading != blank %}
+          <h2 style="color: {{ section.settings.text_color }};" class="grid-secondary__heading t-big">
+            {{ section.settings.heading }}
+          </h2>
+          {% endif %}
+          {% if section.settings.text != blank %}
+          <p  class="grid-secondary__text t-small sp-mt-3">
+            {{ section.settings.text }}
+          </p>
+          {% endif %}
+        </div>
+        {% if section.settings.show_banner_image %}
+          <img class="border-r-medium" src="{{ section.settings.image | img_url: '640x400', crop: 'center' }}">
+        {% endif %}
+      </div>
+      
+      <div class="grid-secondary__contents">
+        {% for block in section.blocks %}
+        <div class="grid-secondary__child {% if section.settings.center_block_text%} grid-secondary__child--center {% endif %}">
+          <div>
+            {% if section.settings.show_images %}
+            <div class="grid-secondary__image sp-mb-3">
+              {% if section.settings.show_number%}
+              <div class="grid-secondary__index">{{ forloop.index }}</div>
+              {% endif %}
+              {% if block.settings.image %}
+                {% if section.settings.use_landscape_image %}
+                  <img  src="{{ block.settings.image | img_url: '640x400', crop: 'center' }}">
+                {% else %}
+                  <img  src="{{ block.settings.image | img_url: '600x600', crop: 'center' }}">
+                {% endif %}
+              {% endif %}
+              {% if block.settings.icon_image != 'none' %}
+                <img  src="{{ block.settings.icon_image | asset_url }}">
+              {% endif %}
+            </div>
+            {% endif %}
+            <div class="">
+              {% if block.settings.title != blank %}
+              <h3 class="grid-secondary__title t-medium sp-mb-2">{{ block.settings.title}}</h3>
+              {% endif %}
+              {% if block.settings.text != blank %}
+              <div class="grid-secondary__text-wrapper sp-mb-1 {% if section.settings.show_icons %} grid-secondary__text-wrapper--icons {% endif %}">
+                {% if section.settings.show_icons %}
+                {% render 'icon', name: 'checkmark' %}
+                {% endif %}
+                <p class="grid-secondary__text t-small">{{ block.settings.text }}</p>
+              </div>
+              {% endif %}
+              {% if block.settings.text-second != blank %}
+              <div class="grid-secondary__text-wrapper  {% if section.settings.show_icons %} grid-secondary__text-wrapper--icons {% endif %}">
+                {% if section.settings.show_icons %}
+                {% render 'icon', name: 'checkmark' %}
+                {% endif %}
+                <p class="grid-secondary__text t-small">{{ block.settings.text-second }}</p>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="grid-secondary__button">
+          {% if section.settings.button_link != blank %}
+          <a href="{{ section.settings.button_link }}" class="{{section.settings.button_style}}">
+              {{ section.settings.button_text }}
+          </a>
+          {% elsif section.settings.to_location_selector %}
+          <button class="{{section.settings.button_style}} popup-trigger-button">{{section.settings.button_text}}</button>
+          {% endif %}
+      </div>
+    </div>
+  </div>
+  {% schema %}
+    {
+      "name": {
+        "en": "Grid Secondary"
+      },
+      "class": "index-section index-section--grid-secondary",
+      "max_blocks": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Section Heading",
+          "default": "Lorem Ipsum"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Sub Text"
+        },
+        {
+          "type": "select",
+          "id": "header_align",
+          "label": "header Text Align",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "section_type",
+          "label": "Section Type",
+          "options": [
+            {
+              "value": "section-small",
+              "label": "Medium"
+            },
+            {
+              "value": "section-big",
+              "label": "Wide"
+            }
+          ],
+          "default": "section-small"
+        },
+        {
+          "type": "range",
+          "id": "header_width",
+          "label": "Header Max Width",
+          "min": 0,
+          "max": 1500,
+          "default": 1000,
+          "step": 20,
+          "unit": "px"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_banner_image",
+          "label": "Show Banner Image",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_number",
+          "label": "Show Number",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_images",
+          "label": "Show Block Images",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_icons",
+          "label": "Show Icons",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "VIEW ALL"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "to_location_selector",
+          "label": "Make button To Location Trigger",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "options": [
+            {
+              "value": "b--primary",
+              "label": "Primary"
+            },
+            {
+              "value": "b--secondary",
+              "label": "Secondary"
+            }
+          ],
+          "default": "b--primary"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Color"
+        },
+        {
+          "type": "checkbox",
+          "id": "center_block_text",
+          "label": "Center Block Texts",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "use_landscape_image",
+          "label": "Use Landscape Image",
+          "default": false
+        }
+      ],
+      "blocks": [
+        {
+          "type": "text",
+          "name": "Block",
+          "settings": [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Heading",
+              "default": "Lorem Ipsum"
+            },
+            {
+              "type": "textarea",
+              "id": "text",
+              "label": "Text"
+            },
+            {
+                "type": "textarea",
+                "id": "text-second",
+                "label": "Text Second"
+            },
+            {
+              "type": "select",
+              "id": "icon_image",
+              "label": "Select Icon Image",
+              "options": [
+                {
+                  "value": "none",
+                  "label": "No Icon"
+                },
+                {
+                  "value": "icon__chef.svg",
+                  "label": "Chef"
+                },
+                {
+                  "value": "icon__faster.svg",
+                  "label": "Faster"
+                },
+                {
+                  "value": "icon__fresh.svg",
+                  "label": "Fresh"
+                }
+                ,
+                {
+                  "value": "icon__no-hassle.svg",
+                  "label": "No Hassle"
+                }
+                ,
+                {
+                  "value": "icon__portions.svg",
+                  "label": "Portions"
+                }
+                ,
+                {
+                  "value": "icon__subscription--modify.svg",
+                  "label": "Subscription Modify"
+                }
+                ,
+                {
+                  "value": "icon__subscription--skip.svg",
+                  "label": "Subscription Skip"
+                }
+                ,
+                {
+                  "value": "icon__subscription--swap.svg",
+                  "label": "Subscription Swap"
+                }
+                ,
+                {
+                  "value": "icon__value.svg",
+                  "label": "Value"
+                }
+              ],
+              "default": "none"
+            },
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+            }
+          ]
+        }
+      ],
+      "presets": [
+      {
+        "name": "Grid Secondary",
+        "category": "Agile layout"
+      }
+    ]
+    }
+  {% endschema %}
+  

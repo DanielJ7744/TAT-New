@@ -1,0 +1,27 @@
+{
+  "name": "s-tat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinr4477/S-TAT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinr4477/S-TAT/issues"
+  },
+  "homepage": "https://github.com/kevinr4477/S-TAT#readme",
+  "dependencies": {
+    "@shopify/themekit": "^1.1.9"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.53.0"
+  }
+}

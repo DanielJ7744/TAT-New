@@ -1,0 +1,258 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "all-collection": {
+      "type": "cc__all-collection",
+      "blocks": {
+        "398072bc-bc87-4904-932d-d8bf961fb0f3": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "weekly-menu-charlotte",
+            "heading": "This Weeks Meals",
+            "sub_heading": "At Table & Twine, we believe dinner should be fresh and exciting – not boring. With this in mind, our chefs reveal new recipes each week."
+          }
+        },
+        "469f582c-6726-4ace-83e1-0f422155aa0e": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "main_collection": "family-meals-menu-charlotte",
+            "heading": "Family Meals",
+            "sub_heading": "Designed to feed four people, Table & Twine’s family meals are perfect for busy households. With this dinner meal kit in Charlotte, you can just pop the dish in the oven and relax."
+          }
+        },
+        "b1732b00-8d88-41f0-b02a-32e564285848": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "small-groups-charlotte",
+            "heading": "Small Groups & Packages",
+            "sub_heading": "Are you hosting a work retreat or family reunion? If so, consider our Charlotte meal kit for small groups. These all-inclusive packages take the stress out of entertaining."
+          }
+        },
+        "a4fa9a87-e698-433a-a074-eb334692de6d": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "main_collection": "bistro-menu-charlotte",
+            "heading": "Bistro",
+            "sub_heading": "Our bistro menu was developed with busy professionals in mind. On this menu, you’ll find lighter, lunch-size entrées that require little to no preparation."
+          }
+        },
+        "5b76e052-b7ee-41ef-92b8-2f6c3aa8e725": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "main_collection": "appetizers-and-snack-menu-charlotte",
+            "heading": "Appetizers & Snacks",
+            "sub_heading": "Impress your guests with artfully-prepared hors d'oeuvres from Table & Twine. From delectable dips to savory salads, there’s something for every guest."
+          }
+        },
+        "1833b8f2-9a86-4c4f-823f-b56902040f1d": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "main_collection": "breakfast-menu-charlotte",
+            "heading": "Breakfast Items",
+            "sub_heading": "They say breakfast is the most important meal of the day. That’s why the culinary team at Table & Twine has curated an early-morning menu that’s sure to please."
+          }
+        },
+        "2584a58d-8af1-4f9b-b3a7-4adc39ace9f0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "main_collection": "desserts-menu-charlotte",
+            "heading": "Desserts & Sweets",
+            "sub_heading": "The best way to finish a meal is with a delectable dessert by Table & Twine. These sweet treats have been carefully curated by our Executive Pastry Chef."
+          }
+        }
+      },
+      "block_order": [
+        "398072bc-bc87-4904-932d-d8bf961fb0f3",
+        "469f582c-6726-4ace-83e1-0f422155aa0e",
+        "b1732b00-8d88-41f0-b02a-32e564285848",
+        "a4fa9a87-e698-433a-a074-eb334692de6d",
+        "5b76e052-b7ee-41ef-92b8-2f6c3aa8e725",
+        "1833b8f2-9a86-4c4f-823f-b56902040f1d",
+        "2584a58d-8af1-4f9b-b3a7-4adc39ace9f0"
+      ],
+      "settings": {
+        "background_color": "#f8f4ef",
+        "heading": "",
+        "subheading": "",
+        "remove_bottom": true,
+        "trigger_heading": "Jump to collection:"
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Eat Without Allergy Concerns",
+            "text": "<p>If you have a severe nut allergy, you know how scary it can be to experience the shortness of breath and wheezing associated with an allergic reaction. Fortunately, when you order a nut-free meal kit in Charlotte, you don’t have to worry about consuming trace amounts of nuts.<\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "15-Minute Cook Times",
+            "text": "<p>From parmesan-crusted chicken to Italian flatbread, every entrée from Table & Twine only takes <a href=\"\/\" title=\"\/\">15 minutes to prepare<\/a>. That means every member of the family can order a different dish but still enjoy dinner together.<\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Fresh, Healthy Ingredients",
+            "text": "<p>Our nut-free meals omit more than just nuts. They’re also free of preservatives, gluten, dairy, added sugar, and many other unwanted ingredients. This makes our nut-free meal delivery service in Charlotte great for customers who want to maintain a healthy lifestyle.<\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Nut-Free Meal Kit?",
+        "heading_color": "",
+        "text": "Our nut-free meal kits save you time. Long gone are the days spent chopping and peeling ingredients, only to spend another 30 minutes cleaning the kitchen. Instead, Table & Twine’s culinary team will handle the more technical aspects of cooking for you. Other benefits of Charlotte nut-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "53d1c2e5-8caa-4624-b71f-65f26a710fd5": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Nut-Free:<\/strong> Our chefs carefully curate our nut-free meals using 100% nut-free ingredients, so you never have to worry about an allergic reaction. These dishes are even made separately from the rest of our foods to mitigate cross-contamination.<\/p>"
+          }
+        },
+        "ad49308f-8739-471b-9074-dd94b7ad9763": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Seasonal Flavors:<\/strong> Our menus rotate every week so that our culinary team can incorporate the freshest fruits and vegetables possible. You'll instantly notice the difference when you taste ingredients that haven't been held in storage for months but instead were picked at peak ripeness.<\/p>"
+          }
+        },
+        "602cf31e-bca4-416b-8d23-f4bde2f9935b": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ready-to-Use Ingredients:<\/strong> At Table & Twine, we make mealtime more convenient by slicing, dicing, mincing, and julienning all of your ingredients. We even par-cook certain vegetables and grains so that you can put dinner on the table in a flash.<\/p>"
+          }
+        },
+        "74b452b0-152c-446a-b542-aeb425e25d85": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Delectable Pairings:<\/strong> Do you want to elevate your dining experience? Partner your nut-free entrées with tasty hors d'oeuvres or delectable desserts. All of our pairings have been developed to complement the meals on our rotating menu. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "53d1c2e5-8caa-4624-b71f-65f26a710fd5",
+        "ad49308f-8739-471b-9074-dd94b7ad9763",
+        "602cf31e-bca4-416b-8d23-f4bde2f9935b",
+        "74b452b0-152c-446a-b542-aeb425e25d85"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "How Our Nut-Free Meal Kits Work",
+        "heading_tag": "h2",
+        "text": "<p>Eating a nut-free diet is easy when you partner with Table & Twine. Just visit our website and scroll through our <a href=\"\/\" title=\"\/\">rotating menu<\/a>, looking for tantalizing dishes with our nut-free icon. This icon is a peanut with a “no” symbol and is located in the bottom right of product photos.  <br\/><br\/>After placing your order, our chefs will start mincing garlic and muddling herbs. They’ll even sous vide proteins and par-cook grains, leaving the finishing touches up to you.<\/p>",
+        "heading2": "What To Expect From Our Nut-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Charlotte residents love our nut-free meals because they are healthy, delicious, and require minimal preparation. All you need to do is heat, garnish, and serve.<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Are nut-free meals just for people with nut allergies?",
+            "text": "<p>With the help of Table & Twine, you can have a single entrée dinner <a href=\"https:\/\/tableandtwine.com\/charlotte\/heating-instructions\/\"><span style=\"text-decoration:underline\">ready in less than 15 minutes<\/span><\/a>. This saves hours of cooking and cleaning at the end of the day so you can relax.<\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Can I pick the recipes in my nut-free meal service?",
+            "text": "<p>Our dinner meal kits are individually priced. The cost covers meal planning, ingredient sourcing, and the majority of the prep work. At an affordable cost, you can have an unforgettable and personalized dining experience. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "What will I get in my Table & Twine nut-free meal?",
+            "text": "<p>Using our online ordering system, you can order as many meals as you’d like, while supplies last. If you are ordering for a large group, we suggest exploring our <a href=\"https:\/\/tableandtwine.com\/charlotte\/family\/\"><span style=\"text-decoration:underline\">Family Meals<\/span><\/a> or <a href=\"https:\/\/tableandtwine.com\/charlotte\/entertainment\/\"><span style=\"text-decoration:underline\">Small Groups menu<\/span><\/a>.<\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "Will I benefit from a nut-free meal plan in Charlotte?",
+            "text": "<p>Our dinner meal kits are individually priced. The cost covers meal planning, ingredient sourcing, and the majority of the prep work. At an affordable cost, you can have an unforgettable and personalized dining experience. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7"
+      ],
+      "settings": {
+        "section_heading": "Nut-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "all-collection",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom"
+  ]
+}

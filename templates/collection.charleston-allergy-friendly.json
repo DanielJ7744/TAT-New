@@ -1,0 +1,227 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the Menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Avoid Allergic Reactions",
+            "text": "<p>When you opt for an allergy-friendly meal from Table & Twine, you gain peace of mind. Since our chefs meticulously source ingredients that are free of your specific allergen, you don’t need to worry about digestive upset, hives, and other symptoms. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Eliminate Time-Consuming Label Examination",
+            "text": "<p>Whether you’re lactose intolerant or prefer to eat a more plant-based diet, you probably spend tons of time looking at ingredient lists. Fortunately, when you dine with us, Table & Twine does the work for you.<\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Everyone Can Eat at the Same Time",
+            "text": "<p>From gluten-free jerk chicken to vegetarian street tacos, every Table & Twine menu only takes <a href=\"https:\/\/tableandtwine.com\/charleston\/heating-instructions\/\"><span style=\"text-decoration:underline\">15 minutes to prepare<\/span><\/a>. That means even if you order something different from your family, you can still eat with them. <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose an Allergy-Friendly Meal Kit in Charleston?",
+        "heading_color": "",
+        "text": "Our chefs are committed to developing allergy-friendly recipes that taste like they’re fresh out of a Michelin Star restaurant. But rather than pay for tipping and valet service, you can enjoy our meals from the comfort of your home. Other benefits of Charleston allergy-friendly meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "How To Select Allergy-Friendly Meals",
+        "heading2_tag": "h2",
+        "text2": "<p>At Table & Twine, ordering an allergy-friendly meal kit in Charleston is simple. On our website, we label recipes that are free of specific ingredients. For example, a dairy-free meal will have a milk bottle with a “no” symbol.<\/p><p>These icons make maintaining a diet, whether it be gluten-free or vegetarian, incredibly easy. You’ll spend less time reading ingredient lists and more time dining in the company of friends.<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "disabled": true,
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Are nut-free meals just for people with nut allergies?",
+            "text": "<p>With the help of Table & Twine, you can have a single entrée dinner <a href=\"https:\/\/tableandtwine.com\/charlotte\/heating-instructions\/\"><span style=\"text-decoration:underline\">ready in less than 15 minutes<\/span><\/a>. This saves hours of cooking and cleaning at the end of the day so you can relax.<\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Can I pick the recipes in my nut-free meal service?",
+            "text": "<p>Our dinner meal kits are individually priced. The cost covers meal planning, ingredient sourcing, and the majority of the prep work. At an affordable cost, you can have an unforgettable and personalized dining experience. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "What will I get in my Table & Twine nut-free meal?",
+            "text": "<p>Using our online ordering system, you can order as many meals as you’d like, while supplies last. If you are ordering for a large group, we suggest exploring our <a href=\"https:\/\/tableandtwine.com\/charlotte\/family\/\"><span style=\"text-decoration:underline\">Family Meals<\/span><\/a> or <a href=\"https:\/\/tableandtwine.com\/charlotte\/entertainment\/\"><span style=\"text-decoration:underline\">Small Groups menu<\/span><\/a>.<\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "Will I benefit from a nut-free meal plan in Charlotte?",
+            "text": "<p>Our dinner meal kits are individually priced. The cost covers meal planning, ingredient sourcing, and the majority of the prep work. At an affordable cost, you can have an unforgettable and personalized dining experience. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7"
+      ],
+      "settings": {
+        "section_heading": "Nut-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing a gluten-free or soy-free meal by Table & Twine is easy! Just scan the QR code on your meal’s packaging for heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "\/pages\/heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "main": {
+      "type": "page-content__main--ajax-render",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "form": {
+      "type": "c__form-section--refer-a-friend",
+      "settings": {}
+    },
+    "1656526317b2c8d951": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "Refer a friend",
+        "heading": "They Get $20, You Get $10",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "<p>No commitment, no tricks, just a simple way to share the love of Table & Twine. When you refer a friend, they will get <strong>$20 off<\/strong>  their first order. Plus, you’ll get <strong>$10 off<\/strong> your next order. Everybody wins!<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/Untitled-1.jpg",
+        "square_image": false,
+        "button_text": "Get your invite link",
+        "button_link": "#",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": "refer-friend"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656526317b2c8d951",
+    "form"
+  ]
+}

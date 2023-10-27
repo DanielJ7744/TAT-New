@@ -1,0 +1,267 @@
+{
+  "layout": "theme-charlotte",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Avoid Allergic Reactions",
+            "text": "<p>If you have a soy allergy, you may experience uncomfortable symptoms like digestive upset, coughing, itching, and watery eyes. Some research even shows that soy can promote the growth of cancer cells and reduce thyroid function. The best way to avoid these side effects is to avoid soy altogether. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Eliminate Time-Consuming Label Reading",
+            "text": "<p>Checking nutrition labels for soy derivatives can be frustrating. Even more frustrating is the fact that soy is found in almost everything, from salad dressings to cookies. But when you dine with Table & Twine, you can rest easy knowing that every meal is guaranteed to be soy-free. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Everyone Can Eat at the Same Time",
+            "text": "<p>When a family member is following a special diet, dinnertime gets complicated. You may find yourself cooking two meals: a soy-free dish for yourself and another dish for your spouse and kids. Fortunately, Table & Twine offers single-serving dishes so that everyone can enjoy a flavorful meal.   <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Soy-Free Meal Kit?",
+        "heading_color": "",
+        "text": "Our chefs want to provide you with a five-star culinary experience. That’s why they thoughtfully develop restaurant-quality recipes that only take 15 minutes to prepare. Other benefits of Charlotte soy-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "2205b176-fdc3-4cdc-a9c8-e80c6606497b": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Real, Fresh Ingredients: <\/strong>Unlike our competitors, Table & Twine never imports fruit and vegetables from other countries. Instead, our meals are prepared by professional chefs using ingredients that have been selected according to what’s local and in season. This ensures that your soy-free dinners are always flavorful.  <\/p>"
+          }
+        },
+        "fbada45d-0059-47d1-9c8e-0978d43bc949": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Weekly Menu Changes:<\/strong> At Table & Twine, we believe food should be brilliant – not boring. That’s why we change the menu every week, revealing new recipes that make eating healthy fun and exciting.<\/p>"
+          }
+        },
+        "8e16d2ae-8d84-4eba-970b-b6947248f68f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Superb Pairings: <\/strong>To provide customers with a personalized culinary experience, we develop superb pairings for every soy-free entrée. With elevated <a href=\"https:\/\/tableandtwine.com\/charlotte\/apps-and-snacks\/\"><span style=\"text-decoration:underline\">appetizers <\/span><\/a>and decadent <a href=\"https:\/\/tableandtwine.com\/charlotte\/desserts\/\"><span style=\"text-decoration:underline\">desserts<\/span><\/a>, we make dishing up a multi-course meal easy. <\/p>"
+          }
+        },
+        "b3827c9f-4caa-4ac3-b87b-65b3ce604815": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Always 100% Soy-Free: <\/strong>Our chefs carefully select ingredients that contain absolutely no soy. These meals are also prepared separately from others that do contain soy. This mitigates the risk of cross-contamination, helping you enjoy your food with confidence. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2205b176-fdc3-4cdc-a9c8-e80c6606497b",
+        "fbada45d-0059-47d1-9c8e-0978d43bc949",
+        "8e16d2ae-8d84-4eba-970b-b6947248f68f",
+        "b3827c9f-4caa-4ac3-b87b-65b3ce604815"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Soy-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Charlotte residents love Table & Twine's soy-free meal delivery service because it’s as convenient as it is delicious.  <strong>Real, Fresh Ingredients: <\/strong>Unlike our competitors, Table & Twine never imports fruit and vegetables from other countries. Instead, our meals are prepared by professional chefs using ingredients that have been selected according to what’s local and in season. This ensures that your soy-free dinners are always flavorful.  <\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Do I have a soy allergy?",
+            "text": "<p>A soy allergy can cause a range of symptoms like wheezing, abdominal pain, and hives. If you think you have an allergy, visit your doctor. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Should I avoid soy if I don’t have a known intolerance?",
+            "text": "<p>Many people claim soy causes hormonal imbalances. Because of this, avoiding soy could lower your risk for certain cancers, improve thyroid function, and promote digestive health. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "What will my soy-free meal kit from Table & Twine include?",
+            "text": "<p>In your soy-free meal kit, you’ll find all the chopped, peeled, and sliced ingredients you need to prepare a delicious dish! <\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to prepare a soy-free meal?",
+            "text": "<p>When you order a soy-free meal kit from Table & Twine, you can prepare a meal in 15 minutes or less. You’ll just need to scan the QR code on your meal’s packaging and follow the simple <a href=\"https:\/\/tableandtwine.com\/charlotte\/heating-instructions\/\"><span style=\"text-decoration:underline\">heating instructions<\/span><\/a>. <\/p>"
+          }
+        },
+        "43e0f8e1-20eb-4478-bddc-b353ac5003fe": {
+          "type": "text",
+          "settings": {
+            "title": "Will I benefit from a soy-free meal kit in Charlotte?",
+            "text": "<p>Absolutely. When you partner with Table & Twine, following a specific diet is easy and – dare we say? – fun. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7",
+        "43e0f8e1-20eb-4478-bddc-b353ac5003fe"
+      ],
+      "settings": {
+        "section_heading": "Soy-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

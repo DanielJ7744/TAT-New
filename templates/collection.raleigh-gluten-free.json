@@ -1,0 +1,268 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Our Gluten-Free Menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Less Discomfort, More Joy",
+            "text": "<p>Whether you have celiac disease or a mild gluten sensitivity, you know all too well that eating the wrong things can cause uncomfortable symptoms. Fortunately, when you dine with Table & Twine, you can rest easy knowing that our chefs have thoughtfully curated gluten-free recipes. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "No More Label Reading",
+            "text": "<p>If you’re tired of scrutinizing ingredient lists for trace amounts of wheat, Table & Twine can help. When you order a Raleigh gluten-free meal kit from us, we ensure every component is 100% free of wheat.  <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Restaurant-Quality Food, Minus the Fuss",
+            "text": "<p>When you have an allergy, going out to eat isn’t convenient. Peppering the waiter with questions or asking for special substitutions can leave you and your dinner guests feeling embarrassed. Luckily, Table & Twine can bring a no-fuss restaurant experience to your home. <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Gluten-Free Meal Kit?",
+        "heading_color": "",
+        "text": "Our chefs care about food and the role it plays in your life. That’s why they thoughtfully prepare restaurant-quality meals that are completely gluten-free. Other benefits of Raleigh gluten-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "8c2ae812-9c0a-440a-961b-ebffe50e7549": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Gluten-Free: <\/strong>Our culinary team develops tasty, gluten-free meal kits that contain absolutely no wheat. Our chefs even prepare gluten-free meals separate from other dishes to avoid cross-contamination.<\/p>"
+          }
+        },
+        "c30f56aa-237e-4003-b35e-39bee9b1a241": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Fresh Flavors:<\/strong> At Table & Twine, our chefs want your dinner to be brilliant – not boring. That’s why they reveal new gluten-free dishes each week. These recipes take inspiration from southern fare as well as international cuisine. <\/p>"
+          }
+        },
+        "b4cec5da-90e4-4ac5-8c1f-1f4ec18f64a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Farm-to-Table Produce: <\/strong>Other meal kit companies source produce from foreign countries, importing fruits and veggies from thousands of miles away. But not Table & Twine. Instead, we partner with local growers to source the freshest products possible. <\/p>"
+          }
+        },
+        "990c2ea6-2ce8-4af5-9fe0-0d385e4917f1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Savory Starters:<\/strong> With Table & Twine, you can treat yourself to a multi-course meal at home. Start with a <a href=\"https:\/\/tableandtwine.com\/charleston\/apps-and-snacks\/\"><span style=\"text-decoration:underline\">delicious appetizer<\/span><\/a> and finish with a <a href=\"https:\/\/tableandtwine.com\/charleston\/desserts\/\"><span style=\"text-decoration:underline\">gluten-free dessert<\/span><\/a> prepared by our Executive Pastry Chef. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8c2ae812-9c0a-440a-961b-ebffe50e7549",
+        "c30f56aa-237e-4003-b35e-39bee9b1a241",
+        "b4cec5da-90e4-4ac5-8c1f-1f4ec18f64a2",
+        "990c2ea6-2ce8-4af5-9fe0-0d385e4917f1"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Gluten-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Raleigh residents can’t get enough of our gluten-free meals. Why? Because Table & Twine understands how to curate dishes that are both allergy friendly and delicious.<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "What does gluten-free mean?",
+            "text": "<p>Gluten is a mixture of proteins found in wheat. It is also sometimes found in barley, rye, and oats. So, a gluten-free diet is one that avoids these ingredients. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Do I have a gluten intolerance?",
+            "text": "<p>A gluten allergy can cause a wide range of symptoms, from hives to gastrointestinal upset. The best way to confirm a gluten allergy is to consult a doctor. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Should I avoid gluten even if I don’t have an intolerance?",
+            "text": "<p>Some people find that removing gluten reduces inflammation, improves energy, and contributes to weight loss. However, you should always talk with a medical professional before modifying your diet.  <\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "What will come in my Raleigh gluten-free meal kit?",
+            "text": "<p>Your gluten-free meal subscription will include everything you need to prepare a delicious meal in 15 minutes or less. You’ll just need to scan the QR code on your meal’s packaging for <a href=\"\/pages\/heating-instructions\/\" title=\"\/pages\/heating-instructions\/\"><span style=\"text-decoration:underline\">heating instructions<\/span><\/a>. <\/p>"
+          }
+        },
+        "25ad7fc1-18ec-4fea-abff-122084ca6257": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Would I benefit from a gluten-free meal subscription service?",
+            "text": "<p>Definitely! If you have been newly diagnosed with celiac disease or a gluten sensitivity, you may not know what to cook. Luckily, Table & Twine makes following a specific diet easy – even fun. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7",
+        "25ad7fc1-18ec-4fea-abff-122084ca6257"
+      ],
+      "settings": {
+        "section_heading": "Gluten-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

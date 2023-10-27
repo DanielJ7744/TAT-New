@@ -1,0 +1,265 @@
+{
+  "layout": "theme-charlotte",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "No Gastrointestinal Upset",
+            "text": "<p>Sensitivity to dairy products often shows itself through digestive symptoms like bloating and indigestion. The easiest way to avoid this problem is to avoid dairy.<\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Avoid Allergic Reactions",
+            "text": "<p>When you dine with us, you’ll never have to worry about the waiter forgetting to leave off the cheese. Our dairy-free meal kits in Charlotte are carefully curated to include 100% dairy-free ingredients. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Try New and Healthier Foods",
+            "text": "<p>When you have a dietary restriction, it’s easy to eat the same foods day after day. This gets boring. Luckily, ordering dairy-free meal kits in Charlotte means trying new, exciting meals each week.  <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Dairy-Free Meal Kit?",
+        "heading_color": "",
+        "text": "With Table & Twine, you can spend less time scouring ingredient lists for trace amounts of dairy and more time enjoying a restaurant-quality culinary experience. Other benefits of Charlotte dairy-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "f7fd02df-5dce-4507-ba64-791eeb26f142": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Dairy-Free Meals:<\/strong> Just because you have a dietary restriction doesn’t mean you should miss out. That’s why our chefs prepare a full menu of dairy-free offerings. From satisfying <a href=\"\/collections\/family-meals-menu-charlotte\" title=\"Family Meals Menu\"><span style=\"text-decoration:underline\">family meals<\/span><\/a> to <a href=\"\/collections\/desserts-menu-charlotte\" title=\"Desserts Menu\"><span style=\"text-decoration:underline\">decadent desserts<\/span><\/a>, there’s something for everyone. <\/p>"
+          }
+        },
+        "650d8e3c-39a5-4c0f-9dbb-84c290ace145": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>New Menus Every Week:<\/strong> Every seven days, we reveal new gourmet creations with our <a href=\"\/collections\/weekly-menu-charlotte\" title=\"Weekly Menu\"><span style=\"text-decoration:underline\">rotating menu<\/span><\/a>. This keeps things exciting. But it also allows us to partner with local farmers, incorporating the freshest produce possible.<\/p>"
+          }
+        },
+        "d36d2b28-6805-47f5-9924-c39c219f447d": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Chef-Prepared Dishes:<\/strong> When you order from Table & Twine, you benefit from the expertise of a real chef. Since every meal has been thoughtfully prepared by our talented culinary team, you can expect consistent, restaurant-quality dishes. <\/p>"
+          }
+        },
+        "e4ce3b69-c300-4a1f-a4ae-7684b8ea8622": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>15-Minute Prep Time: <\/strong>We do all of the shopping and chopping. That means you only need to combine the pre-cut ingredients and cook them to unleash their flavors. This takes 15 minutes or less. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f7fd02df-5dce-4507-ba64-791eeb26f142",
+        "650d8e3c-39a5-4c0f-9dbb-84c290ace145",
+        "d36d2b28-6805-47f5-9924-c39c219f447d",
+        "e4ce3b69-c300-4a1f-a4ae-7684b8ea8622"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Dairy-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>We take the drudgery out of dinnertime by handling all the preparation in advance. When you receive your dairy-free meal kit in Charlotte, you’ll just need to add the finishing touches. This ensures that your meal is as convenient as it is delicious. <\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#ffffff"
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Am I lactose intolerant?",
+            "text": "<p>If you have a dairy allergy or sensitivity, you may experience digestive symptoms or even skin issues after consuming cheese, milk, ice cream, and other dairy products. If you think you may have a dairy allergy, schedule an appointment with your doctor. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Should I avoid dairy if I’m not lactose intolerant?",
+            "text": "<p>Even if you haven’t been diagnosed with a dairy intolerance, you may still choose to avoid dairy products. Some people feel more energized and less bloated when they eat dairy-free. Others eliminate dairy from their diets for ethical reasons. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Does dairy-free mean egg-free?",
+            "text": "<p>No, dairy-free only excludes milk and ingredients containing milk. Eggs are not in this category. Therefore, eggs may be included in the dinners and pairings from our dairy-free meal prep service in Charlotte.<\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "What will come in my Charlotte dairy-free meal kit?",
+            "text": "<p>When you order a dairy-free meal kit from Table & Twine, you’ll receive all the pre-measured and pre-prepared ingredients you need to whip up a delicious meal. <\/p>"
+          }
+        },
+        "7d1c7d4f-1f79-4b38-a87c-657e20abf209": {
+          "type": "text",
+          "settings": {
+            "title": "Will I benefit from dairy-free meal kits in Charlotte?",
+            "text": "<p>Definitely. When you partner with Table & Twine, we make your life much easier by handling the meal planning, grocery shopping, and prep work. You’ll just need to heat, garnish, and serve.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7",
+        "7d1c7d4f-1f79-4b38-a87c-657e20abf209"
+      ],
+      "settings": {
+        "section_heading": "Dairy-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "bottom",
+    "1659461894e172168f",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

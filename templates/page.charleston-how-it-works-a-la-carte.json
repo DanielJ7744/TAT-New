@@ -1,0 +1,390 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165643418008f8d783": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "How It Works",
+        "heading": "How it Works: Ordering A La Carte",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "<p>If you value healthy, delicious food but don’t have hours to prepare it, Table & Twine is for you. As a meal kit service in Charleston, we’re committed to delivering a convenient yet elevated culinary experience right to your doorstep.<br\/><br\/>Here’s how we do it: First, our chefs curate a thoughtful menu. Then, they purchase the freshest ingredients possible. Finally, they tackle all the chopping and julienning, cooking 90% of your meal for you.<\/p>",
+        "text2": "When you receive your Charleston meal kit, you’ll just need 15 minutes to add the finishing touches to your dish.",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/asset__why-us--hero.jpg",
+        "square_image": false,
+        "button_text": "",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": "subpage-main-banner"
+      }
+    },
+    "165643916638a5eea7": {
+      "type": "c__grid-section",
+      "blocks": {
+        "173c3c5b-a718-49ea-8e44-e50590ad29bf": {
+          "type": "text",
+          "settings": {
+            "title": "Browse Seasonal Meals",
+            "text": "At Table & Twine, we support our neighbors by sourcing produce and proteins from local farms. This bolsters the Lowcountry economy while ensuring your single-serving soup or family-style pizza kit tastes amazing. Invite us to your party!\nAs catering professionals, we understand that hosting a shindig can be tedious. Fortunately, our chef-prepared meal kits come with all the fixings you need to impress guests while minimizing stress. We offer packages for Valentine’s Day, Mother’s Day, Thanksgiving, Christmas, and more!",
+            "image": "shopify:\/\/shop_images\/asset__how-it-works--steps-1.jpg",
+            "icon_image": "none"
+          }
+        },
+        "fcf48f8a-b788-4a9c-b021-02b16372f547": {
+          "type": "text",
+          "settings": {
+            "title": "Place Your Order",
+            "text": "Are you ready for convenience to taste delicious? Just place your Table & Twine order by 1pm two days before any of the designated order days. You can either pick up your meals at our local kitchen or have them delivered.",
+            "image": "shopify:\/\/shop_images\/asset__how-it-works--steps-2.jpg",
+            "icon_image": "none"
+          }
+        },
+        "490e49e1-5861-4ed7-adc9-c4495b9380da": {
+          "type": "text",
+          "settings": {
+            "title": "Untwine & Dine",
+            "text": "A Charleston meal kit by Table & Twine makes dinner fun again. Just scan the QR code on your meal’s packaging and get to cooking! You’ll have a delicious dish in 15 minutes or less.",
+            "image": "shopify:\/\/shop_images\/collection__featured-image--christmas-package.jpg",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "173c3c5b-a718-49ea-8e44-e50590ad29bf",
+        "fcf48f8a-b788-4a9c-b021-02b16372f547",
+        "490e49e1-5861-4ed7-adc9-c4495b9380da"
+      ],
+      "settings": {
+        "section_heading": "How To Shop With Table & Twine",
+        "heading_color": "",
+        "text": "With a dinner meal kit in Charleston, you can pick from chef-prepared entrées and lighter lunch options without the hassle of eating out.",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 760,
+        "show_number": true,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "165644475782f694ee": {
+      "type": "cc__banner-with-text",
+      "disabled": true,
+      "settings": {
+        "section_heading": "We can help you take the hassle out of the holidays!",
+        "heading_size": "t-big",
+        "section_text": "If you dread hosting holiday get-togethers, order a chef-prepared meal kit from Table & Twine. Our easy-to-prepare dishes minimize prep and clean-up time, giving you more family time. We offer packages for Valentine’s Day, Mother’s Day, Thanksgiving, Christmas, and more!",
+        "header_width": 520,
+        "text_width": 1400,
+        "add_city_select": false,
+        "use_overlay": true,
+        "overlay_percent": 42,
+        "text_align": "left",
+        "text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/asset__home--subscriptions.jpg",
+        "button_text": "Start my order",
+        "button_link": "shopify:\/\/collections\/bistro-menu",
+        "to_location_selector": false,
+        "button_style": "b--primary"
+      }
+    },
+    "1656443659c554ea1d": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "b7444a99-ab9e-4d39-aeb6-d2772dea5185": {
+          "type": "text",
+          "settings": {
+            "title": "Chef-Inspired Recipes",
+            "text": "<p>We believe every customer deserves an exciting culinary experience. With this in mind, our chefs curate a rotating menu that incorporates fresh, seasonal produce.<\/p>",
+            "icon_image": "icon__chef.svg"
+          }
+        },
+        "805d5fd6-66c8-43c6-8c69-4611c182be69": {
+          "type": "text",
+          "settings": {
+            "title": "Meals Ready in 15 Minutes",
+            "text": "<p>Preparing a delectable meal for your family shouldn’t be a chore. That’s why we handle the more technical and tedious aspects of cooking, leaving you to add the finishing touches.<\/p>",
+            "icon_image": "icon__faster.svg"
+          }
+        },
+        "41801994-d22e-42d7-bb45-3fcaf4337211": {
+          "type": "text",
+          "settings": {
+            "title": "Flexible Serving Sizes",
+            "text": "<p>Unlike our competitors, we think you deserve flexibility. So, we offer dishes in serving sizes of one, two, and four. You can also adjust the quantity of serving sizes to accommodate more guests.<\/p>",
+            "icon_image": "icon__portions.svg"
+          }
+        }
+      },
+      "block_order": [
+        "b7444a99-ab9e-4d39-aeb6-d2772dea5185",
+        "805d5fd6-66c8-43c6-8c69-4611c182be69",
+        "41801994-d22e-42d7-bb45-3fcaf4337211"
+      ],
+      "settings": {
+        "section_heading": "Reason To Love Table & Twine",
+        "heading_color": "",
+        "text": "",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#ffffff",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "1656445743e5311b9e": {
+      "type": "cc__faq",
+      "blocks": {
+        "8216c866-5416-4d80-b75f-29ee1d5a9aec": {
+          "type": "text",
+          "settings": {
+            "title": "How does the ordering process work?",
+            "text": "<p>For Charleston customers, meals must be ordered by 11:59 pm two days before your desired pick-up\/delivery date. <\/p>"
+          }
+        },
+        "bfd57cfe-b827-49e7-a639-bfaea2d9768c": {
+          "type": "text",
+          "settings": {
+            "title": "What is your cancellation policy?",
+            "text": "<p>Charleston customers must cancel orders no less than 48 hours before their scheduled pick-up\/delivery date to receive a full refund with a 10% cancellation fee. If you cancel your order less than 48 hours before, no refund will be offered. <\/p><p>Want to make someone’s day? If you aren’t available to accept your order, we’ll happily deliver it to a neighbor, friend, or family member. <\/p>"
+          }
+        },
+        "18a5637f-5301-4d25-b042-04397032dff8": {
+          "type": "text",
+          "settings": {
+            "title": "Can I place an order over the phone?",
+            "text": "<p>Just reach out via the online Table & Twine chat. <\/p>"
+          }
+        },
+        "a7b61e78-7510-43ff-ac77-04b0af4f4b6e": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer substitutions or changes to meals?",
+            "text": "<p>No. At this time, we cannot make substitutions or changes. <\/p>"
+          }
+        },
+        "34a1fe2f-7c65-4fd8-8745-31cbc8185044": {
+          "type": "text",
+          "settings": {
+            "title": "What’s included in the price?",
+            "text": "<p>All entrées, desserts, and kids’ meals feed one person. Family Meals, cocktail mixes, appetizers, and snacks have varying serving sizes that can be found in the product description.<\/p>"
+          }
+        },
+        "aa77416a-6ba6-4740-b194-cdcc423765d7": {
+          "type": "text",
+          "settings": {
+            "title": "How do I prepare the meals?",
+            "text": "<p>Whipping up a Table & Twine meal is simple. Just scan the QR code on your meal’s packaging for heating instructions. <\/p>"
+          }
+        },
+        "cce0bcb5-97be-4cd8-b947-04ce2e33254f": {
+          "type": "text",
+          "settings": {
+            "title": "Is there a delivery fee?",
+            "text": "<p>Yes, delivery fees range from $7.99 to $15.99.<\/p>"
+          }
+        },
+        "d40e20e6-5baf-4686-b85b-80ad605c53f6": {
+          "type": "text",
+          "settings": {
+            "title": "What areas do you deliver to?",
+            "text": "<p>We currently deliver to most locations in the South Carolina Tri-County area. Type your zip code in the bar at the top of the page to see if we deliver to your address.<\/p>"
+          }
+        },
+        "5a9f196e-5a5b-4000-8771-666f1a75ea85": {
+          "type": "text",
+          "settings": {
+            "title": "How often does delivery or pick-up occur?",
+            "text": "<p>For Charleston customers, we offer deliveries on Tuesdays and Thursdays between 11am and 5:30pm. Curbside pick-up is available on Tuesdays and Thursdays from 12 pm to 6 pm.<\/p>"
+          }
+        },
+        "fe5c1a5d-22cd-4bcf-b63f-8958507dd7cb": {
+          "type": "text",
+          "settings": {
+            "title": "What is the order cutoff time?",
+            "text": "<p>For Charleston customers, meals must be ordered by 11:59 pm two days before your desired pick-up\/delivery date. Order by Sunday at 11:59 pm to receive your meal on Tuesday. Order by Tuesday at 11:59 pm to receive your meal on Thursday<\/p>"
+          }
+        },
+        "e04e87dd-cdec-48d0-841e-54fb4a952092": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance can I order?",
+            "text": "<p>Menus are available up to seven days in advance.<\/p>"
+          }
+        },
+        "a1e41663-552a-4f4b-b6f4-9a37b3040a56": {
+          "type": "text",
+          "settings": {
+            "title": "When are new menu items offered?",
+            "text": "<p>Our talented chefs curate new meals, cocktail mixes, appetizers, and desserts each season. <\/p>"
+          }
+        },
+        "9a63875b-1771-4b82-9281-852e3c760ea7": {
+          "type": "text",
+          "settings": {
+            "title": "Is there a minimum order size?",
+            "text": "<p>In Charleston, we require a minimum order size of $30 for both delivery and pick-up.<\/p>"
+          }
+        },
+        "9a2384ee-e5a9-4e65-91c5-fbfce90fe0b1": {
+          "type": "text",
+          "settings": {
+            "title": "I would like my delivery left somewhere other than my front door (e.g. side door). Can I send specific delivery instructions?",
+            "text": "<p>Yes, we can accommodate specific delivery instructions. <\/p>"
+          }
+        },
+        "98fbfa02-4b08-4dbb-816b-6b5ad16d4f00": {
+          "type": "text",
+          "settings": {
+            "title": "How is delivery handled if my order contains alcohol?",
+            "text": "<p>During the online checkout process, you must enter your birthdate to complete age verification. At delivery, someone age 21 or older must be present to receive the package.<\/p>"
+          }
+        },
+        "c985a006-08d5-4736-851c-73d95cbf6039": {
+          "type": "text",
+          "settings": {
+            "title": "How long do meals keep?",
+            "text": "<p>- Our prepared dinner meals, summer seasonal offerings, and kids’ meals keep for 3 to 5 days refrigerated.<br\/><br\/><br\/>- Bistro salads keep for up to 3 days.<br\/><br\/><br\/>- Desserts keep for 3 days. Frozen take and bake cookies keep for up to 1 month.<br\/><br\/><br\/>- Buffalo chicken dip, jumbo lump crab dip, and roasted red pepper hummus with vegetables keep for 3 to 5 days refrigerated.<br\/><br\/><br\/>- Local cheese and charcuterie, cheese and fruit plate, and guacamole and corn tortilla chips keep for 3 days refrigerated.<br\/><br\/><br\/>- Energy bites keep for 5 days refrigerated, or up to 2 months frozen. Egg cups keep for 3 to 5 days refrigerated. Smoothies keep for up to 1 month frozen.<br\/><br\/><br\/>- Drink mixes keep for 5 to 7 days refrigerated.<\/p>"
+          }
+        },
+        "cb831e3b-ca12-4f6e-97ab-5fcd1c420f14": {
+          "type": "text",
+          "settings": {
+            "title": "How does Table & Twine promote sustainability?",
+            "text": "<p>Recycling & Upcycling<br\/>At Table & Twine, we’re committed to reducing our impact on the earth. You can help us by:<br\/><br\/>- Packing picnics or lunches in our insulated bags<br\/><br\/><br\/>- Re-freezing our ice packs for coolers<br\/><br\/><br\/>- Using our plastic containers for leftovers <br\/><br\/><br\/>- We’ll recycle our tote bags, ice packs, and cleaned plastic containers for you! Just drop them off at our local kitchen or leave them on your doorstep on your delivery day. <br\/><br\/><br\/><br\/><strong>Less Food Waste<\/strong><br\/><br\/>Table & Twine addresses food waste by pre-measuring all of the delicious ingredients used in your meal.<br\/> <br\/><strong>Smart Packaging<\/strong><br\/><br\/>We’ve broken up with styrofoam! Instead, we use biodegradable products like paper boxes, bamboo trays, and more. <br\/><br\/><strong>Heating Instructions<\/strong><br\/><br\/>Our heating instructions are paperless. Just scan the QR code on your meal’s packaging, pour a glass of wine, and start cooking.<\/p>"
+          }
+        },
+        "f27e600f-81fe-4bda-9cf0-8c33468db5ea": {
+          "type": "text",
+          "settings": {
+            "title": "How will my food stay cold?",
+            "text": "<p>Insulative packaging and ice packs will keep your food cold. <\/p>"
+          }
+        },
+        "76f6f6a6-559c-49d9-aae9-3be298da6c09": {
+          "type": "text",
+          "settings": {
+            "title": "What if my household avoids specific foods?",
+            "text": "<p>We offer a variety of allergy friendly meal kit options in Charleston. <\/p>"
+          }
+        },
+        "442cdcf0-99dd-4a8b-af6b-d8fed8f1f62d": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer specific plans for vegetarians or other dietary options?",
+            "text": "<p>We offer a variety of vegetarian meal options<\/p>"
+          }
+        },
+        "10db94cb-d5d1-4c4c-9276-d23c2d1693d6": {
+          "type": "text",
+          "settings": {
+            "title": "I have a discount code or gift card. How do I use it?",
+            "text": "<p>You can use your discount code or gift card at checkout by simply typing the code or link you received into the “Gift or Discount Code” box and clicking “Apply.”<\/p>"
+          }
+        },
+        "51ad029f-e049-4377-b3e3-5a925d5c2189": {
+          "type": "text",
+          "settings": {
+            "title": "What is your refund policy?",
+            "text": "<p>We do not offer refunds for orders after the order cut-off time.<\/p>"
+          }
+        },
+        "ec9690bc-be1c-4760-a00c-45ff9c8c058b": {
+          "type": "text",
+          "settings": {
+            "title": "What are your Mobile Message Service Terms & Conditions?",
+            "text": "<p>Please <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0261\/2697\/5023\/files\/Klaviyo_CLT_Terms_of_Service_and_Consent.pdf?v=1601410855\"><span style=\"text-decoration:underline\">click here<\/span><\/a> for our Mobile Program Terms of Service. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8216c866-5416-4d80-b75f-29ee1d5a9aec",
+        "bfd57cfe-b827-49e7-a639-bfaea2d9768c",
+        "18a5637f-5301-4d25-b042-04397032dff8",
+        "a7b61e78-7510-43ff-ac77-04b0af4f4b6e",
+        "34a1fe2f-7c65-4fd8-8745-31cbc8185044",
+        "aa77416a-6ba6-4740-b194-cdcc423765d7",
+        "cce0bcb5-97be-4cd8-b947-04ce2e33254f",
+        "d40e20e6-5baf-4686-b85b-80ad605c53f6",
+        "5a9f196e-5a5b-4000-8771-666f1a75ea85",
+        "fe5c1a5d-22cd-4bcf-b63f-8958507dd7cb",
+        "e04e87dd-cdec-48d0-841e-54fb4a952092",
+        "a1e41663-552a-4f4b-b6f4-9a37b3040a56",
+        "9a63875b-1771-4b82-9281-852e3c760ea7",
+        "9a2384ee-e5a9-4e65-91c5-fbfce90fe0b1",
+        "98fbfa02-4b08-4dbb-816b-6b5ad16d4f00",
+        "c985a006-08d5-4736-851c-73d95cbf6039",
+        "cb831e3b-ca12-4f6e-97ab-5fcd1c420f14",
+        "f27e600f-81fe-4bda-9cf0-8c33468db5ea",
+        "76f6f6a6-559c-49d9-aae9-3be298da6c09",
+        "442cdcf0-99dd-4a8b-af6b-d8fed8f1f62d",
+        "10db94cb-d5d1-4c4c-9276-d23c2d1693d6",
+        "51ad029f-e049-4377-b3e3-5a925d5c2189",
+        "ec9690bc-be1c-4760-a00c-45ff9c8c058b"
+      ],
+      "settings": {
+        "section_heading": "Frequently Asked Questions",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165643418008f8d783",
+    "165643916638a5eea7",
+    "165644475782f694ee",
+    "1656443659c554ea1d",
+    "1656445743e5311b9e"
+  ]
+}

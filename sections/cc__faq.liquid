@@ -1,0 +1,124 @@
+{% capture icon_set %}
+  {% render 'icon', name: 'plus', icon_class: 'icon--plus' %}
+  {% render 'icon', name: 'minus', icon_class: 'icon--minus' %}
+{% endcapture %}
+
+<div
+    class="faqs faq"
+    style="color: {{section.settings.text_color}};
+           background-color: {{ section.settings.background_color }};">
+
+    <div class="general-section section-med">
+
+        <div class="faqs__inner">
+
+            <div class="faqs__header">
+                {% if section.settings.section_heading != blank %}
+                <h2 class="faqs__heading t-big">
+                    {{ section.settings.section_heading }}
+                </h2>
+                {% endif %}
+            </div>
+            
+
+            {% if section.blocks.size > 0 %}
+                <dl class="faq-accordion">
+                    {% for block in section.blocks %}
+
+                        {% if block.settings.title != blank %}
+                            <dt class="faq-accordian__title" id="panel-{{ block.id }}" >
+                                <button class="accordion__button" type="button" aria-controls="panel-{{ block.id }}" aria-expanded="true">
+                                {{ icon_set }}
+                                {{ block.settings.title }}
+                                </button>
+                            </dt>
+                            <dd id="panel-{{ block.id }}" aria-hidden="false">
+                                <div class="content">
+                                {{ block.settings.text }}
+                                </div>
+                            </dd>
+                        {% endif %}
+
+                    {% endfor %}
+                </dl>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+      document.addEventListener("DOMContentLoaded", function(event) { 
+        const allFaqTitles = document.querySelectorAll('.faq-accordion .accordion__button')
+        for (const faqTitle of allFaqTitles) {
+            faqTitle.addEventListener('click', function handleClick() {
+               const targetId = faqTitle.getAttribute('aria-controls')
+                const targetElement = document.querySelector(`.faq-accordion dt[id=${targetId}]`)
+                if (targetElement.classList.contains('active')) {
+                  document.querySelector(`.faq-accordion dd[id=${targetId}]`).style.display = 'none'
+                  targetElement.classList.remove('active')
+                } else {
+                  document.querySelector(`.faq-accordion dd[id=${targetId}]`).style.display = 'block'
+                  targetElement.classList.add('active')
+                }
+            });
+        }
+    });
+</script>
+
+
+{% schema %}
+  {
+    "name": {
+      "en": "FAQs"
+    },
+    "class": "index-section index-section--faqs",
+    "max_blocks": 25,
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_heading",
+        "label": "Section Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Lorem Ipsum"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "FAQs",
+      "category": "Agile Layout"
+    }
+  ]
+  }
+{% endschema %}

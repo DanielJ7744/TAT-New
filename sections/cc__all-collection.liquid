@@ -1,0 +1,151 @@
+<div class="all-collections">
+
+    {% if section.settings.subheading != blank or section.settings.heading != blank %}
+    <div class="all-collections__header" style="background-color: {{ section.settings.background_color }};">
+        <div class="general-section__secondary section-small">
+            {% if section.settings.subheading != blank %}
+            <div class="all-collections__subheading font-p p-small tw-medium">
+                {{ section.settings.subheading }}
+            </div>
+            {% endif %}
+            {% if section.settings.heading != blank %}
+            <h1 class="all-collections__heading t-large sp-mt-2">
+                {{ section.settings.heading }}
+            </h1>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="all-collections__main">
+
+        <div class="general-section__secondary all-collections__jumpto-section section-small {% if section.settings.remove_bottom %} general-section--no-bottom {% endif %}">
+            <div class="all-collections__jumpto">
+                <div class="all-collections__jumpto--label sp-mb-1 t-tiny">{{ section.settings.trigger_heading }}</div>
+                <div class="all-collections__jumpto--triggers">
+                    {% for block in section.blocks %}
+                        <p class="t-small tw-medium">
+                            <a href="#{{block.settings.main_collection.handle}}">
+                                {% if block.settings.heading %}
+                                {{ block.settings.heading }}
+                                {% else %}
+                                {{ block.settings.main_collection.title}}
+                                {% endif %}
+                            </a>
+                        </p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {% for block in section.blocks %}
+        <div class="general-section__secondary section-small general-section--no-bottom" id="{{ block.settings.main_collection.handle }}">
+            <div class="all-collections__collection">
+                <h2 class="t-big sp-mb-2">
+                    {% if block.settings.heading %}
+                        {{ block.settings.heading }}
+                    {% else %}
+                        {{ block.settings.main_collection.title}}
+                    {% endif %}
+                </h2>
+                <p class="all-collections__collection-subheading t-small sp-mb-5">
+                    {% if block.settings.sub_heading %}
+                        {{ block.settings.sub_heading }}
+                    {% else %}
+                        {{ block.settings.main_collection.description}}
+                    {% endif %}
+                </p>
+                <div class="all-collections__collection-products">
+                    {% render 'product-loop',
+                        products: block.settings.main_collection.products,
+                        products_per_row: 3,
+                        mobile_products_per_row: 1
+                    %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+    
+</div>
+
+
+
+{% schema %}
+  {
+    "name": {
+      "en": "All Collection"
+    },
+    "class": "index-section index-section--all-collection",
+    "max_blocks": 25,
+    "settings": [
+      {
+        "type": "header",
+        "content": "Header Settings"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Header Background Color"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Header Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "textarea",
+        "id": "subheading",
+        "label": "Header Sub Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "checkbox",
+        "id": "remove_bottom",
+        "label": "Remoe Bottom Spacing for Trigger Section",
+        "default": false
+      },
+      {
+        "type": "textarea",
+        "id": "trigger_heading",
+        "label": "Triggers Heading",
+        "default": "Jump to collection:"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "collection",
+        "name": "Collection",
+        "settings": [
+          {
+            "type": "collection",
+            "id": "main_collection",
+            "label": "Select Collection"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Custom Title",
+            "info" : "Leave blank to show default collection title",
+            "default": "Lorem Ipsum"
+          },
+          {
+            "type": "textarea",
+            "id": "sub_heading",
+            "info" : "Leave blank to show default collection description",
+            "label": "Custom Description",
+            "default": "Lorem Ipsum"
+          }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "All Collection",
+      "category": "Agile Layout"
+    }
+  ]
+  }
+{% endschema %}

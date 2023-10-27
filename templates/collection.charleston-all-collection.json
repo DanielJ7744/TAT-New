@@ -1,0 +1,281 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "all-collection": {
+      "type": "cc__all-collection",
+      "blocks": {
+        "398072bc-bc87-4904-932d-d8bf961fb0f3": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "weekly-menu-charleston",
+            "heading": "This Week's Meals",
+            "sub_heading": "At Table & Twine, we take the drudgery out of cooking by dishing up fun, exciting recipes each week. Peruse this week’s menu to find your new favorites."
+          }
+        },
+        "469f582c-6726-4ace-83e1-0f422155aa0e": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "family-meals-menu-charleston",
+            "heading": "Family Meals",
+            "sub_heading": "After a long day at work, untwine and dine with our convenient family meals. Designed to feed four or more people, these Charleston dinner meal kits require minimal prep time and cleanup."
+          }
+        },
+        "b1732b00-8d88-41f0-b02a-32e564285848": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "small-groups-charleston",
+            "heading": "Small Groups & Packages",
+            "sub_heading": "Any gathering can be stressful to host. Fortunately, our small group entertainment packages provide you with the pre-prepared ingredients you need to woo guests."
+          }
+        },
+        "a4fa9a87-e698-433a-a074-eb334692de6d": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "bistro-menu-charleston",
+            "heading": "Bistro",
+            "sub_heading": "Busy day at the office? Give yourself a break and enjoy a lunch item from our bistro menu. These lighter menu offerings are quick and convenient."
+          }
+        },
+        "5b76e052-b7ee-41ef-92b8-2f6c3aa8e725": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "appetizers-and-snack-menu-charleston",
+            "heading": "Appetizers & Snacks",
+            "sub_heading": "Skip the store-bought chips and treat your guests to artfully-prepared hors d'oeuvres from Table & Twine. Since our chefs handle most of the cooking for you, these kits make entertaining super easy."
+          }
+        },
+        "1833b8f2-9a86-4c4f-823f-b56902040f1d": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "breakfast-menu-charleston",
+            "heading": "Breakfast Items",
+            "sub_heading": "Stop eating sugary pastries and opt for a quick, healthy breakfast by Table & Twine instead. Many items on our breakfast menu can be prepared in 60 seconds or less."
+          }
+        },
+        "2584a58d-8af1-4f9b-b3a7-4adc39ace9f0": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "desserts-menu-charleston",
+            "heading": "Desserts & Sweets",
+            "sub_heading": "Our desserts are the perfect complement to our Charleston dinner meal kits. Even better, many Table & Twine treats require no prep time at all."
+          }
+        }
+      },
+      "block_order": [
+        "398072bc-bc87-4904-932d-d8bf961fb0f3",
+        "469f582c-6726-4ace-83e1-0f422155aa0e",
+        "b1732b00-8d88-41f0-b02a-32e564285848",
+        "a4fa9a87-e698-433a-a074-eb334692de6d",
+        "5b76e052-b7ee-41ef-92b8-2f6c3aa8e725",
+        "1833b8f2-9a86-4c4f-823f-b56902040f1d",
+        "2584a58d-8af1-4f9b-b3a7-4adc39ace9f0"
+      ],
+      "settings": {
+        "background_color": "#f8f4ef",
+        "heading": "Dinner Meal Kits in Charleston",
+        "subheading": "Full Menu",
+        "remove_bottom": true,
+        "trigger_heading": "Jump to collection:"
+      }
+    },
+    "1659459232a5ea58a1": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section__secondary",
+        "remove_bottom": true,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Why Choose a Dinner Meal Kit in Charleston?",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "<p>Table & Twine’s Charleston meal kits are designed to bring a five-star culinary experience to your dinner table. We know that preparing a delicious, healthy meal can be tedious. That’s why our chefs handle 90% of the prep work for you, allowing you to spend less time in the kitchen and more time with family.  <\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/003_1029acd4-5343-433c-8cc2-ee4295fe61b4.jpg",
+        "square_image": false,
+        "button_text": "Explore This Week’s Menu",
+        "button_link": "shopify:\/\/collections\/weekly-menu-charleston",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "left",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "16594603292cb4aa43": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section__secondary",
+        "remove_bottom": true,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Enjoy a Diverse Selection of At-Home Dinner Menus",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "<p>If members of your household have specific dietary restrictions, we make dinnertime more convenient. Our website displays icons that indicate whether meals are free of specific allergens like <a href=\"\/collections\/gluten-free-menu-charleston\" title=\"\/collections\/gluten-free-menu-charleston\"><span style=\"text-decoration:underline\">gluten<\/span><\/a> and <a href=\"\/collections\/dairy-free-menu-charleston\" title=\"\/collections\/dairy-free-menu-charleston\"><span style=\"text-decoration:underline\">dairy<\/span><\/a>. We also offer <a href=\"\/collections\/family-meals-menu-charleston\" title=\"\/collections\/family-meals-menu-charleston\"><span style=\"text-decoration:underline\">family-friendly meals<\/span><\/a> to make weeknight dinners less chaotic.   <\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/002_4c5b7ba8-edc5-4e65-a7e8-475c2fca6b19.jpg",
+        "square_image": false,
+        "button_text": "Explore Allergy-Friendly Meals",
+        "button_link": "\/collections\/allergy-friendly-menu-charleston",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "165946070661ed7d6d": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section__secondary",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "<p>When you order Charleston dinner meal kits from Table & Twine, we’ll include easy-to-follow heating instructions. Just scan the QR code on the packaging and start cooking! You can also find these instructions on our website. <\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View Instructions",
+        "button_link": "\/pages\/heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--secondary",
+        "image_align": "left",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "16594609129180a7f8": {
+      "type": "cc__banner-with-text",
+      "settings": {
+        "section_heading": "Chef-Inspired Meals That Impress",
+        "heading_size": "t-large",
+        "section_text": "At Table & Twine, we’re committing to reimaging dinnertime into a culinary experience – not a chore. That’s why our rotating menu showcases everything from single-serving salads to cocktail party packages. We also cater to customers with dietary restrictions, offering allergy-friendly meal kit options for customers across the Carolinas.",
+        "header_width": 1300,
+        "text_width": 800,
+        "add_city_select": false,
+        "use_overlay": true,
+        "overlay_percent": 42,
+        "text_align": "center",
+        "text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/asset__home--subscriptions.jpg",
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary"
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to prepare a Charleston dinner meal kit?",
+            "text": "<p>When you partner with Table & Twine, you’ll be able to whip up a single entrée dinner in <a href=\"\/pages\/heating-instructions\/\" title=\"\/pages\/heating-instructions\/\"><span style=\"text-decoration:underline\">15 minutes or less<\/span><\/a>. This saves you the headache of shopping, chopping, cooking, and cleaning.   <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "How much does a Charleston chef-prepared, at-home dinner cost?",
+            "text": "<p>For a very affordable price, you’ll receive all the locally-sourced ingredients and step-by-step instructions you need to prepare an impressive dinner.  <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "How many dinner meal kits can I order at once?",
+            "text": "<p>You can order as many meals as you’d like, while supplies last. However, if you’re ordering for a large group, we suggest exploring our <a href=\"\/collections\/family-meals-menu-charleston\" title=\"\/collections\/family-meals-menu-charleston\"><span style=\"text-decoration:underline\">Family Meals<\/span><\/a> menu. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5"
+      ],
+      "settings": {
+        "section_heading": "Charleston Meal Kit & Dinner Menu FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "all-collection",
+    "1659459232a5ea58a1",
+    "16594603292cb4aa43",
+    "165946070661ed7d6d",
+    "16594609129180a7f8",
+    "1659461894e172168f"
+  ]
+}

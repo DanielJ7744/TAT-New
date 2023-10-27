@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Grid-[Dietary-Icons]" transform="translate(-342.000000, 0.000000)" stroke="#B29A7A" stroke-width="1.5">
+            <g id="Icon-—-Dairy-Free" transform="translate(328.000000, 1.000000)">
+                <g id="Icon" transform="translate(15.000000, 0.000000)">
+                    <path d="M24,48 C37.25484,48 48,37.25484 48,24 C48,10.745172 37.25484,0 24,0 C10.74516,0 0,10.745172 0,24 C0,37.25484 10.74516,48 24,48 Z" id="Path"></path>
+                    <line x1="40.93644" y1="7.063476" x2="7.063584" y2="40.93632" id="Path"></line>
+                    <polygon id="Path" points="22.089 39.76752 14.28336 37.16388 14.28336 15.8742 22.089 18.47784"></polygon>
+                    <polygon id="Path" points="33.714 37.16388 22.08888 39.76752 22.08888 18.47784 33.714 15.8742"></polygon>
+                    <polygon id="Path" points="28.5276 9.982044 19.488 12.0024 19.488 10.250208 28.5276 8.23242"></polygon>
+                    <polygon id="Path" points="33.714 15.87396 22.08888 18.4776 19.48788 12.0024 28.5276 9.982032"></polygon>
+                    <polygon id="Path" points="22.089 18.47748 14.28336 15.87384 19.488 12.0024"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

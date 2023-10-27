@@ -1,0 +1,84 @@
+{% if section.settings.menu1 != blank or  section.settings.menu2 != blank %}
+  <div class="collection-bottom__related section-big general-section">
+    <div class="collection-bottom__related--heading">
+      {% if section.settings.heading_second != blank %}
+        <h2 class="t-big">{{ section.settings.heading_second }}</h2>
+      {% endif %}
+      {% if section.settings.text_second != blank %}
+        <div class="t-small sp-mt-3">
+          {{ section.settings.text_second }}
+        </div>
+      {% endif %}
+    </div>
+    <div class="collection-bottom__related--contents">
+      {% assign collectionFirst = collections[section.settings.menu1] %}
+      {% assign collectionSecond = collections[section.settings.menu2] %}
+      <div class="child">
+        {%
+          render 'image-element',
+          image: collectionFirst.image
+        %}
+        <div class="box-element">
+          <h3 class="t-medium">{{ collectionFirst.title }}</h3>
+          <p class="t-small">{{ collectionFirst.description | truncate: 200 }}</p>
+          <a class="t-small" href="{{ collectionFirst.url }}">View menu ›</a>
+        </div>
+      </div>
+      <div class="child">
+        {%
+          render 'image-element',
+          image: collectionSecond.image
+        %}
+        <div class="box-element">
+          <h3 class="t-medium">{{ collectionSecond.title }}</h3>
+          <p class="t-small">{{ collectionSecond.description | truncate: 200 }}</p>
+          <a class="t-small" href="{{ collectionSecond.url }}">View menu ›</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": {
+    "en": "Collection Recommend"
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_second",
+      "label": "Second Section Heading",
+      "default": "Other Table & Twine Menus"
+    },
+    {
+      "type": "richtext",
+      "id": "text_second",
+      "label": "Second Section Text",
+      "default": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}</p>"
+    },
+    {
+      "type": "text",
+      "id": "menu1",
+      "label": "Menu 1",
+      "default": "{{ collection.metafields.custom.twine_menu_1.value }}"
+    },
+    {
+      "type": "text",
+      "id": "menu2",
+      "label": "Menu 2",
+      "default": "{{ collection.metafields.custom.twine_menu_2.value }}"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Bottom Recommendations"
+    }
+  ]
+}
+{% endschema %}

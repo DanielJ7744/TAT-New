@@ -1,0 +1,641 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165608871724ba9184": {
+      "type": "c__main-slider",
+      "blocks": {
+        "a1215268-d81f-445e-bd15-034fbef5063a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GLUTENFREEMENUITEMS_43_c96226df-aef4-4dae-a3b5-53f570c44146.png",
+            "title": "Gluten Free Menu",
+            "text": "<p>With our gluten-free meal service in Raleigh, you’re afforded access to dozens of tasty allergy-friendly dishes, requiring only 15 minutes of prep time.<\/p>",
+            "button_label": "View gluten-free meals ›",
+            "button_link": "\/collections\/gluten-free-menu-raleigh"
+          }
+        },
+        "16560887178f8d23e3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pan_Seared_Scallops-1.jpg",
+            "title": "Weekly Menu",
+            "text": "<p>Featuring new meals including Pan Seared Scallops and Pumpkin Coconut Curry, along with our popular Saltimbocca Chicken and more!<\/p>",
+            "button_label": "View our weekly menu ›",
+            "button_link": "shopify:\/\/collections\/weekly-menu-raleigh"
+          }
+        },
+        "16560887178f8d23e3-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/asset__hero--refer-a-friend.jpg",
+            "title": "Refer a friend. Give $20, Get $10",
+            "text": "<p>No commitment, no tricks, just a simple way to share the love of Table & Twine<\/p>",
+            "button_label": "Refer a friend ›",
+            "button_link": "\/pages\/refer-a-friend"
+          }
+        }
+      },
+      "block_order": [
+        "a1215268-d81f-445e-bd15-034fbef5063a",
+        "16560887178f8d23e3-0",
+        "16560887178f8d23e3-1"
+      ],
+      "settings": {
+        "background_color": "#f8f4ef",
+        "text_color": "#000000",
+        "pretext": "<p>Raleigh and The Triangle Meal Delivery Service<\/p>",
+        "title": "Fresh, chef made meals for busy people.",
+        "heading_tag": "h2",
+        "text": "",
+        "button1_label": "Order Now",
+        "button1_link": "shopify:\/\/collections\/full-menu",
+        "to_location_selector": false,
+        "button1_style": "b--primary",
+        "button2_label": "",
+        "button2_link": "",
+        "to_location_selector_two": false,
+        "button2_style": "b--secondary",
+        "text_alignment": "center",
+        "text_transition": "fadeIn",
+        "button_style": "button--primary",
+        "show_nav_buttons": true,
+        "image_position": "right",
+        "image_transition": "slide",
+        "image_slideshow_speed": 8,
+        "show_arrows": true,
+        "width": "standard",
+        "show_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16561069352379fcff": {
+      "type": "c__tile-section",
+      "settings": {
+        "heading": "This Week’s Menu",
+        "text": "Featured meals are packaged in servings sizes of 1, 2, and 4. You can adjust the quantity of serving sizes that you need to serve any size group.",
+        "collection": "weekly-menu-raleigh",
+        "button_text": "Explore the full menu",
+        "button_link": "\/collections\/full-menu-raleigh",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "#000000"
+      }
+    },
+    "16560961035fcf0633": {
+      "type": "c__grid-section",
+      "blocks": {
+        "dc2a17ef-be18-4b5d-8605-86ec566aa18a": {
+          "type": "text",
+          "settings": {
+            "title": "Pick your meals",
+            "text": "Are you ready for fresh, delicious dishes to be delivered right to your door?",
+            "image": "shopify:\/\/shop_images\/asset__home--steps-11.jpg",
+            "icon_image": "none"
+          }
+        },
+        "6c621860-c3dc-4526-8c94-ed0b10f07ca7": {
+          "type": "text",
+          "settings": {
+            "title": "Let us do the shopping and chopping",
+            "text": "We take the hassle out of dinnertime by preparing up to 90% of every meal. You’ll just need to do 15 minutes – or less – of cooking to bring the dish together.",
+            "image": "shopify:\/\/shop_images\/asset__home--steps-22.jpg",
+            "icon_image": "none"
+          }
+        },
+        "b7527733-7ec5-4a81-a49f-b78da4c55db4": {
+          "type": "text",
+          "settings": {
+            "title": "Receive your meals",
+            "text": "You can choose convenient, contactless delivery around The Triangle and Raleigh area.",
+            "image": "shopify:\/\/shop_images\/asset__delivery.jpg",
+            "icon_image": "none"
+          }
+        },
+        "ae531dd4-e0e4-4d09-a6ed-8154efa11f71": {
+          "type": "text",
+          "settings": {
+            "title": "Five-star flavors, fast!",
+            "text": "In 15 minutes or less, you’ll be sharing a delicious, restaurant-quality meal with your family.",
+            "image": "shopify:\/\/shop_images\/asset__home--steps-44.jpg",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "dc2a17ef-be18-4b5d-8605-86ec566aa18a",
+        "6c621860-c3dc-4526-8c94-ed0b10f07ca7",
+        "b7527733-7ec5-4a81-a49f-b78da4c55db4",
+        "ae531dd4-e0e4-4d09-a6ed-8154efa11f71"
+      ],
+      "settings": {
+        "section_heading": "How It Works",
+        "heading_color": "#000000",
+        "text": "",
+        "header_align": "center",
+        "section_type": "section-small",
+        "header_width": 1000,
+        "show_number": true,
+        "button_text": "Order now ›",
+        "button_link": "shopify:\/\/collections\/full-menu",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "#000000",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": true
+      }
+    },
+    "1656604492d62f2e34": {
+      "type": "c__schedule-section",
+      "blocks": {
+        "f6b494a0-0b51-4e2f-ae10-7ecb0b4cd3b0": {
+          "type": "first_block",
+          "settings": {
+            "text1": "Sunday",
+            "text2": "Tuesday"
+          }
+        },
+        "3adf6781-c9aa-44f8-8392-c33f4b5add36": {
+          "type": "first_block",
+          "settings": {
+            "text1": "Tuesday",
+            "text2": "Thursday"
+          }
+        }
+      },
+      "block_order": [
+        "f6b494a0-0b51-4e2f-ae10-7ecb0b4cd3b0",
+        "3adf6781-c9aa-44f8-8392-c33f4b5add36"
+      ],
+      "settings": {
+        "background_color": "#f8f4ef",
+        "use_background_image": false,
+        "second_type": false,
+        "show_left_border": false,
+        "section_heading": "The Triangle Order Schedule",
+        "section_text": "To give our chefs time to prepare your meal, we have specific ordering windows. \n<br><br>\nMeals must be ordered by 11:59pm two days before your desired delivery date. Orders for Tuesday delivery must be ordered by 11:59pm on Sunday. Orders for Thursday delivery must be ordered by 11:59pm on Tuesday.",
+        "from_text": "Order by 11:59PM on…",
+        "to_text": "To receive meals as soon as…",
+        "button_text": "Order now ›",
+        "button_link": "shopify:\/\/collections\/full-menu",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": ""
+      }
+    },
+    "165816614886ec361e": {
+      "type": "c__review-section",
+      "blocks": {
+        "e1c3bbe3-2276-401f-af23-75bd878f5b8b": {
+          "type": "review1",
+          "settings": {
+            "name": "Jess W",
+            "review": "\"Exceptional! We had the Thanksgiving dinner for 6 and it was fantastic. Delivery was timely, efficient, and everything was kept at the appropriate temperature, thanks to the great packaging (ice packs, insulated bags, etc), while waiting to be put away. We highly recommend and are ordering the Christmas meal, for sure.\""
+          }
+        },
+        "8b7c3a06-9d26-451b-a223-9b0d1a44d8bd": {
+          "type": "review1",
+          "settings": {
+            "name": "Paula R",
+            "review": "\"Five stars for sure -- should be more! I have ordered every week since Table & Twine began delivering to my zip code. Have enjoyed every meal and am always anxious to see what's on the menu for the following week. Meal prep includes easy-to-follow directions and I love not having to chop anything!\""
+          }
+        },
+        "1c31fc95-eb69-40c3-8f0c-4339b08a239f": {
+          "type": "review1",
+          "settings": {
+            "name": "Morgan B",
+            "review": "\"We got delivery from Table and Twine last week and loved it. Packaging was well done and instructions for heating easy to follow — all you really need is an oven. So easy to follow that by the time we plated our two dishes it looked like we were in the restaurant.The food was excellent.\""
+          }
+        },
+        "20a3815f-db15-4cbb-8c76-5bb23d63b1a2": {
+          "type": "review1",
+          "settings": {
+            "name": "Ryan C",
+            "review": "\"This was our first time ever ordering from Table and Twine (we actually never ordered from any meal prep service). We started with the best! Ordering went smoothly and the front door delivery was so convenient. The directions were easy to follow and we were beyond pleased with how it all turned out. Love the packaging and the easy clean up too.\""
+          }
+        },
+        "9437a429-7e17-4bf4-bb56-1cf106faa049": {
+          "type": "review1",
+          "settings": {
+            "name": "Kris G",
+            "review": "\"Table & Twine is fantastic for high quality, easy to make premium meal prep. Took me 15 minutes max to prepare all of my meals and the quality of the food was way better than any restaurant takeout or other meal kit I have tried before.\""
+          }
+        },
+        "fe1574e8-34b7-482a-8adc-56cfe77dabcf": {
+          "type": "review2",
+          "settings": {
+            "name": "George W",
+            "review": "\"Best little secret in the Tri-county area! Introduced a few months ago to Table & Twine through word-of-mouth, we have yet to receive a meal that we did not fully enjoy. So much so, that we decided to engage them for a recent family event, allowing us to focus on a desert commensurate with the awesome “family meal” we had selected. The entire event was a success, everyone raving about the meal they had just enjoyed.\""
+          }
+        },
+        "6040d2e3-ac06-4b20-ae27-1922c246d904": {
+          "type": "review2",
+          "settings": {
+            "name": "Tracey A",
+            "review": "\"I've been trying several of the home delivery local food suppliers. All have been very good, but Table and Twine is superior. Quality is amazing, and the array of menus appetizing. Give them a try, quality food is out there people and you're gonna love it!\""
+          }
+        },
+        "1e82bfa4-6cb4-4a13-ad48-44f06a229634": {
+          "type": "review2",
+          "settings": {
+            "name": "Michael B",
+            "review": "\"Amazing meal delivery service in Charleston! We used them for a one-time weekend visit to Folly Beach to order a few family-style meals & snacks\/apps. The food was delicious!\""
+          }
+        },
+        "64957763-ab19-4871-8838-7b831e2c3a53": {
+          "type": "review2",
+          "settings": {
+            "name": "Rachel L",
+            "review": "\"Last night we had our first home delivery dinner from Table and Twine. Oh BABY, they were good. The packaging assured keeping the dinner a safe temperature during delivery in the oppressive heat of summer in the south. Directions for completing the meal were easily understood.\""
+          }
+        },
+        "201c17a6-855e-4c30-ae96-56cb68722911": {
+          "type": "review2",
+          "settings": {
+            "name": "Lauren J",
+            "review": "\"What a great find! We tried their service a few weeks ago and we're ordering every week. Better than take out because you have to do a minimal amount of preparation - 15 minutes of cooking at most - so it's so much fresher. A must try!\""
+          }
+        }
+      },
+      "block_order": [
+        "e1c3bbe3-2276-401f-af23-75bd878f5b8b",
+        "8b7c3a06-9d26-451b-a223-9b0d1a44d8bd",
+        "1c31fc95-eb69-40c3-8f0c-4339b08a239f",
+        "20a3815f-db15-4cbb-8c76-5bb23d63b1a2",
+        "9437a429-7e17-4bf4-bb56-1cf106faa049",
+        "fe1574e8-34b7-482a-8adc-56cfe77dabcf",
+        "6040d2e3-ac06-4b20-ae27-1922c246d904",
+        "1e82bfa4-6cb4-4a13-ad48-44f06a229634",
+        "64957763-ab19-4871-8838-7b831e2c3a53",
+        "201c17a6-855e-4c30-ae96-56cb68722911"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/asset__home--reviews2.jpg"
+      }
+    },
+    "1656098958bbcec98a": {
+      "type": "c__grid-section",
+      "blocks": {
+        "4863e33a-05de-47ab-9afa-97572635b6ba": {
+          "type": "text",
+          "settings": {
+            "title": "Artisanal Dishes",
+            "text": "An exciting, ever-changing lineup of recipes – explore international cuisine from the comfort of your Raleigh kitchen.",
+            "icon_image": "icon__chef.svg"
+          }
+        },
+        "794f02ce-5c04-4e7b-85ec-3b67f53353f0": {
+          "type": "text",
+          "settings": {
+            "title": "Freshness Where It Counts",
+            "text": "Expect locally-sourced produce, sustainable seafood, and ethically-raised meat sourced from farms across the Carolinas.",
+            "icon_image": "icon__fresh.svg"
+          }
+        },
+        "17ac2830-6b3a-4e81-bd9e-bbbd82aa4e6c": {
+          "type": "text",
+          "settings": {
+            "title": "Minimal Hassle",
+            "text": "We don’t deliver a box of plastic-wrapped ingredients and expect you to do all the work; our chefs will help you prepare an impressive meal by handling 90% of the cooking.",
+            "icon_image": "icon__no-hassle.svg"
+          }
+        }
+      },
+      "block_order": [
+        "4863e33a-05de-47ab-9afa-97572635b6ba",
+        "794f02ce-5c04-4e7b-85ec-3b67f53353f0",
+        "17ac2830-6b3a-4e81-bd9e-bbbd82aa4e6c"
+      ],
+      "settings": {
+        "section_heading": "Why Table & Twine?",
+        "heading_color": "",
+        "text": "",
+        "header_align": "center",
+        "section_type": "section-small",
+        "header_width": 1000,
+        "show_number": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": true,
+        "use_landscape_image": false
+      }
+    },
+    "16566044972d697e2d": {
+      "type": "c__schedule-section",
+      "blocks": {
+        "a72246f0-6cb2-4a9c-a601-82bf03b54627": {
+          "type": "second_block",
+          "settings": {
+            "title": "Weekly Meals",
+            "collection": "weekly-menu-raleigh"
+          }
+        },
+        "9e2059ab-4afb-41af-ac0f-92c5f4e8f962": {
+          "type": "second_block",
+          "settings": {
+            "title": "Family Meals",
+            "collection": "family-meals-menu-raleigh"
+          }
+        },
+        "152a9aed-6656-4f6b-ab83-9f49288a2f31": {
+          "type": "second_block",
+          "settings": {
+            "title": "Small Groups & Packages",
+            "collection": "small-groups-raleigh"
+          }
+        },
+        "315dee45-0ccc-4d63-9d2f-af4e953c68fc": {
+          "type": "second_block",
+          "settings": {
+            "title": "Bistro Meals",
+            "collection": "bistro-menu-raleigh"
+          }
+        },
+        "02280d7b-cea0-4b4f-9d99-30b4f4fad060": {
+          "type": "second_block",
+          "settings": {
+            "title": "Appetizers & Snacks",
+            "collection": "appetizers-and-snack-menu-raleigh"
+          }
+        },
+        "9f9fc20f-67fc-45cf-9460-dda6b90d7a82": {
+          "type": "second_block",
+          "settings": {
+            "title": "Breakfast",
+            "collection": "breakfast-menu-raleigh"
+          }
+        },
+        "22d9f650-f364-4d82-8b04-d0cfa8d4d7a6": {
+          "type": "second_block",
+          "settings": {
+            "title": "Desserts & Sweets",
+            "collection": "desserts-menu-raleigh"
+          }
+        },
+        "16b69250-74cc-49c9-921f-d499e46c8791": {
+          "type": "second_block",
+          "settings": {
+            "title": "Kid's Meals",
+            "collection": "kids-meals-menu-raleigh"
+          }
+        }
+      },
+      "block_order": [
+        "a72246f0-6cb2-4a9c-a601-82bf03b54627",
+        "9e2059ab-4afb-41af-ac0f-92c5f4e8f962",
+        "152a9aed-6656-4f6b-ab83-9f49288a2f31",
+        "315dee45-0ccc-4d63-9d2f-af4e953c68fc",
+        "02280d7b-cea0-4b4f-9d99-30b4f4fad060",
+        "9f9fc20f-67fc-45cf-9460-dda6b90d7a82",
+        "22d9f650-f364-4d82-8b04-d0cfa8d4d7a6",
+        "16b69250-74cc-49c9-921f-d499e46c8791"
+      ],
+      "settings": {
+        "background_color": "#eeeeee",
+        "background_image": "shopify:\/\/shop_images\/asset__home--collections2.jpg",
+        "use_background_image": true,
+        "second_type": true,
+        "show_left_border": true,
+        "section_heading": "Meals for Every Occasion",
+        "section_text": "Table & Twine can serve up restaurant-quality meals for every birthday party, work meeting, and holiday get-together on your calendar.",
+        "from_text": "",
+        "to_text": "",
+        "button_text": "Order now",
+        "button_link": "shopify:\/\/collections\/full-menu",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": ""
+      }
+    },
+    "16562578947dd11139": {
+      "type": "c__image-with-text",
+      "blocks": {
+        "3d798bd7-bcf1-40f8-a764-a6d986051f1b": {
+          "type": "text",
+          "settings": {
+            "text": "Gluten-Free",
+            "icon_image_link": "shopify:\/\/collections\/gluten-free-menu-raleigh",
+            "image_by_icon": "icon__gluten-free.svg"
+          }
+        },
+        "90f84f58-2ee0-461a-9be5-0fdc3616e9e0": {
+          "type": "text",
+          "settings": {
+            "text": "Vegetarian",
+            "icon_image_link": "shopify:\/\/collections\/vegetarian-menu-raleigh",
+            "image_by_icon": "icon__vegetarian.svg"
+          }
+        },
+        "ba69f943-1cb8-474f-8197-c96a2ad1e4cb": {
+          "type": "text",
+          "settings": {
+            "text": "Nut-Free",
+            "icon_image_link": "shopify:\/\/collections\/nut-free-menu-raleigh",
+            "image_by_icon": "icon__nut-free.svg"
+          }
+        },
+        "7076b8a8-5535-4c04-84c2-4dd46db58cb5": {
+          "type": "text",
+          "settings": {
+            "text": "Dairy-Free",
+            "icon_image_link": "shopify:\/\/collections\/dairy-free-menu-raleigh",
+            "image_by_icon": "icon__dairy-free.svg"
+          }
+        }
+      },
+      "block_order": [
+        "3d798bd7-bcf1-40f8-a764-a6d986051f1b",
+        "90f84f58-2ee0-461a-9be5-0fdc3616e9e0",
+        "ba69f943-1cb8-474f-8197-c96a2ad1e4cb",
+        "7076b8a8-5535-4c04-84c2-4dd46db58cb5"
+      ],
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Meals for Every Diet",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Whether you have a nut allergy or dairy sensitivity, Table & Twine has a delicious meal plan to suit.<\/p>",
+        "text2": "",
+        "text_align_mobile": "center",
+        "image": "shopify:\/\/shop_images\/product__asian-shopped-salad--chicken.jpg",
+        "square_image": false,
+        "button_text": "Explore Allergy-Friendly Meals",
+        "button_link": "shopify:\/\/collections\/allergy-friendly-menu-raleigh",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "add_box_to_image": true,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Asian Chopped Salad",
+        "box_text": "Chopped greens topped with marinated hearts of palm, sliced almonds, crunchy chow mein and pickled mandarin oranges. Finished with a ginger miso dressing.",
+        "box_image1_icon": "icon__dairy-free.svg",
+        "box_image1_big": false,
+        "box_image_link1": "shopify:\/\/collections\/dairy-free-menu-raleigh",
+        "box_link1_blank": false,
+        "box_image_text1": "Dairy-Free",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "16565174055782628d": {
+      "type": "cc__banner-with-text",
+      "settings": {
+        "section_heading": "Experience Table & Twine Today",
+        "heading_size": "t-big",
+        "section_text": "Dinner should never be a chore, nor should it be boring. See for yourself the value of receiving chef-quality meals at home by ordering from the best meal kit delivery service in Raleigh.",
+        "header_width": 400,
+        "text_width": 1400,
+        "add_city_select": false,
+        "use_overlay": true,
+        "overlay_percent": 40,
+        "text_align": "left",
+        "text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/asset__home--subscriptions2.jpg",
+        "button_text": "Get started",
+        "button_link": "\/collections\/full-menu-raleigh",
+        "to_location_selector": false,
+        "button_style": "b--primary"
+      }
+    },
+    "1656261342230a48a4": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "The Triangle Delivery",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "<p>Meals must be ordered by 11:59pm two days before your desired delivery date. Deliveries for Tuesday delivery must be ordered by 11:59pm on Sunday. Orders for Thursday delivery must be ordered by 11:59pm on Tuesday. <\/p>",
+        "text2": "<b>Table & Twine \n<br>\nBy Best Impressions Caterers\n<\/b>\n<br>\n(919) 473-6034\n<br>",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/map__raleigh.jpg",
+        "square_image": false,
+        "button_text": "Order Now",
+        "button_link": "\/collections\/full-menu-raleigh",
+        "to_location_selector": false,
+        "button_style": "b--secondary",
+        "image_align": "left",
+        "text_color": "#000000",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": "homepage-before-end-section"
+      }
+    },
+    "1656262899f281b0ed": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-small",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "<p>Every Table & Twine meal comes with a QR code that can be scanned for heating instructions. You can also find these instructions on our website.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/asset__home--heating-instructions.jpg",
+        "square_image": false,
+        "button_text": "View Instructions",
+        "button_link": "shopify:\/\/pages\/heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--secondary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": "homepage-end-section"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165608871724ba9184",
+    "16561069352379fcff",
+    "16560961035fcf0633",
+    "1656604492d62f2e34",
+    "165816614886ec361e",
+    "1656098958bbcec98a",
+    "16566044972d697e2d",
+    "16562578947dd11139",
+    "16565174055782628d",
+    "1656261342230a48a4",
+    "1656262899f281b0ed"
+  ]
+}

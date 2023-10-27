@@ -1,0 +1,52 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "image_darken": true,
+        "subtitle": "Subheading",
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16578120763d91550c": {
+      "type": "c__text-section-cart",
+      "settings": {
+        "narrow_section": false,
+        "deep_section": false,
+        "heading": "Your Basket",
+        "heading_tag": "h1",
+        "text": "<p>Confirm your order & checkout below, or <a href=\"\/collections\/full-menu-charlotte\" title=\"\/collections\/full-menu-charlotte\">return to the store<\/a> to add more dishes<\/p>",
+        "heading2": "",
+        "heading2_tag": "h2",
+        "text2": "",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "main": {
+      "type": "cart__main",
+      "settings": {
+        "display_product_quantity_cart": true,
+        "display_savings": true,
+        "cart_message": "",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "16578120763d91550c",
+    "main"
+  ]
+}

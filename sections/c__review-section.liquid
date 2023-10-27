@@ -1,0 +1,175 @@
+<div
+  class="review-section"
+  style="background-image: url({{ section.settings.background_image | img_url: 'master' }})">
+
+    <div class="section-big review-section__inner">
+
+      <div class="review-section__main">
+        <div class="slick-testimonial-slider">
+          {% for block in section.blocks %}
+            {% if block.type == 'review1'  %}
+              <div class="review-section__child review-section__child--{{forloop.index}}">
+                <div class="review-section__child--inner review-section__child--inner-{{forloop.index}}">
+                  {% if block.settings.review != blank %}
+                  <p class="review-section__review t-small">{{ block.settings.review}}</p>
+                  {% endif %}
+                  {% if block.settings.name != blank %}
+                  <p class="review-section__name t-small sp-mt-2">{{ block.settings.name}}</p>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif  %}
+        {% endfor %}
+        </div>
+  
+        <div class="slick-testimonial-slider1">
+          {% for block in section.blocks %}
+            {% if block.type == 'review2'  %}
+              <div class="review-section__child review-section__child--{{forloop.index}}">
+                <div class="review-section__child--inner review-section__child--inner-{{forloop.index}}">
+                  {% if block.settings.review != blank %}
+                  <p class="review-section__review t-small">{{ block.settings.review}}</p>
+                  {% endif %}
+                  {% if block.settings.name != blank %}
+                  <p class="review-section__name t-small sp-mt-2">{{ block.settings.name}}</p>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif  %}
+        {% endfor %}
+        </div>
+      </div>
+
+      <div class="review-section__second">
+        <div class="slick-testimonial-slider2">
+          {% for block in section.blocks %}
+              <div class="review-section__child review-section__child--{{forloop.index}}">
+                <div class="review-section__child--inner review-section__child--inner-{{forloop.index}}">
+                  {% if block.settings.review != blank %}
+                  <p class="review-section__review t-small">{{ block.settings.review}}</p>
+                  {% endif %}
+                  {% if block.settings.name != blank %}
+                  <p class="review-section__name t-small sp-mt-2">{{ block.settings.name}}</p>
+                  {% endif %}
+                </div>
+              </div>
+        {% endfor %}
+        </div>
+      </div>
+
+
+    </div>
+
+</div>
+
+<script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    $('.slick-testimonial-slider').slick({
+      arrows: false,
+      dots: false,
+      slidesToShow: 2,
+      draggable: true,
+      infinite: true,
+      pauseOnHover: false,
+      swipe: true,
+      touchMove: true,
+      vertical: true,
+      autoplay: true,
+      speed: 1000,
+      slidesToScroll: 0.5,
+      autoplaySpeed: 4000,
+      adaptiveHeight: true,
+      verticalSwiping: true
+    });
+    setTimeout(() => {
+      $('.slick-testimonial-slider1').slick({
+        arrows: false,
+        dots: false,
+        slidesToShow: 2,
+        draggable: true,
+        infinite: true,
+        pauseOnHover: false,
+        swipe: true,
+        touchMove: true,
+        vertical: true,
+        autoplay: true,
+        speed: 1000,
+        slidesToScroll: 0.5,
+        autoplaySpeed: 4000,
+        adaptiveHeight: true,
+        verticalSwiping: true
+      });
+    }, 2000)
+    $('.slick-testimonial-slider2').slick({
+      autoplay: true,
+      arrows: false,
+      dots: false,
+      speed: 1000,
+      slidesToScroll: 1,
+      autoplaySpeed: 4000,
+    });
+  });
+</script>
+  
+  
+{% schema %}
+  {
+    "name": {
+      "en": "Review Section"
+    },
+    "class": "index-section index-section--review",
+    "max_blocks": 25,
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "background_image",
+            "label": "Background Image"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "review1",
+        "name": "Block 1",
+        "settings": [
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name",
+            "default": "Kevin"
+          },
+          {
+            "type": "textarea",
+            "id": "review",
+            "label": "Review Text"
+          }
+        ]
+      },
+      {
+        "type": "review2",
+        "name": "Block 2",
+        "settings": [
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name",
+            "default": "Kevin"
+          },
+          {
+            "type": "textarea",
+            "id": "review",
+            "label": "Review Text"
+          }
+        ]
+      }
+  ],
+    "presets": [
+    {
+      "name": "Review Section",
+      "category": "Advanced layout"
+    }
+  ]
+  }
+{% endschema %}
+  

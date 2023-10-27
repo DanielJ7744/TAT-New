@@ -1,0 +1,22 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "main": {
+      "type": "registration-form",
+      "settings": {
+        "title": "Create An Account",
+        "background_color": "#f8f4ef",
+        "richtext": "<p>Register for Table & Twine<\/p>",
+        "image_position": "right",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

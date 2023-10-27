@@ -1,0 +1,35 @@
+{% if product.tags contains 'free' or product.tags contains 'vegetarian' %}
+
+    <div class="grid--allergens">
+
+        {% if product.tags contains 'gluten-free' %}
+            <div class="item">
+                <img alt="Gluten Free" class="item__image" src="">
+                <p class="item__content">Gluten Free</p>
+            </div>
+        {% endif %}
+
+        {% if product.tags contains 'vegetarian' %}
+            <div class="item">
+                <img alt="Vegetarian" class="item__image" src="">
+                <p class="item__content">Vegetarian</p>
+            </div>
+        {% endif %}
+
+        {% if product.tags contains 'nut-free' %}
+            <div class="item">
+                <img alt="Nut Free" class="item__image" src="">
+                <p class="item__content">Nut-free</p>
+            </div>
+        {% endif %}
+
+        {% if product.tags contains 'dairy-free' %}
+            <div class="item">
+                <img alt="Dairy Free" class="item__image" src="">
+                <p class="item__content">Dairy Free</p>
+            </div>
+        {% endif %}
+
+    </div>
+
+{% endif %}

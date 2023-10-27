@@ -1,0 +1,163 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656573404d24b5e0b": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Raleigh Valentine’s Day Meal Kits",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "Rather than roses or jewelry, express your love this February with chef-inspired dishes at home. When you order a Raleigh Valentine’s Day meal kit, you and your special someone can prepare an intimate meal for two without all the fuss. Rather than spend hours mincing and measuring, you can let our chefs do the prep work for you. \n<br>\n<br>\nWhat’s even better? Our Raleigh Valentine’s Day meal kit delivers the fresh, exciting flavors of a restaurant-prepared dinner for a fraction of the cost. You also get to entertain from the comfort of your home.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Browse our meals ›",
+        "button_link": "#shopify-section-template--15792724410517__1656601691ff2d8271",
+        "button_style": "b--tertiary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "1656601691ff2d8271": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "How Our Valentine’s Day Meal Kits Work",
+        "text": "If you want the satisfaction of cooking for your darling but struggle to manage a high-quality meal, Table & Twine is right for you. When you partner with us, you’re never alone in the kitchen. Our talented chefs handle the more technical aspects of preparing a meal and then, with step-by-step instructions, walk you through the finishing touches. \n<br>\n<br>\nOur Valentine’s Day meal kit is both sophisticated and convenient. You and your significant other will enjoy elevated fare, including a choice of a surf & turf dinner for two or a do-it-yourself pizza kit for two.",
+        "header_width": 740,
+        "product_count": 3,
+        "collection": "valentines-day-package-raleigh",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16566058721e114931": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "8b802fed-1ae5-4353-8caf-a744f2543220": {
+          "type": "text",
+          "settings": {
+            "title": "Quality Time in the Kitchen",
+            "text": "Couples who cook together stay together. So, break open a bottle of wine, crank up some music, and put on your apron. With Table & Twine’s meal kits, you can prepare a decadent meal as a couple – just without the planning, shopping, chopping, and cleaning.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "8217ca09-8c2e-486a-8f92-bde989d66f78": {
+          "type": "text",
+          "settings": {
+            "title": "Restaurant Dining Without the Fuss",
+            "text": "Five-star dining can be expensive, not to mention impersonal. Luckily, Table & Twine offers a more intimate culinary experience that doesn’t break the bank. By sourcing local ingredients and reducing food waste, we can provide customers with restaurant-quality dishes that are both affordable and delicious.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c": {
+          "type": "text",
+          "settings": {
+            "title": "Convenient Meal Preparation",
+            "text": "When you order a Valentine’s Day meal kit from Table & Twine, you can whip up an impressive dinner for two in no time. Since our talented culinary team handles 90% of the cooking, you’ll just need to add the finishing touches and then enjoy a convenient, chef-inspired meal.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "8b802fed-1ae5-4353-8caf-a744f2543220",
+        "8217ca09-8c2e-486a-8f92-bde989d66f78",
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c"
+      ],
+      "settings": {
+        "heading": "Why Choose a Valentine’s Day Meal Kit?",
+        "image": "shopify:\/\/shop_images\/landing01.jpg",
+        "text": "With Valentine’s Day at-home catering in Raleigh, you don’t need a reservation to impress your date. Instead, you can share a five-star meal from your very own dinner table. Other benefits of ordering our meal kit include:",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 520,
+        "show_banner_image": true,
+        "show_number": false,
+        "show_images": false,
+        "show_icons": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Valentine’s Day meal kit?",
+            "text": "<p>You will need one to two hours to prepare the food in your Valentine’s Day meal kit. You can handle all the prep work before your date arrives or tackle it as a couple. <\/p>"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my Valentine’s Day meal kit?",
+            "text": "<p>Order your meal kit by [insert date] to get it in time for Valentine’s Day. You can always order early too. <\/p>"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Valentine’s Day meal kit?",
+            "text": "<p>No, the Valentine’s Day meal kit cannot be customized. Our talented chefs carefully curate these recipes to deliver fresh, bold flavors. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "Valentine’s Day Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656573404d24b5e0b",
+    "1656601691ff2d8271",
+    "16566058721e114931",
+    "1656607284cc85fa5f"
+  ]
+}

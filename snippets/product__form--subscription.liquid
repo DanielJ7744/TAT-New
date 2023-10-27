@@ -1,0 +1,337 @@
+
+{% assign show_payment_button = false %}
+
+<div
+  class="
+    clearfix
+    product_form
+    init
+    smart-payment-button--{{ show_payment_button }}
+    {% if product.variants.size > 1 or product.options.size > 1 %}product_form_options{% endif %}
+    product_form--{{ settings.product_form_style }}
+    product-thumbnail__main
+  "
+  id="product-form-{{ product.id }}"
+  data-product-form
+  data-money-format="{{ shop.money_format | strip_html }}"
+  data-shop-currency="{{ shop.currency }}"
+  data-select-id="product-select-{{ product.id }}{{ product-form }}{{ object.id }}{{ block.id }}"
+  data-enable-state="{% if template.name == 'product' %}true{% else %}false{% endif %}"
+  {% if settings.limit_quantity or settings.display_inventory_left %}
+    data-variant-inventory='[{%- for v in product.variants -%}{"id":{{v.id}},"inventory_quantity":{{v.inventory_quantity}},"inventory_management":"{{v.inventory_management}}","inventory_policy":"{{v.inventory_policy}}"}{% if forloop.last == false %},{% endif %}{%- endfor -%}]'
+  {% endif %}
+  data-product-id="{{ product.id }}"
+>
+
+    <div style="display: none;" data-shop-pay-installments-template>{{ form | payment_terms }}</div>
+
+    {% comment %}
+      Display variant options for a product
+
+      @param product
+      @param selected_variant
+      @param style
+
+      @param enable_swatches
+      @param swatches_shape
+      @param swatches_option_trigger
+      @param swatches_option_style
+      @param swatches_product_page_size
+      @param swatch_colors
+    {% endcomment %}
+    {% assign style = 'select' %}
+    {% if settings.product_form_style == 'radio' %}
+      {% assign style = 'radio' %}
+    {% endif %}
+    {% assign product = product %}
+    {% assign sold_out_options = sold_out_options %}
+    {% assign selected_variant = selected_variant %}
+    {% assign enable_swatches = settings.enable_swatches %}
+    {% assign swatches_shape = settings.swatch_style %}
+    {% assign swatches_option_trigger = 'color' %}
+    {% comment %}Inject @pixelunion/shopify-variants-ui/variant-selection begin{% endcomment %}
+    {% comment %}
+      Display variant options for a product
+    
+      @param product
+      @param selected_variant
+      @param variant_selection_id
+      @param sold_out_options
+      @param style
+    
+      @param enable_swatches
+      @param swatches_shape
+      @param swatches_option_trigger
+      @param swatches_option_style
+      @param swatches_product_page_size
+      @param swatch_colors
+    {% endcomment %}
+
+
+    <div class="product-thumbnail__contents">
+      <h3 class="product-thumbnail__title t-medium"><a href="{{ product.url}}">{{ product.title }}</a></h3>
+      {%- assign variantFirst = product.selected_or_first_available_variant -%}
+      <p class="product-thumbnail__price t-small--secondary {{collection_type}}" product-id = "{{ product.id }}">
+        <span class="normal-price">
+          {%
+            render 'price-element',
+            price: variantFirst.price
+          %}
+        </span>
+        <span class="compare-price">
+          {%
+            render 'price-element',
+            price: variantFirst.compare_at_price
+          %}
+        </span>
+      </p>
+    </div>
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) { 
+
+          const allVariantSelectorMain = document.querySelectorAll('.variant-selection__variants.main')
+          let productIdMain
+          let variantPriceMain
+          let comparedPriceMain
+          for (const vSelector of allVariantSelectorMain) {
+              vSelector.addEventListener('change', function() {
+                productIdMain = vSelector.getAttribute('product-id')
+                variantPriceMain = vSelector.options[vSelector.selectedIndex].getAttribute('price');
+                comparedPriceMain = vSelector.options[vSelector.selectedIndex].getAttribute('compared-price');
+                inventoryQuantity = vSelector.options[vSelector.selectedIndex].getAttribute('inventory');
+                
+                document.querySelector(`.product-thumbnail__price.main[product-id='${productIdMain}'] .normal-price`).textContent = variantPriceMain
+                document.querySelector(`.product-thumbnail__price.main[product-id='${productIdMain}'] .compare-price`).textContent = comparedPriceMain
+
+                document.querySelector(`.subscription-add-button.main[product-id='${productIdMain}']`).removeAttribute('disabled')
+                document.querySelector(`.subscription-add-button.main[product-id='${productIdMain}']`).setAttribute('inventory', inventoryQuantity)
+              });
+          }
+
+
+          const allVariantSelectorUpsell = document.querySelectorAll('.variant-selection__variants.upsell')
+          let productIdUpsell
+          let variantPriceUpsell
+          let comparedPriceUpsell
+          for (const vSelector of allVariantSelectorUpsell) {
+              vSelector.addEventListener('change', function() {
+                productIdUpsell = vSelector.getAttribute('product-id')
+                variantPriceUpsell = vSelector.options[vSelector.selectedIndex].getAttribute('price');
+                comparedPriceUpsell = vSelector.options[vSelector.selectedIndex].getAttribute('compared-price');
+                inventoryQuantity = vSelector.options[vSelector.selectedIndex].getAttribute('inventory');
+                
+                document.querySelector(`.product-thumbnail__price.upsell[product-id='${productIdUpsell}'] .normal-price`).textContent = variantPriceUpsell
+                document.querySelector(`.product-thumbnail__price.upsell[product-id='${productIdUpsell}'] .compare-price`).textContent = comparedPriceUpsell
+
+                document.querySelector(`.subscription-add-button.upsell[product-id='${productIdUpsell}']`).removeAttribute('disabled')
+                document.querySelector(`.subscription-add-button.upsell[product-id='${productIdUpsell}']`).setAttribute('inventory', inventoryQuantity)
+              });
+          }
+
+      });
+    </script>
+    
+    
+    <variant-selection
+      {% if variant_selection_id != blank %}id="{{ variant_selection_id }}"{% endif %}
+      class="variant-selection  {{collection_type}} {% unless product.available %} variant-selection__no-product {% endunless %} {% if product.variants.size > 1 %} variant-selection__real {% endif %}"
+      product-url="{{ product.url }}.js"
+      variant="{% if selected_variant %}{{ selected_variant.id }}{% else %}not-selected{% endif %}"
+      product-id="{{product.id}}"
+      data-variant-selection
+    >
+      {% if product.has_only_default_variant %}
+        <input
+          class="variant-selection__variants variant-selection__variants--default"
+          name="id"
+          type="hidden"
+          value="{{ product.variants.first.id }}"
+          data-variants
+        >
+      {% else %}
+        <noscript>
+          <style>
+            .variant-selection__variants {
+              display: block !important;
+            }
+          </style>
+        </noscript>
+        <select
+          class="variant-selection__variants {{collection_type}}"
+          name="id"
+          data-variants
+          product-id="{{ product.id }}"
+        >
+          <option
+            value="not-selected"
+            disabled
+            {% if selected_variant == blank %}selected{% endif %}
+          >
+            {{ 'product.variants.choose_variant' | t }}
+          </option>
+          {% for variant in product.variants %}
+            <option
+              {% if selected_variant and selected_variant.id == variant.id %}selected{% endif %}
+              value="{{ variant.id }}"
+              price="{{ variant.price | money }}"
+              compared-price="{{ variant.compare_at_price | money }}"
+              product-id="{{ product.id }}"
+              inventory="{{ variant.inventory_quantity }}"
+              {% unless variant.available %}disabled{% endunless %}
+            >
+              {{ variant.title }} - {{ variant.price | money }}
+            </option>
+          {% endfor %}
+        </select>
+    
+        {% comment %}Inject @pixelunion/shopify-variants-ui/options-selection begin{% endcomment %}
+        {% comment %}
+          Display variant options for a product
+        
+          @param product
+          @param selected_variant
+          @param variant_selection_id
+          @param sold_out_options
+          @param style
+        
+          @param enable_swatches
+          @param swatches_shape
+          @param swatches_option_trigger
+          @param swatches_option_style
+          @param swatches_product_page_size
+          @param swatches_custom_colors
+        {% endcomment %}
+        
+        <options-selection
+          {% if variant_selection_id != blank %}variant-selection="{{ variant_selection_id }}"{% endif %}
+          style="display: none;"
+          {% if sold_out_options == 'disabled' %}disable-unavailable{% endif %}
+          {% if sold_out_options == 'hidden' %}remove-unavailable{% endif %}
+          data-options-selection
+        >
+          <script>
+            (function() {
+              const scriptTag = document.scripts[document.scripts.length - 1];
+              const parentTag = scriptTag.parentNode;
+        
+              parentTag.style.display = '';
+            })()
+          </script>
+        
+          {% for option in product.options_with_values %}
+            {% assign option_index = forloop.index0 %}
+            {% assign show_swatches = false %}
+            {% if enable_swatches %}
+              {%- assign swatches_option_trigger = swatches_option_trigger | strip | downcase -%}
+              {%- assign option_name = option.name | strip | downcase -%}
+        
+              {% if option_name == swatches_option_trigger %}
+                {% assign show_swatches = true %}
+                {% assign swatch_option_key = 'option' | append: forloop.index %}
+              {% endif %}
+            {% endif %}
+        
+            {% if style == 'select' and show_swatches == false %}
+              {%
+                render 'options-select',
+                product: product,
+                selected_variant: selected_variant,
+                option: option,
+                option_index: option_index
+              %}
+            {% elsif style == 'radio' or show_swatches == true %}
+              {%
+                render 'options-radios',
+                product: product,
+                selected_variant: selected_variant,
+                option: option,
+                option_index: option_index,
+                show_swatches: show_swatches,
+                swatch_option_key: swatch_option_key,
+                swatch_size: swatches_product_page_size,
+                swatches_option_style: swatches_option_style
+              %}
+            {% endif %}
+          {% endfor %}
+        </options-selection>
+        {% comment %}Inject @pixelunion/shopify-variants-ui/options-selection end{% endcomment %}
+    
+      {% endif %}
+    </variant-selection>
+    {% comment %}Inject @pixelunion/shopify-variants-ui/variant-selection end{% endcomment %}
+
+
+    {% if product.available %}
+      {% if settings.display_inventory_left %}
+        <p class="items_left">
+          {% if selected_variant.inventory_management != blank and selected_variant.inventory_quantity > 0 %}
+            {% capture items_left_text %}
+              {% if selected_variant.inventory_quantity == 1 %}
+                {{ 'products.product.items_left_count.one' | t }}
+              {% else %}
+                {{ 'products.product.items_left_count.other' | t }}
+              {% endif %}
+            {% endcapture %}
+            {% if selected_variant.inventory_quantity <= settings.inventory_threshold %}
+              {{ selected_variant.inventory_quantity }} {{ items_left_text }}
+            {% endif %}
+          {% endif %}
+        </p>
+      {% endif %}
+
+      <div class="purchase-details {{collection_type}} {% if settings.display_product_quantity %}has-quantity-box{% endif %}" product-id="{{ product.id }}">
+        {% if settings.display_product_quantity %}
+          <div class="purchase-details__quantity product-quantity-box quantity-box--{{ settings.qty_box_style }}">
+            <p class="t-tiny purchase-details__quantity--label">Quantity</p>
+            {% render 'quantity-box' %}
+          </div>
+        {% endif %}
+        {% comment %} Error message for add to cart action {% endcomment %}
+        <div class="cart-warning"></div>
+        <div class="purchase-details__buttons purchase-details__spb--{{ show_payment_button }}">
+          {% if settings.cart_action == 'reload_page' %}
+            <input type="hidden" name="return_to" value="back" />
+          {% elsif settings.cart_action == 'redirect_cart' %}
+            <input type="hidden" name="return_to" value="{{ routes.cart_url }}" />
+          {% endif %}
+
+          {% capture add_to_cart_label %}{% if collection_handles contains 'pre-order' %}{{ 'collections.general.pre_order' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}{% endcapture %}
+         
+          {% assign inventoryTotal=0 %}
+            {%for variant in product.variants %}
+            {% capture i %}{{ inventoryTotal | plus:variant.inventory_quantity }}{%endcapture%}
+            {% assign inventoryTotal = i %}
+          {%endfor%}
+
+          <button
+            class="subscription-add-button b--primary b--custom {{collection_type}}"
+            product-id="{{ product.id }}"
+            product-handle="{{ product.handle }}"
+            variant-id="{{ product.selected_or_first_available_variant.id }}"
+            subscription-id="{{ product.selling_plan_groups.first.selling_plans.first.id }}"
+            inventory = {{inventoryTotal}}
+            {% if product.variants.size > 1 %} disabled {% endif %}
+          >
+            Add to basket
+          </button>
+
+          <button class="subscription-remove-button b--custom b--secondary" product-id="{{ product.id }}">
+            Remove All
+          </button>
+
+
+        </div>
+      </div>
+    {% else %}
+     <button class="subscription-add-button b--primary b--custom" disabled>No Inventory</button>
+    {% endif %}
+
+    
+ {% comment%}
+  <div class="surface-pick-up surface-pick-up--loading" data-surface-pick-up></div>
+  <div class="surface-pick-up__modal" data-surface-pick-up-modal></div>
+{% endcomment%}
+
+</div>

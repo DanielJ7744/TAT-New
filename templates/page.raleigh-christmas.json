@@ -1,0 +1,163 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656573404d24b5e0b": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Raleigh Christmas Meal Delivery",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "The holiday season is about cherishing friends and family. But reminiscing over eggnog is almost impossible when you have hams to glaze, yeast rolls to bake, and a never-ending pile of dishes to wash. \n<br>\n<br>\nThis Christmas, let Table & Twine take the fuss out of your festive feast. Artfully prepared by talented chefs, our Raleigh Christmas meal kits free you up to trim the tree and open presents.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Browse our meals ›",
+        "button_link": "#shopify-section-template--15792724344981__1656601691ff2d8271",
+        "button_style": "b--tertiary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "1656601691ff2d8271": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "How Our Christmas Meal Kits Work",
+        "text": "Table & Twine aims to make the yuletide season jolly by minimizing your time in the kitchen. Long gone are the days of stuffing turkeys and roasting butternut squash. When you order a Raleigh Christmas meal kit, our culinary team will handle these tedious tasks for you. You’ll just need to heat, garnish, and serve.  \n<br>\n<br>\nWe offer a thoughtfully-curated Christmas dinner package that’s as delicious as it is convenient. We also offer à la carte holiday items, including [description here].",
+        "header_width": 740,
+        "product_count": 3,
+        "collection": "christmas-package-raleigh",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16566058721e114931": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "8b802fed-1ae5-4353-8caf-a744f2543220": {
+          "type": "text",
+          "settings": {
+            "title": "Quick Preparation & Cleanup",
+            "text": "With Table & Twine, a restaurant-quality spread doesn’t need hours to prepare. Since our chefs cook up to 90% of your meal, you’ll only be responsible for the finishing touches. That means you can spend more time enjoying festivities and less time planning, shopping, chopping, and cleaning.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "8217ca09-8c2e-486a-8f92-bde989d66f78": {
+          "type": "text",
+          "settings": {
+            "title": "Restaurant-Quality Flavors at Home",
+            "text": "It can be hard to find an eatery that’s open on Christmas, especially one that’ll dish out five-star entrées. Fortunately, when you order a Raleigh Christmas meal kit from Table & Twine, you can create restaurant-quality dishes in your very own kitchen for a fraction of the cost.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c": {
+          "type": "text",
+          "settings": {
+            "title": "Impressive Yuletide Dishes",
+            "text": "Together, we can prepare a decadent feast that’s sure to impress the family. Since each recipe has been developed by a professional chef, there’s a balance of savory flavors. And, since Table & Twine’s desserts are curated by our Executive Pastry Chef, you’ll finish on a high note.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "8b802fed-1ae5-4353-8caf-a744f2543220",
+        "8217ca09-8c2e-486a-8f92-bde989d66f78",
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c"
+      ],
+      "settings": {
+        "heading": "Why Choose a Christmas Meal Kit?",
+        "image": "shopify:\/\/shop_images\/landing01.jpg",
+        "text": "No matter if you love to cook or prefer to microwave your dinners, you’ll be impressed by the convenience of Table & Twine. When we provide at-home Mother’s Day catering in Raleigh, we work to ensure every customer benefits from:",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 520,
+        "show_banner_image": true,
+        "show_number": false,
+        "show_images": false,
+        "show_icons": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Christmas meal kit?",
+            "text": "<p>Bringing your Christmas meal to life should only take one to two hours. On the packaging of every dish, you’ll find a QR code. Scan this code for easy-to-follow <a href=\"\/pages\/raleigh-heating-instructions\" title=\"Raleigh heating Instructions\"><span style=\"text-decoration:underline\">heating instructions<\/span><\/a>. <\/p>"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my Christmas meal kit?",
+            "text": "<p>To receive your meal kit for Christmas, please place an order by [insert date]. <\/p>"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Christmas meal kit?",
+            "text": "<p>Table & Twine meal kits cannot be customized. However, our meals are crowd-pleasers among both adults and children. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "Christmas Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656573404d24b5e0b",
+    "1656601691ff2d8271",
+    "16566058721e114931",
+    "1656607284cc85fa5f"
+  ]
+}

@@ -1,0 +1,37 @@
+<script>
+
+    document.addEventListener("DOMContentLoaded", function(event) { 
+
+        if (localStorage.getItem("customerLocation") !== null) {
+            const savedLocation = JSON.parse(localStorage.getItem("customerLocation")).value.toLocaleLowerCase();
+            const shopUrl = {{ shop.url | json }};
+            const urlToFetch = `${shopUrl}/pages/${savedLocation}`;
+
+            $.ajax({
+                type: 'GET',
+                url: urlToFetch,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+
+                    $currentAjaxCart = $('#ajax-cart__content').html();
+
+
+                    $headerSection = jQuery(data).find('#header').html();
+                    $footerSection = jQuery(data).find('footer').html();
+
+                    $('#header').empty().html($headerSection)
+                    
+                    $('footer').empty().html($footerSection)
+
+                    $('#ajax-cart__content').empty().html($currentAjaxCart);
+
+                }
+            });
+
+
+        }
+ 
+    });
+
+</script>

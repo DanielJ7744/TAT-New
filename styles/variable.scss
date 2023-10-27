@@ -1,0 +1,188 @@
+
+// Color variables
+
+$colour-dark : #000;
+$colour-light: #fff;
+$colour-orange: #E55D05;
+$colour-gold: #B29A7A;
+$colour-gold--secondary : #D5B99B;
+
+$background-orange: #E55D05;
+$background-light: #ffffff;
+$background-primary: #F8F4EF;
+
+$opacity-lignt : 16%;
+$opacity-medium: 40%;
+$opacity-hard: 64%;
+
+$radius-small: 8px;
+$radius-medium: 16px;
+
+$border-colour-dark: #000;
+
+$m-small: 480px;
+$m-medium: 768px;
+$m-medium-secondary: 960px;
+$m-wide: 1024px;
+$m-wider: 1280px;
+$m-widest: 1538px; 
+
+
+
+.border-r-small {
+    border-radius: $radius-small;
+}
+
+.border-r-medium {
+    border-radius: $radius-medium;
+}
+
+
+
+.c-dark {
+    color: $colour-dark;
+}
+.c-dark-light {
+    color: $colour-dark;
+    opacity: $opacity-lignt;
+}
+.c-dark-medium {
+    color: $colour-dark;
+    opacity: $opacity-medium;
+}
+.c-dark-hard {
+    color: $colour-dark;
+    opacity: $opacity-hard;
+}
+.c-light {
+    color: $colour-light;
+}
+.c-orange {
+    color: $colour-orange;
+}
+.c-gold {
+    color: $colour-gold;
+}
+.c-gold--secondary {
+    color: $colour-gold--secondary;
+}
+
+
+.b--custom {
+    cursor: pointer;
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}
+
+.b--primary {
+    font-size: $font-small;
+    color: $colour-light;
+    border-radius: $radius-small;
+    background-color: $background-orange;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s;
+    border: 1px solid $colour-orange;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: General Sans!important;
+    &:hover {
+        background-color: #EB7021;
+        border: 1px solid #EB7021;
+        color: #fff;
+    }
+    &--disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}
+
+.b--secondary {
+    font-size: $font-small;
+    color: $colour-dark;
+    border-radius: $radius-small;
+    background-color: transparent;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .16);
+    font-weight: 500;
+    transition: 0.3s;
+    white-space: nowrap;
+    font-family: General Sans!important;
+    cursor: pointer;
+    &:hover {
+        color: $colour-light;
+        background-color: $background-orange;
+        border: 1px solid $colour-orange;
+    }
+
+}
+
+
+.b--tertiary {
+    color: $colour-orange;
+    font-size: $font-small;
+    padding: 0;
+    border: unset;
+    background: unset;
+    display: block;
+    font-weight: 500;
+}
+
+
+
+
+
+$base-spacing: 8px;
+
+@for $spacingIndex from 1 through 20 {
+    .sp-m-#{$spacingIndex}{
+        margin: $spacingIndex * $base-spacing;
+    }
+    .sp-mt-#{$spacingIndex}{
+        margin-top: $spacingIndex * $base-spacing;
+    }
+    .sp-mr-#{$spacingIndex}{
+        margin-right: $spacingIndex * $base-spacing;
+    }
+    .sp-mb-#{$spacingIndex}{
+        margin-bottom: $spacingIndex * $base-spacing;
+    }
+    .sp-ml-#{$spacingIndex}{
+        margin-left: $spacingIndex * $base-spacing;
+    }
+
+    .sp-mt-#{$spacingIndex}--m{
+        margin-top: -$spacingIndex * $base-spacing;
+    }
+    .sp-mr-#{$spacingIndex}--m{
+        margin-right: -$spacingIndex * $base-spacing;
+    }
+    .sp-mb-#{$spacingIndex}--m{
+        margin-bottom: -$spacingIndex * $base-spacing;
+    }
+    .sp-ml-#{$spacingIndex}--m{
+        margin-left: -$spacingIndex * $base-spacing;
+    }
+
+    .sp-p-#{$spacingIndex}{
+        padding: $spacingIndex * $base-spacing;
+    }
+    .sp-pt-#{$spacingIndex}{
+        padding-top: $spacingIndex * $base-spacing;
+    }
+    .sp-pr-#{$spacingIndex}{
+        padding-right: $spacingIndex * $base-spacing;
+    }
+    .sp-pb-#{$spacingIndex}{
+        padding-bottom: $spacingIndex * $base-spacing;
+    }
+    .sp-pl-#{$spacingIndex}{
+        padding-left: $spacingIndex * $base-spacing;
+    }
+}

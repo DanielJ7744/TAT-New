@@ -1,0 +1,19 @@
+{% if product.metafields.custom.product_heating_instructions != blank %}
+	<div class="section--heating-instructions product-promo section-small general-section__secondary">
+    	<div class="product-promo__contents">
+      		<h2 class="product-promo__heading t-big">Heating Instructions</h2>
+            <div class="t-small">
+              <p style="margin-bottom: 16px;">To view heating instructions for the current product, simply click the button below.</p>
+              <p style="margin-bottom: 24px;">From artisan street tacos to chicken tagine, every meal from Table & Twine has a QR code — scan this code with your phone to access easy-to-follow instructions directly.</p>
+              <a class="b--primary" href="{{ product.metafields.custom.product_heating_instructions }}" target="_blank">View heating instructions</a>
+            </div>
+    	</div>
+    	<div class="product-promo__image">
+            {{ 'img__heating-instructions--product.webp' | asset_url | img_tag: 'Heating Instructions' }}
+    	</div>
+	</div>
+{% endif %}
+
+
+
+

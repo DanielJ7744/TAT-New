@@ -1,0 +1,194 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "f06f617e-decb-4d38-9f89-cd8721b41f82": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Cook With Confidence: <\/strong>Even if you’re not a pro in the kitchen, our chefs will help you prepare an impressive Mother’s Day spread. They will take care of the complicated preparations, after which you enhance the flavors of the meal on the stovetop or in the oven. At Table & Twine, we believe that anyone with basic cooking skills can produce a polished and delicious meal for their loved ones.<\/p>"
+          }
+        },
+        "b565540b-823b-4360-95ee-f46883bce135": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Quality Flavors: <\/strong>If you want to impress mom, be sure to choose Table & Twine this Mother’s Day. Our thoughtfully planned meal kits use seasonal ingredients that deliver a fresh taste. Each dish is carefully selected by passionate chefs to maximize flavors. We aim to bring mouthwatering flavors straight to your dining room table to make celebrating mom even more special<\/p>"
+          }
+        },
+        "45b5c1ee-55dc-454b-8653-3bf2bbf8fde0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Save Time & Money: <\/strong>With Table & Twine, you can focus on what matters most – spending time with the moms in your life. We take the burden of grocery shopping, ingredient preparation, and endless dishwashing off your shoulders with a personalized cooking experience. By handling the meal planning and ingredient sourcing, Table & Twine ensures that our delicious meals are cost-effective for hosts.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f06f617e-decb-4d38-9f89-cd8721b41f82",
+        "b565540b-823b-4360-95ee-f46883bce135",
+        "45b5c1ee-55dc-454b-8653-3bf2bbf8fde0"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "Why Choose a Mother’s Day Meal Kit?",
+        "heading2_tag": "h2",
+        "text2": "<p>Choosing a Mother’s Day meal kit will help connect your family over delicious and easy-to-prepare food. Table & Twine is here to make celebrating mom easier than ever.<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "How Much Time Is Required to Prepare the Food in My Mother’s Day Meal Kit?",
+            "text": "<p>With a few simple steps, you can have a complete Mother’s Day meal on the table in less than two hours. Our meal kits are designed to save you as much time as possible without sacrificing flavor.<\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "How Far in Advance Do I Need to Order My Mother’s Day Meal Kit?",
+            "text": "<p>To celebrate mom with ease, be sure to order your Table & Twine Mother’s Day meal kit by May 7th. After placing an order with our convenient online system, sit back and relax while we do the rest.<\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Can I Customize My Mother’s Day Meal Kit?",
+            "text": "<p>No, it is not possible to customize your Mother’s Day meal kit. However, our experienced chefs have designed a variety of dishes that are guaranteed to satisfy any palette.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5"
+      ],
+      "settings": {
+        "section_heading": "Mother’s Day Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

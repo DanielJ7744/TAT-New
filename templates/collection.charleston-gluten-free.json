@@ -1,0 +1,267 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Our Gluten-Free Menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Happy Gut, Happy Life",
+            "text": "<p>Sensitivity to gluten can take the joy out of eating. Gluten intolerances also can make it hard to find meal kit delivery services that offer delicious, gut-friendly food. Luckily, Table & Twine provides gluten-free meal kits that please both your taste buds and stomach.<\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Better Energy & Focus",
+            "text": "<p>For many people with gluten sensitivities, eating the wrong foods can cause brain fog and fatigue. But when you choose 100% gluten-free meal kits from Table & Twine, you can make the most of your day while dining on five-star dishes.  <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Affordable & Convenient",
+            "text": "<p>Gluten-free meals have never been more affordable or convenient. Eat fresh meals every night of the week. Just scan the QR code on your meal’s packaging and follow the simple <a href=\"\/pages\/heating-instructions\" title=\"\/pages\/heating-instructions\"><span style=\"text-decoration:underline\">heating instructions<\/span><\/a>. <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Gluten-Free Meal Kit?",
+        "heading_color": "",
+        "text": "You don’t need to spend hours in the kitchen preparing a gluten-free meal. Instead, you can partner with Table & Twine to enjoy a restaurant-quality dinner in a flash. Other benefits of a gluten-free meal kit in Charleston include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "48f8d4a6-53aa-497c-9475-df8126e53e5a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Gluten-Free: <\/strong>Table & Twine provides fresh, gluten-free meal kits that contain absolutely no wheat. We even prepare these meals separately from our other meals, so they never touch the same surfaces or tools.<\/p>"
+          }
+        },
+        "1b3df551-d4f5-4e91-9583-44dced78ecb9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Gourmet Taste:<\/strong> Our passionate Table & Twine chefs truly care about your at-home culinary experience. To make dinner brilliant rather than boring, we prepare gourmet meals that you would expect to find at the finest of restaurants. <\/p>"
+          }
+        },
+        "687aa996-c193-4ef0-a2a6-0b0cbbd75673": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Seasonally Inspired Flavors:<\/strong> Many meal kit services skimp on fresh ingredients. But every foodie knows that non-seasonal foods never taste as good as freshly harvested ingredients. That’s why our chefs use only local and seasonal produce to develop tasty <a href=\"\/collections\/weekly-menu-charleston\" title=\"\/collections\/weekly-menu-charleston\"><span style=\"text-decoration:underline\">weekly menus<\/span><\/a>. <\/p>"
+          }
+        },
+        "3b5218a7-1586-413d-8adc-c69189b98721": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Next-Level Pairings: <\/strong>A great meal is more than just an entrée. With this in mind, Table & Twine offers a list of optional pairings to take your eating experience to the next level. You can choose from a wide variety of <a href=\"\/collections\/appetizers-and-snack-menu-charleston\" title=\"\/collections\/appetizers-and-snack-menu-charleston\"><span style=\"text-decoration:underline\">appetizers<\/span><\/a> and <a href=\"\/collections\/desserts-menu-charleston\" title=\"\/collections\/desserts-menu-charleston\"><span style=\"text-decoration:underline\">desserts<\/span><\/a> that complete your dining experience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "48f8d4a6-53aa-497c-9475-df8126e53e5a",
+        "1b3df551-d4f5-4e91-9583-44dced78ecb9",
+        "687aa996-c193-4ef0-a2a6-0b0cbbd75673",
+        "3b5218a7-1586-413d-8adc-c69189b98721"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Gluten-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Why do Charleston residents love our gluten-free meals? Because Table & Twine knows how to make food that’s not only safe for gluten intolerances but also tastes good.<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "What is gluten?",
+            "text": "<p>Gluten is a group of proteins found in wheat, rye, spelt, and barley. These proteins can trigger an immune response that damages the lining of the small intestine in people who have celiac or gluten sensitivity. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Should I avoid gluten even if I don’t have an intolerance?",
+            "text": "<p>Many people who don’t have a food intolerance prefer a gluten-free diet, as it may be healthier, support weight loss, and improve overall energy. However, you should talk to your doctor before making major changes to your diet. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Are gluten-free meals healthier?",
+            "text": "<p>Gluten-free meals are certainly better for those with gluten sensitivities. However, they can also be healthier for those with sensitive stomachs or who just want to eat better.<\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "What will I get in my Table & Twine gluten-free meal?",
+            "text": "<p>In your Charleston gluten-free meal kit, you’ll receive a newly created recipe that’s ready to cook. Even better, all of the ingredients have been pre-prepared and are free from gluten.<\/p>"
+          }
+        },
+        "2e585950-946f-4ff6-b9d3-07a9d8cf66ff": {
+          "type": "text",
+          "settings": {
+            "title": "Can this meal plan be helpful for me?",
+            "text": "<p>Planning is always the hardest part of starting a new gluten-free diet. The good news is that Table & Twine has you covered. We take care of the upfront work, delivering premium meals you can make at home in under 15 minutes. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7",
+        "2e585950-946f-4ff6-b9d3-07a9d8cf66ff"
+      ],
+      "settings": {
+        "section_heading": "Gluten-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

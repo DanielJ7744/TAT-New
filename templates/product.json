@@ -1,0 +1,154 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "breadcrumbs": {
+      "type": "product__breadcrumb",
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "sidebar": {
+      "type": "product__sidebar",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "product__main",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": false
+          }
+        },
+        "4f8e7b3e-a548-4560-aaf0-9992a0f428c9": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_payment_button": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "4f8e7b3e-a548-4560-aaf0-9992a0f428c9",
+        "description",
+        "form"
+      ],
+      "settings": {
+        "product_images_position": "right",
+        "set_product_height": false,
+        "product_height": 630,
+        "video_looping": false,
+        "gallery_arrows": false,
+        "enable_zoom": false,
+        "enable_product_lightbox": false,
+        "slideshow_speed": 0,
+        "slideshow_transition": "slide",
+        "display_thumbnails": true,
+        "thumbnail_position": "bottom-thumbnails",
+        "enable_thumbnail_slider": true,
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "product_description": {
+      "type": "product__full-description",
+      "settings": {}
+    },
+    "product_heating_instructions": {
+      "type": "product__heating-instructions",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "product__recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "background_color": "#f8f4ef",
+        "product_recommendations_style": "grid",
+        "product_recommendations_heading": "Browse similar menu items",
+        "products_per": 3,
+        "recommended_products_limit": 3,
+        "align_height": false,
+        "collection_height": 200,
+        "width": "standard",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "twine": {
+      "type": "product__twine-section",
+      "settings": {
+        "menu1": "{{ product.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ product.metafields.custom.twine_menu_2.value }}"
+      }
+    },
+    "166060092377e8407e": {
+      "type": "apps",
+      "blocks": {
+        "c4f2a6a1-39f3-44fa-9242-f81bd7d54496": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "c4f2a6a1-39f3-44fa-9242-f81bd7d54496"
+      ],
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "sidebar",
+    "main",
+    "product_description",
+    "product_heating_instructions",
+    "recommendations",
+    "twine",
+    "166060092377e8407e"
+  ]
+}

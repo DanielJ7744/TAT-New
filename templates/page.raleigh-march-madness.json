@@ -1,0 +1,163 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1656573404d24b5e0b": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Raleigh March Madness Meal Kits",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "Like any basketball fanatic, you want your March Madness gathering to be a slam dunk. But to truly impress guests, you’ll need to spend hours in the kitchen preparing restaurant-quality appetizers and snacks, right? Not necessarily. \n<br>\n<br>\nWhen you partner with Table & Twine, we handle the chopping and sautéing so you can focus on what matters most: your team. Our March Madness meal kits in Raleigh include all the ingredients you need to snack your way through halftime.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/001_0b71e97d-02ff-4067-859e-82c5775bd1a4.jpg",
+        "button_text": "Browse our meals ›",
+        "button_link": "#shopify-section-template--15792724476053__1656601691ff2d8271",
+        "button_style": "b--tertiary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "1656601691ff2d8271": {
+      "type": "cc__featured-products",
+      "settings": {
+        "heading": "How Our March Madness Meal Kits Work",
+        "text": "This basketball season, forget the microwavable pizza rolls and store-bought chips. Instead, opt for more elevated fare from Table & Twine. The chef-inspired dishes included in our March Madness meal kit are super delicious but also convenient. Some require just 15 minutes to prepare. \n<br>\n<br>\nThe Raleigh March Madness food package is also designed to travel so your food will taste fresh and delicious come game time. This year, our menu includes [insert description].",
+        "header_width": 740,
+        "product_count": 3,
+        "collection": "march-madness-package-raleigh",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "16566058721e114931": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "8b802fed-1ae5-4353-8caf-a744f2543220": {
+          "type": "text",
+          "settings": {
+            "title": "Less Prep and Cleanup Time",
+            "text": "With queso to stir and chicken wings to sauce, it’s hard to watch the big game. But when you choose March Madness at-home catering in Raleigh, you’ll never miss the jump ball. Since our talented chefs prepare 90% of your meal, you won’t need to waste hours planning, shopping, and chopping. Plus, after the game, you’ll have minimal mess.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "8217ca09-8c2e-486a-8f92-bde989d66f78": {
+          "type": "text",
+          "settings": {
+            "title": "Delicious, Fan-Worthy Recipes",
+            "text": "Together, we’ll create a restaurant-quality meal that will please any palette. These recipes take inspiration from the classic flavors you would expect from a stadium concession fan. However, rather than dish up soggy nachos, our talented chefs elevate these flavors with fresh, seasonal produce and sustainably-sourced proteins.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        },
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c": {
+          "type": "text",
+          "settings": {
+            "title": "A Lasting Impression",
+            "text": "As catering professionals, we know no party is complete without good food. That’s why we have developed a March Madness meal package that includes all the fixings for a rowdy night in. From artfully-crafted dips to savory sliders, we’ll equip you with the appetizers needed to make a lasting impression.",
+            "text-second": "",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "8b802fed-1ae5-4353-8caf-a744f2543220",
+        "8217ca09-8c2e-486a-8f92-bde989d66f78",
+        "d686c2c0-d63f-494e-9833-835c1b98fd0c"
+      ],
+      "settings": {
+        "heading": "Why Choose a March Madness Meal Kit?",
+        "image": "shopify:\/\/shop_images\/landing01.jpg",
+        "text": "If you enjoy good food but need some help preparing it, you’ll love Table & Twine’s March Madness meal kit. Other benefits of ordering this package include:",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 520,
+        "show_banner_image": true,
+        "show_number": false,
+        "show_images": false,
+        "show_icons": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656607284cc85fa5f": {
+      "type": "cc__faq",
+      "blocks": {
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my March Madness meal kit?",
+            "text": "<p>Don't spend your whole morning whipping up game-day snacks. Instead, spend one to two hours preparing restaurant-quality appetizers with Table & Twine’s March Madness meal kit.   <\/p>"
+          }
+        },
+        "d986875f-9bd1-4b4d-a683-8958f6387d74": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my March Madness meal kit?",
+            "text": "<p>If you want to win over guests, place an order for your March Madness meal kit by [date]. Afterward, crack open a beer and let us do the rest. <\/p>"
+          }
+        },
+        "b7c23349-97ef-4314-8933-f702483ba055": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my March Madness meal kit?",
+            "text": "<p>The March Madness meal kit is not customizable. Our chefs carefully curate this package so that there’s a special treat for everyone.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b82825a7-f652-4f3c-b658-e1f4bd40a3c6",
+        "d986875f-9bd1-4b4d-a683-8958f6387d74",
+        "b7c23349-97ef-4314-8933-f702483ba055"
+      ],
+      "settings": {
+        "section_heading": "March Madness Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656573404d24b5e0b",
+    "1656601691ff2d8271",
+    "16566058721e114931",
+    "1656607284cc85fa5f"
+  ]
+}

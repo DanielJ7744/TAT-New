@@ -1,0 +1,18 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "main": {
+      "type": "interior-basic__main",
+      "settings": {
+        "heading": "Heading",
+        "subheading": "Optional subheading",
+        "content": "Page content",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

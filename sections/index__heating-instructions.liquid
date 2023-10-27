@@ -1,0 +1,86 @@
+{% comment %}
+** Feed [Heating Instructions] **
+{% endcomment %}
+
+
+{% assign id = section.id %}
+
+{% if section.blocks.size > 0 %}
+
+  <section class="section--heating-instructions-feed wrap--container-fixed">
+    <div class="wrap--base push--center">
+
+      {% if section.settings.title != blank %}
+        <h2 class="section__heading">{{ section.settings.title }}</h2>
+      {% else %}
+        <h2 class="section__heading">Instructions for this week's meals</h2>
+      {% endif %}
+      
+      <div class="feed--heating-instructions">
+        
+        {% for block in section.blocks %}
+          
+          <div class="item">
+            
+            <div class="item__wrap--image">
+              {% comment %} Check for PDF, wrap image with appropriate link {% endcomment %}
+              {% if block.settings.product.metafields.custom.product_heating_instructions != blank %}
+                 <a href="{{ block.settings.product.metafields.custom.product_heating_instructions }}" target="__blank">
+                  <img src="{{ block.settings.product.featured_media.preview_image | img_url: '600x375', crop: 'center' }}">
+                </a>
+              {% else %}
+                <a class="item__link" href="{{ block.settings.product.url }}/#section--description">
+                  <img src="{{ block.settings.product.featured_media.preview_image | img_url: '600x375', crop: 'center' }}">
+                </a>
+              {% endif %}
+            </div>
+            
+            <div class="item__wrap--content">
+              <h3 class="item__heading">{{ block.settings.product.title }}</h3>
+              {% comment %} Check for PDF, display appropriate link {% endcomment %}
+              {% if block.settings.product.metafields.custom.product_heating_instructions != blank %}
+                <a class="item__link" href="{{ block.settings.product.metafields.custom.product_heating_instructions }}" target="__blank">View Instructions (PDF)</a>
+              {% else %}
+                <a class="item__link" href="{{ block.settings.product.url }}/#section--description">View Details</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      
+      </div>
+
+    </div>
+  </section>
+  
+{% endif %}
+
+
+{% render 'cc__ajax-renderer' %}
+
+
+{% schema %}
+{
+  "name": "Heating Instructions",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Products",
+      "type": "item",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select Product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+

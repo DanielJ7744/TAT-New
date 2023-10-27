@@ -1,0 +1,194 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "f06f617e-decb-4d38-9f89-cd8721b41f82": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Quality Time in the Kitchen:<\/strong>Couples who cook together stay together. So, break open a bottle of wine, crank up some music, and put on your apron. With Table & Twine’s meal kits, you can prepare a decadent meal as a couple – just without the planning, shopping, chopping, and cleaning.<\/p>"
+          }
+        },
+        "b565540b-823b-4360-95ee-f46883bce135": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Restaurant Dining Without the Fuss<\/strong>: Five-star dining can be expensive, not to mention impersonal. Luckily, Table & Twine offers a more intimate culinary experience that doesn’t break the bank. By sourcing local ingredients and reducing food waste, we can provide customers with restaurant-quality dishes that are both affordable and delicious.  <\/p>"
+          }
+        },
+        "45b5c1ee-55dc-454b-8653-3bf2bbf8fde0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Convenient Meal Preparation:<\/strong>When you order a Valentine’s Day meal kit from Table & Twine, you can whip up an impressive dinner for two in no time. Since our talented culinary team handles 90% of the cooking, you’ll just need to add the finishing touches and then enjoy a convenient, chef-inspired meal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f06f617e-decb-4d38-9f89-cd8721b41f82",
+        "b565540b-823b-4360-95ee-f46883bce135",
+        "45b5c1ee-55dc-454b-8653-3bf2bbf8fde0"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "Why Choose a Valentine’s Day Meal Kit?",
+        "heading2_tag": "h2",
+        "text2": "<p>With Valentine’s Day at-home catering in Raleigh, you don’t need a reservation to impress your date. Instead, you can share a five-star meal from your very own dinner table. Other benefits of ordering our meal kit include:<\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "How much time is required to prepare the food in my Valentine’s Day meal kit?",
+            "text": "<p>You will need one to two hours to prepare the food in your Valentine’s Day meal kit. You can handle all the prep work before your date arrives or tackle it as a couple. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "How far in advance do I need to order my Valentine’s Day meal kit?",
+            "text": "<p>Order your meal kit by [insert date] to get it in time for Valentine’s Day. You can always order early too. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Can I customize my Valentine’s Day meal kit?",
+            "text": "<p>No, the Valentine’s Day meal kit cannot be customized. Our talented chefs carefully curate these recipes to deliver fresh, bold flavors. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5"
+      ],
+      "settings": {
+        "section_heading": "Valentine’s Day Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

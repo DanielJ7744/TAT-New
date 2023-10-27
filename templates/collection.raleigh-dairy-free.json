@@ -1,0 +1,268 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Browse the menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Fewer Gastrointestinal Symptoms",
+            "text": "<p>When you order a dairy-free meal from Table & Twine, you can eat without worrying about an allergic reaction. Since our chefs carefully source dairy-free ingredients, you won’t experience nausea, vomiting, or other uncomfortable gastrointestinal symptoms.   <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "You’ll Savor Food, Not Labels",
+            "text": "<p>Whether you’re lactose intolerant or trying to avoid dairy for ethical reasons, you likely spend a lot of time reading nutrition labels. Luckily, there’s a better solution. When you order a dairy-free meal kit in Raleigh, our chefs will do all the reading for you. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Enjoy Family Meals Together Again",
+            "text": "<p>From cheesy pasta to dairy-free tacos, every Table & Twine dish only takes 15 minutes to prepare. That means each member of the family can order something different and still eat together.  <\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Dairy-Free Meal Kit?",
+        "heading_color": "",
+        "text": "Our chefs are committed to developing recipes that taste like they’re fresh out of a five-star eatery. But rather than pepper your waiter with questions about ingredients, you can rest assured knowing that your meal is dairy-free. Other benefits of Raleigh dairy-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "5f914112-ca4d-4c3b-aaec-5c49fd8e725c": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Dairy-Free: <\/strong>Our culinary team provides fresh, dairy-free meal kits that contain absolutely no dairy. We prepared these dishes separate from other meals, so they never touch the same surfaces or tools. <\/p>"
+          }
+        },
+        "e9963ed5-73dd-49f2-83d9-eea865a73e91": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Incredible Flavors:<\/strong> At Table & Twine, our chefs care about food and want to provide you with a restaurant-quality experience at home. That’s why we develop dishes you would expect to find at a five-star eatery. That’s also why we reveal new, exciting meals each week.<\/p>"
+          }
+        },
+        "237a61aa-0cf3-4d7d-8d4d-5a1d4425220d": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Farm-to-Table Recipes: <\/strong>Unlike other meal kit companies, we don’t import under-ripe produce from foreign countries and then disguise flavorless vegetables in heavy sauces. Instead, we partner with growers across the Carolinas to ensure that every meal is as fresh and nutritious as possible.  <\/p>"
+          }
+        },
+        "22ddb12c-ac90-403f-a4f8-a47f074e84e4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Delectable Pairings:<\/strong> No meal is complete without a decadent <a href=\"https:\/\/tableandtwine.com\/raleigh\/desserts\/\"><span style=\"text-decoration:underline\">dessert<\/span><\/a>. With this in mind, we curate a robust list of optional pairings for every dairy-free entrée. Start your culinary experience with a wedge salad and finish with an artfully prepared tart.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5f914112-ca4d-4c3b-aaec-5c49fd8e725c",
+        "e9963ed5-73dd-49f2-83d9-eea865a73e91",
+        "237a61aa-0cf3-4d7d-8d4d-5a1d4425220d",
+        "22ddb12c-ac90-403f-a4f8-a47f074e84e4"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Dairy-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Why do Raleigh residents love our dairy-free meals? Because Table & Twine understands how to develop recipes that are both allergy-friendly and delicious. <\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Do I have a dairy allergy?",
+            "text": "<p>Lactose intolerance is very common, affecting up to 70% of people worldwide. If you have a dairy allergy or sensitivity, you may experience gastrointestinal upset after consuming cheese, milk, ice cream, and other dairy products. If you think you may have a dairy allergy, consult with your doctor to confirm. <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Should I avoid dairy even if I don’t have an intolerance?",
+            "text": "<p>Dairy has been shown to contribute to inflammation, even in patients without an intolerance. That being said, avoiding dairy items can lead to improved health, weight loss, and increased energy. But you should always talk to your doctor before modifying your diet.<\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Are dairy-free meals healthier?",
+            "text": "<p>Dairy-free meals are healthier for people with dairy allergies. But Table & Twine’s dairy-free dishes can also benefit customers with sensitive stomachs or those who want to adopt a more plant-based diet.  <\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "What will come in my Raleigh dairy-free meal kit?",
+            "text": "<p>Your dairy-free meal subscription will include pre-measured and pre-prepared ingredients. You’ll just need to scan the QR code on your meal’s packaging for <a href=\"https:\/\/tableandtwine.com\/raleigh\/heating-instructions\/\"><span style=\"text-decoration:underline\">heating instructions<\/span><\/a>. <\/p>"
+          }
+        },
+        "e7971fb7-3b30-498c-9190-8c95b60b6da7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Would I benefit from a dairy-free meal subscription service?",
+            "text": "<p>If you have been newly diagnosed with lactose intolerance, it can be difficult to know what to eat. Fortunately, Table & Twine makes mealtime easy. Our chefs handle the more technical aspects of cooking, from julienning to roasting, so you can prepare a five-star meal in under 15 minutes. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7",
+        "e7971fb7-3b30-498c-9190-8c95b60b6da7"
+      ],
+      "settings": {
+        "section_heading": "Dairy-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "main": {
+      "type": "account-details",
+      "settings": {
+        "width": "standard",
+        "heading": "Your Account",
+        "background_color": "#f8f4ef",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

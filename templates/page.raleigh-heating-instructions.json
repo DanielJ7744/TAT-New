@@ -1,0 +1,92 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165643418008f8d783": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "Unlike other Raleigh meal kit delivery services, Table & Twine emphasizes convenience. We don’t ship plastic-wrapped ingredients to your doorstep and expect you to do the hard work. \n<br>\n<br>\nNo, our chefs tackle the more technical and tedious aspects of cooking for you. So, when you receive your Raleigh meal kit, you’ll just need to put the finishing touches on the dish. Our easy-to-follow heating instructions will guide you through these final steps.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/heating01.jpg",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": "subpage-main-banner"
+      }
+    },
+    "165820008654d8b1a9": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-small",
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Where To Find Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "Every meal from Table & Twine has a QR code. If you scan this QR code with your phone, you’ll be able to see the heating instructions for that specific dish. We also keep our instructions online for easy access.",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/asset__heating-instructions--qr-code.jpg",
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#ffffff",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165643418008f8d783",
+    "165820008654d8b1a9"
+  ]
+}

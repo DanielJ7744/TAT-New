@@ -1,0 +1,237 @@
+{
+  "layout": "theme-charleston",
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "all-collection": {
+      "type": "cc__all-collection",
+      "blocks": {
+        "398072bc-bc87-4904-932d-d8bf961fb0f3": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "001-charlotte-collection",
+            "heading": "Small Groups & Packages",
+            "sub_heading": "Are you hosting a work retreat or family reunion? If so, consider our Charlotte meal kit for small groups. These all-inclusive packages take the stress out of entertaining."
+          }
+        },
+        "469f582c-6726-4ace-83e1-0f422155aa0e": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "breakfast-menu",
+            "heading": "Family Meals",
+            "sub_heading": "Designed to feed four people, Table & Twine’s family meals are perfect for busy households. With this dinner meal kit in Charlotte, you can just pop the dish in the oven and relax."
+          }
+        },
+        "b1732b00-8d88-41f0-b02a-32e564285848": {
+          "type": "collection",
+          "settings": {
+            "main_collection": "bistro-menu",
+            "heading": "This Week’s Meals",
+            "sub_heading": "At Table & Twine, we believe dinner should be fresh and exciting – not boring. With this in mind, our chefs reveal new recipes each week."
+          }
+        }
+      },
+      "block_order": [
+        "398072bc-bc87-4904-932d-d8bf961fb0f3",
+        "469f582c-6726-4ace-83e1-0f422155aa0e",
+        "b1732b00-8d88-41f0-b02a-32e564285848"
+      ],
+      "settings": {
+        "background_color": "#f8f4ef",
+        "heading": "Dinner Meal Kits in Charleston",
+        "subheading": "Full Menu",
+        "remove_bottom": true,
+        "trigger_heading": "Jump to collection:"
+      }
+    },
+    "1659459232a5ea58a1": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section__secondary",
+        "remove_bottom": true,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Why Choose a Dinner Meal Kit in Charlotte?",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "<p>Table & Twine meal kits are designed to make your dining experience special. We know that good food brings people together. To that end, we deliver delicious flavor at a fraction of the time and cost. This means you can spend more time enjoying your food with loved ones than in the kitchen.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/003_1029acd4-5343-433c-8cc2-ee4295fe61b4.jpg",
+        "button_text": "Explore This Week’s Menu",
+        "button_link": "\/",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "left",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "16594603292cb4aa43": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section__secondary",
+        "remove_bottom": true,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Enjoy a Diverse Selection of At-Home Dinner Menus",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "<p>If your household avoids certain foods, we have a wide variety of menus to satisfy any palette. Our website displays icons that indicate whether meals are <a href=\"\/\" target=\"_blank\" title=\"\/\">gluten-free<\/a>, <a href=\"\/\" target=\"_blank\" title=\"\/\">dairy-free<\/a>, or <a href=\"\/\" target=\"_blank\" title=\"\/\">nut-free<\/a> to make your meal planning even easier. We also have <a href=\"\/\" target=\"_blank\" title=\"\/\">kid<\/a> and <a href=\"\/\" target=\"_blank\" title=\"\/\">family-friendly<\/a> menus to help narrow down the selection.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/002_4c5b7ba8-edc5-4e65-a7e8-475c2fca6b19.jpg",
+        "button_text": "Explore This Week’s Menu",
+        "button_link": "\/",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "165946070661ed7d6d": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section__secondary",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-big",
+        "text": "<p>When you order Charlotte dinner meal kits from Table & Twine, we provide step-by-step heating instructions for each meal. Just scan the QR code on the packaging and get to cooking! You can also find these instructions on our website.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "button_text": "Learn more about heating instructions",
+        "button_link": "\/",
+        "to_location_selector": false,
+        "button_style": "b--secondary",
+        "image_align": "left",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "16594609129180a7f8": {
+      "type": "cc__banner-with-text",
+      "settings": {
+        "section_heading": "Artfully-Prepared Food for Every Table",
+        "heading_size": "t-large",
+        "section_text": "At Table & Twine, we’re committed to crafting chef-inspired recipes to suit all palettes. That’s why our full menu features everything from single-serving dishes to family-friendly casseroles. We also offer dishes for vegetarian customers as well as those with gluten, nut, and dairy sensitivities.",
+        "header_width": 1300,
+        "text_width": 800,
+        "add_city_select": false,
+        "use_overlay": true,
+        "overlay_percent": 42,
+        "text_align": "center",
+        "text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/asset__home--subscriptions.jpg",
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary"
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to prepare a Charlotte dinner meal kit?",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus quam, tincidunt in pharetra ac, tempus in mauris. Sed gravida vel orci at sagittis. Donec id lorem auctor, commodo mauris sed, vulputate nibh.<\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "How much does a Charlotte chef-prepared, at-home dinner cost?",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus quam, tincidunt in pharetra ac, tempus in mauris. Sed gravida vel orci at sagittis. Donec id lorem auctor, commodo mauris sed, vulputate nibh.<\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "How many dinner meal kits can I order at once?",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus quam, tincidunt in pharetra ac, tempus in mauris. Sed gravida vel orci at sagittis. Donec id lorem auctor, commodo mauris sed, vulputate nibh.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5"
+      ],
+      "settings": {
+        "section_heading": "Charlotte Meal Kit & Dinner Menu FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "all-collection",
+    "1659459232a5ea58a1",
+    "16594603292cb4aa43",
+    "165946070661ed7d6d",
+    "16594609129180a7f8",
+    "1659461894e172168f"
+  ]
+}

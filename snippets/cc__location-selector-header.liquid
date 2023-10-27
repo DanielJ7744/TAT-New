@@ -1,0 +1,41 @@
+{% assign allCities = settings.city_list | remove: " "  | split: ","  %}
+
+<div class="navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable"> 
+
+    <span class="header__link action-area__link" >
+        {% render 'icon',
+                name: 'gm-pin',
+                icon_class: 'header__icon'
+        %}
+        <span class="icon-caption">{{ preLocation }}</span>
+    </span>
+
+    <div class="navbar-dropdown navbar-dropdown--below-parent is-vertical has-medium-vertical-spacing"> 
+        {% for city in allCities %}
+            <a class="navbar-item change-location-selector" href="/pages/{{ city | downcase }}" value="{{ city }}">{{ city }}</a>
+        {% endfor %}
+    </div>
+
+</div>
+
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function(event) { 
+
+        const allLoacationsLink =  document.querySelectorAll('.change-location-selector')
+
+        // When click location dropdown, set local storage value
+        for (const location of allLoacationsLink) {
+            location.addEventListener('click', function handleClick() {
+                const newLocation = location.getAttribute('value')
+
+                var dataToSave = {value: newLocation, timestamp: new Date().getTime()}
+
+                localStorage.setItem("customerLocation", JSON.stringify(dataToSave));
+            });
+        }
+ 
+    });
+
+</script>

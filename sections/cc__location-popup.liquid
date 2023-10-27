@@ -1,0 +1,8 @@
+{% if settings.location_selector_redirect %}
+    {% render 'cc__location-popup--main'%}
+{% else %}
+    {% unless request.design_mode %}
+    {% render 'cc__location-popup--main'%}
+    {% endunless %}
+{% endif %}
+

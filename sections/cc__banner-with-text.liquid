@@ -1,0 +1,274 @@
+{% assign allCities = settings.city_list | remove: " "  | split: ","  %}
+
+<div
+    class="banner-with-text"
+    style="color: {{section.settings.text_color}};
+            {% if section.settings.image %}background-image: url({{ section.settings.image | img_url: 'master' }}) {% endif %}">
+
+    <div class="banner-with-text__main general-section section-small">
+
+        <div class="banner-with-text__inner banner-with-text__inner--{{section.settings.text_align}}" style="max-width: {{ section.settings.header_width }}px">
+
+            <div class="banner-with-text__header banner-with-text__header--{{section.settings.text_align}} {% if section.blocks.size  > 0 %} sp-mb-4 {% endif %}">
+                {% if section.settings.section_heading != blank %}
+                <h2 style="color: {{ section.settings.text_color }};" class="banner-with-text__heading {{section.settings.heading_size}}">
+                    {{ section.settings.section_heading }}
+                </h2>
+                {% endif %}
+
+                {% if section.settings.section_text != blank %}
+                <p class="banner-with-text__text t-small sp-mt-3 banner-with-text__text--{{section.settings.text_align}}" style="max-width: {{ section.settings.text_width }}px">
+                    {{ section.settings.section_text}}
+                </p>
+                {% endif %}
+
+
+                {% if section.settings.add_city_select  %}
+                <div class="city__selector city__selector_second">
+                  <select>
+                    <option value="default">Select a city</option>
+                    {% for city in allCities %}
+                      <option value="{{ city }}">{{ city }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                {% endif %}
+
+                {% if section.settings.button_link != blank %}
+                  <div class="banner-with-text__button sp-mt-6">
+                      <a href="{{ section.settings.button_link }}" class="b--custom {{section.settings.button_style}}">
+                          {{ section.settings.button_text }}
+                      </a>
+                  </div>
+                {% elsif section.settings.to_location_selector %}
+                  <div class="banner-with-text__button sp-mt-6">
+                    <button class="b--custom {{section.settings.button_style}} popup-trigger-button">{{section.settings.button_text}}</button>
+                  </div>
+                {% endif %}
+
+            </div>
+
+            <div class="banner-with-text__childs">
+                {% for block in section.blocks %}
+                <div class="banner-with-text__child sp-mb-4">
+                    <div class="banner-with-text__child--inner">
+                        <div class="">
+                            {% if block.settings.title != blank %}
+                            <h3 class="banner-with-text__title t-medium sp-mb-1">{{ block.settings.title}}</h3>
+                            {% endif %}
+                            {% if block.settings.text != blank %}
+                            <p class="banner-with-text__text t-small">{{ block.settings.text }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+
+    </div>
+
+    {% if section.settings.use_overlay %}
+      <div class="banner-with-text__overlay" style="opacity: {{ section.settings.overlay_percent }}%;"></div>
+    {% endif %}
+
+</div>
+
+
+<script>
+
+  document.addEventListener("DOMContentLoaded", function(event) { 
+
+    let changeByLoadingStatus = false
+
+    if (localStorage.getItem("customerLocation") !== null) {
+      changeByLoadingStatus = true
+      const savedLocation = JSON.parse(localStorage.getItem("customerLocation")).value
+      document.querySelector('.city__selector_second select').value = savedLocation;
+      setTimeout(() => {
+        changeByLoadingStatus = false
+      }, "1000")
+    }
+
+    document.querySelector('.city__selector_second select').onchange = function() {
+      if (!changeByLoadingStatus) {
+        var index = this.selectedIndex;
+        var newLocation = this.children[index].getAttribute('value')
+        var dataToSave = {value: newLocation, timestamp: new Date().getTime()}
+        localStorage.setItem("customerLocation", JSON.stringify(dataToSave));
+        window.location.href = `/pages/${newLocation.toLocaleLowerCase()}`;
+      }
+
+    }
+
+  });
+
+</script>
+
+
+{% schema %}
+  {
+    "name": {
+      "en": "Banner With Text"
+    },
+    "class": "index-section index-section--banner-with-text",
+    "max_blocks": 5,
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_heading",
+        "label": "Section Heading",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "label": "Heading Size",
+        "options": [
+          {
+            "value": "t-big",
+            "label": "Big"
+          },
+          {
+            "value": "t-large",
+            "label": "Large"
+          }
+        ],
+        "default": "t-big"
+      },
+      {
+        "type": "textarea",
+        "id": "section_text",
+        "label": "Section Text",
+        "default": "Lorem Ipsum"
+      },
+      {
+        "type": "range",
+        "id": "header_width",
+        "label": "Header Max Width",
+        "min": 0,
+        "max": 1500,
+        "default": 1000,
+        "step": 20,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "text_width",
+        "label": "Text Max Width",
+        "min": 0,
+        "max": 1500,
+        "default": 1400,
+        "step": 20,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "add_city_select",
+        "label": "Add City Selector",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "use_overlay",
+        "label": "Use Overlay",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "overlay_percent",
+        "label": "Overlay Percentage",
+        "min": 0,
+        "max": 100,
+        "default": 20,
+        "step": 2
+      },
+      {
+        "type": "select",
+        "id": "text_align",
+        "label": "Text Align",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "VIEW ALL"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "checkbox",
+        "id": "to_location_selector",
+        "label": "Make button To Location Trigger",
+        "default": false
+      },
+  
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "options": [
+          {
+            "value": "b--primary",
+            "label": "Primary"
+          },
+          {
+            "value": "b--secondary",
+            "label": "Secondary"
+          }
+        ],
+        "default": "b--primary"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Lorem Ipsum"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "Banner With Text",
+      "category": "Agile Layout"
+    }
+  ]
+  }
+{% endschema %}

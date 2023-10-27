@@ -1,0 +1,268 @@
+{
+  "layout": "theme-raleigh",
+  "sections": {
+    "banner": {
+      "type": "collection__main-banner",
+      "settings": {
+        "heading": "{{ collection.metafields.custom.main_heading.value }}",
+        "description": "",
+        "link_text": "Browse the menu",
+        "link_url": "#collection-section",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "1661124210b2a97fd7": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "collection_grid_heading": "Our Nut-Free Menu",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 3,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16606774057efe9934": {
+      "type": "cc__image-with-list",
+      "blocks": {
+        "3b95c1fd-e55e-412d-9280-89f907152e9e": {
+          "type": "text",
+          "settings": {
+            "title": "Avoid Allergy Symptoms",
+            "text": "<p>Nut allergies can cause serious symptoms like shortness of breath and wheezing. Some people with nut allergies have such severe reactions that they must rely on an EpiPen. Fortunately, you don’t need to worry about having an allergic reaction when you eat a nut-free meal from Table & Twine. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "f71e2047-d747-4b5a-80b2-97a84536656e": {
+          "type": "text",
+          "settings": {
+            "title": "Mitigate Dental and Digestive Issues",
+            "text": "<p>Though nuts are generally perceived as a healthy snack, they can crack or fracture fragile teeth. They’re also hard to digest, which can cause stomach upset. If you experience any of these issues, the solution is to avoid nuts. <\/p>",
+            "icon_image": "none"
+          }
+        },
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0": {
+          "type": "text",
+          "settings": {
+            "title": "Less Stress and Mess",
+            "text": "<p>If a single member of your household has a nut allergy, you’re likely stuck cooking two different dishes. This can be tedious and time-consuming, and leave little time for you to actually enjoy dinner with your family. Luckily, Table & Twine offers a better solution.<\/p>",
+            "icon_image": "none"
+          }
+        }
+      },
+      "block_order": [
+        "3b95c1fd-e55e-412d-9280-89f907152e9e",
+        "f71e2047-d747-4b5a-80b2-97a84536656e",
+        "c83ce4e5-42c3-4744-b46b-42684bc701f0"
+      ],
+      "settings": {
+        "section_heading": "Why Choose a Nut-Free Meal Kit?",
+        "heading_color": "",
+        "text": "At Table & Twine, our chefs put thought and effort into each dish because we care about your culinary experience. We want you to enjoy a home-cooked meal with your family, regardless of your dietary restrictions. That’s why all of our single server entree dinners can be prepared in 15 minutes or less.  Other benefits of Raleigh nut-free meal kits include:",
+        "header_align": "left",
+        "header_width": 1000,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "center_block_text": false,
+        "image": "shopify:\/\/shop_images\/asset__how-it-works--why-subscribe.jpg"
+      }
+    },
+    "16606776945cdd6e52": {
+      "type": "c__text-section",
+      "blocks": {
+        "3f576afc-24a7-40d3-b39a-63f9cf41a4eb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% Nut-Free: <\/strong>Our chefs want to offer each customer a personalized culinary experience. Because of this, they carefully select nut-free ingredients. They also prepare nut-free meals separate from other dishes to avoid cross-contamination. <\/p>"
+          }
+        },
+        "a3d73b9d-bdcb-4f29-a3c9-7b311e007017": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ready-to-Use Ingredients:<\/strong> At Table & Twine, we take the drudgery out of dinner by pre-measuring and pre-preparing every ingredient. So, when it’s time to cook your nut-free meal, you won’t have to spend hours in the kitchen. <\/p>"
+          }
+        },
+        "00f83b26-2abe-4c3d-abb7-9f73bda94eac": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Bold Flavors: <\/strong>As a company rooted in the south, many of our meals are inspired by regional fare. However, our chefs also incorporate savory spices from international dishes. This keeps dinnertime fun and exciting.  <\/p>"
+          }
+        },
+        "6052a809-0707-479c-80f6-5ec55807c9b4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Delicious Pairings:<\/strong> No meal is complete without an <a href=\"https:\/\/tableandtwine.com\/raleigh\/apps-and-snacks\/\"><span style=\"text-decoration:underline\">appetizer<\/span><\/a> or two. That’s why our culinary team curates a robust lineup of hors d'oeuvres and <a href=\"https:\/\/tableandtwine.com\/raleigh\/desserts\/\"><span style=\"text-decoration:underline\">desserts<\/span><\/a> to complement meals on <a href=\"https:\/\/tableandtwine.com\/raleigh\/featured-meals\/\"><span style=\"text-decoration:underline\">our rotating menu<\/span><\/a>.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3f576afc-24a7-40d3-b39a-63f9cf41a4eb",
+        "a3d73b9d-bdcb-4f29-a3c9-7b311e007017",
+        "00f83b26-2abe-4c3d-abb7-9f73bda94eac",
+        "6052a809-0707-479c-80f6-5ec55807c9b4"
+      ],
+      "settings": {
+        "narrow_section": true,
+        "deep_section": true,
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "heading_tag": "h2",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "heading2": "What To Expect From Our Nut-Free Meal Service",
+        "heading2_tag": "h2",
+        "text2": "<p>Raleigh residents love our nut-free meal kits because they equip them with allergy friendly dinners that are as delicious as they are convenient. <\/p>",
+        "text_color": "",
+        "background_color": ""
+      }
+    },
+    "1659461894e172168f": {
+      "type": "cc__faq",
+      "blocks": {
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1": {
+          "type": "text",
+          "settings": {
+            "title": "Do I have a nut allergy?",
+            "text": "<p>Symptoms of nut allergies can range from mild to severe reactions, like anaphylaxis. The best way to determine if you have a nut allergy is to consult a medical professional.  <\/p>"
+          }
+        },
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4": {
+          "type": "text",
+          "settings": {
+            "title": "Should I avoid nuts even if I don’t have an allergy?",
+            "text": "<p>You may remove nuts from your diet if you have dental or digestive problems. You may also stop eating nuts if a member of your household, like a spouse or child, has a nut allergy. No matter your reason for eating nut-free, Table & Twine makes it easy. <\/p>"
+          }
+        },
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5": {
+          "type": "text",
+          "settings": {
+            "title": "Are nut-free meals healthier?",
+            "text": "<p>Table & Twine’s nut-free meal kits in Raleigh are also free of other triggers, like soy and dairy. Plus, they have no artificial flavors, added sugars, or preservatives. That being said, eating nut-free with Table & Twine can be very good for your health. <\/p>"
+          }
+        },
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7": {
+          "type": "text",
+          "settings": {
+            "title": "What will come in my Raleigh nut-free meal kit?",
+            "text": "<p>Each nut-free meal kit will come with the pre-prepared ingredients you need to make a delicious, allergy-friendly dinner. <\/p>"
+          }
+        },
+        "189b507d-f322-40ab-9345-c29a1ae645f5": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Would I benefit from a nut-free meal subscription service?",
+            "text": "<p>If you or a member of your family has a nut allergy, Table & Twine can take the stress out of mealtime. Rather than meticulously read every ingredient list, you can trust us to do the work for you. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8560fa53-9a76-4d56-ad06-cf4beece3bf1",
+        "7a2bac54-7b89-4467-a1d0-5d08765a20b4",
+        "96bb4ea5-c448-46eb-b1fe-8b1d10af22a5",
+        "597c5087-7cb4-41e8-8149-9bec914cf6e7",
+        "189b507d-f322-40ab-9345-c29a1ae645f5"
+      ],
+      "settings": {
+        "section_heading": "Nut-Free Meal Kit FAQs",
+        "text_color": "",
+        "background_color": "#f8f4ef"
+      }
+    },
+    "bottom": {
+      "type": "collection__main-bottom",
+      "disabled": true,
+      "settings": {
+        "heading": "{{ collection.metafields.custom.second_heading.value }}",
+        "text": "<p>{{ collection.metafields.custom.content_text | metafield_tag }}<\/p>",
+        "hide_top_section": false,
+        "background_color": "#f8f4ef"
+      }
+    },
+    "16611244630f9c60ec": {
+      "type": "c__image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_type": "section-big",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "",
+        "heading": "Heating Instructions",
+        "heading_tag": "h2",
+        "heading_font_size": "t-large",
+        "text": "<p>Preparing an allergy-friendly meal by Table & Twine is simple! Just scan the QR code on your meal’s packaging for easy-to-follow heating instructions. These instructions are also available online.<\/p>",
+        "text2": "",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/004_05105aca-70e5-4f43-89c7-9838343c8ff8.jpg",
+        "square_image": false,
+        "button_text": "View instructions",
+        "button_link": "shopify:\/\/pages\/charlotte-heating-instructions",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "",
+        "box_text": "",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "",
+        "box_button_text": "",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": ""
+      }
+    },
+    "bottom-recommendations": {
+      "type": "collection__main-bottom-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading_second": "Other Table & Twine Menus",
+        "text_second": "<p>{{ collection.metafields.custom.collection_recommendation_text | metafield_tag }}<\/p>",
+        "menu1": "{{ collection.metafields.custom.twine_menu_1.value }}",
+        "menu2": "{{ collection.metafields.custom.twine_menu_2.value }}",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1661124210b2a97fd7",
+    "16606774057efe9934",
+    "16606776945cdd6e52",
+    "1659461894e172168f",
+    "bottom",
+    "16611244630f9c60ec",
+    "bottom-recommendations"
+  ]
+}

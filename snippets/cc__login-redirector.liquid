@@ -1,0 +1,23 @@
+{%- assign identifier = identifier -%}
+
+<script>
+
+     document.addEventListener("DOMContentLoaded", function(event) { 
+
+        const identifier = {{identifier}}
+
+        if (localStorage.getItem("loginFromSubscription") !== null) {
+
+            const redirectUrl = localStorage.getItem('loginFromSubscription')
+
+            var inputToAppend = document.createElement("input");
+            inputToAppend.type = "hidden";
+            inputToAppend.name = "return_to";
+            inputToAppend.value = redirectUrl
+
+            const targetForm = document.getElementById(identifier.id).appendChild(inputToAppend)
+
+        }
+    });
+    
+</script>

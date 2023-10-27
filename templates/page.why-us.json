@@ -1,0 +1,174 @@
+{
+  "layout": "theme-ajaxRender",
+  "sections": {
+    "main": {
+      "type": "page-content__main--ajax-render",
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16564750054beaca61": {
+      "type": "c__image-with-text",
+      "settings": {
+        "section_type": "section-big s-standard",
+        "section_spacing": "general-section",
+        "remove_bottom": false,
+        "add_city_select": false,
+        "add_refer_section": false,
+        "subheading": "Why Table & Twine",
+        "heading": "What Makes Us Different",
+        "heading_tag": "h1",
+        "heading_font_size": "t-large",
+        "text": "<p>At Table & Twine, we deliver quality meals to people who value convenience. Unlike other meal kit models, we keep prep time to a minimum. Since our chefs handle most of the mincing, muddling, and measuring, you’ll have a restaurant-quality dish in about 15 minutes – a fraction of the time needed to prepare a Blue Apron or HelloFresh meal.<\/p>",
+        "text2": "Our chefs are also dedicated to developing “food that travels.” Hoping to ensure freshness, they prepare and package ingredients in such a way that your culinary experience is indistinguishable from that of a five-star restaurant.",
+        "text_align_mobile": "left",
+        "image": "shopify:\/\/shop_images\/asset__why-us--hero.jpg",
+        "square_image": false,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "image_align": "right",
+        "text_color": "",
+        "background_color": "#f8f4ef",
+        "add_box_to_image": false,
+        "box_align": "right",
+        "box_image_position": "bottom",
+        "box_heading": "Lorem Ipsum",
+        "box_text": "Lorem Ipsum",
+        "box_image1_icon": "none",
+        "box_image1_big": false,
+        "box_image_link1": "",
+        "box_link1_blank": false,
+        "box_image_text1": "Lorem Ipsum",
+        "box_image2_icon": "none",
+        "box_image_link2": "",
+        "box_link2_blank": false,
+        "box_image_text2": "Lorem Ipsum",
+        "box_button_text": "VIEW ALL",
+        "box_button_link": "",
+        "box_link_blank": false,
+        "box_button_style": "b--primary",
+        "css_class": "why-us-hero"
+      }
+    },
+    "1656604011bc000dab": {
+      "type": "cc__grid-section--secondary",
+      "blocks": {
+        "64575987-1c20-44bd-9d6a-800795122d85": {
+          "type": "text",
+          "settings": {
+            "title": "Artisanal Dishes",
+            "text": "A rotating menu of chef-driven dishes, exploring both classic flavors, as well as ethnic cuisines",
+            "text-second": "Our chefs use authentic techniques and locally-sourced ingredients",
+            "icon_image": "icon__chef.svg"
+          }
+        },
+        "716b2ad8-1fd5-4a4f-8c9d-9ae559cacc30": {
+          "type": "text",
+          "settings": {
+            "title": "Freshness Where It Counts",
+            "text": "Thanks to decades of catering experience, we have developed techniques to maximize freshness while minimizing final preparation time",
+            "text-second": "",
+            "icon_image": "icon__fresh.svg"
+          }
+        },
+        "a13267df-c26d-43c3-862a-c68fb512724d": {
+          "type": "text",
+          "settings": {
+            "title": "Minimal Hassle",
+            "text": "Our innovative design allows many of our items to be cooked in their original packaging, meaning fewer dirty dishes",
+            "text-second": "With our oven-ready butcher paper, you can place proteins and many sides on a sheet pan in the oven using  the packaging to reduce clean-up.",
+            "icon_image": "icon__no-hassle.svg"
+          }
+        },
+        "3e437b07-42c0-4c86-b4b2-6bcdf9410a25": {
+          "type": "text",
+          "settings": {
+            "title": "Flexible Portions",
+            "text": "Our dinner portions are available in single-serving increments, so we never force customers to order more than they need",
+            "text-second": "Whether it’s a quick dinner for one or a feast for five, Table & Twine can deliver tasty, nourishing meals",
+            "icon_image": "icon__portions.svg"
+          }
+        },
+        "ad3259f0-205d-4d37-840e-6dd5efe7e22b": {
+          "type": "text",
+          "settings": {
+            "title": "Faster Prep",
+            "text": "We season, marinate, and par-cook vegetables; you just finish them in the oven in under 15 minutes to ensure the right consistency and temperature",
+            "text-second": "Breakfast options in under 60 seconds",
+            "icon_image": "icon__faster.svg"
+          }
+        },
+        "451aa437-6e4f-4aeb-aa6f-47a0b3d575e2": {
+          "type": "text",
+          "settings": {
+            "title": "Excellent Value",
+            "text": "Each week we offer everyday select dinner options for $17.99",
+            "text-second": "Our premium meals feature fine cuts of beef or seafood and start at $19.99.",
+            "icon_image": "icon__value.svg"
+          }
+        }
+      },
+      "block_order": [
+        "64575987-1c20-44bd-9d6a-800795122d85",
+        "716b2ad8-1fd5-4a4f-8c9d-9ae559cacc30",
+        "a13267df-c26d-43c3-862a-c68fb512724d",
+        "3e437b07-42c0-4c86-b4b2-6bcdf9410a25",
+        "ad3259f0-205d-4d37-840e-6dd5efe7e22b",
+        "451aa437-6e4f-4aeb-aa6f-47a0b3d575e2"
+      ],
+      "settings": {
+        "heading": "Why Order Table & Twine?",
+        "text": "",
+        "header_align": "left",
+        "section_type": "section-small",
+        "header_width": 1000,
+        "show_banner_image": false,
+        "show_number": false,
+        "show_images": true,
+        "show_icons": true,
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary",
+        "text_color": "",
+        "background_color": "",
+        "center_block_text": false,
+        "use_landscape_image": false
+      }
+    },
+    "1656516837868767fd": {
+      "type": "cc__banner-with-text",
+      "settings": {
+        "section_heading": "Try Table & Twine Today",
+        "heading_size": "t-big",
+        "section_text": "At Table & Twine, we believe dinner should be an experience – not a chore. That’s why our chefs do most of the work for you. They spend hours shopping and chopping so, come mealtime, you can simply untwine and dine.\n<br>\n<br>\nUnlike other meal kit services, our chefs also recommend tantalizing pairings like house-made cocktails, appetizers, and desserts. These delectable add-ons are the perfect complement to our main entrées, which rotate bi-weekly, as well as seasonal offerings, kids’ meals, and other à la carte items.",
+        "header_width": 520,
+        "text_width": 1400,
+        "add_city_select": true,
+        "use_overlay": true,
+        "overlay_percent": 44,
+        "text_align": "left",
+        "text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/asset__home--subscriptions.jpg",
+        "button_text": "VIEW ALL",
+        "button_link": "",
+        "to_location_selector": false,
+        "button_style": "b--primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16564750054beaca61",
+    "1656604011bc000dab",
+    "1656516837868767fd"
+  ]
+}
